@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Known limits — Triarchal Democracy</title>
+<meta name="description" content="A dated, candid list of what does not work or is not built yet, why it matters and what is planned.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/known-limits">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/known-limits">
+<meta property="og:title" content="Known limits — Triarchal Democracy">
+<meta property="og:description" content="A dated, candid list of what does not work or is not built yet, why it matters and what is planned.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Known limits — Triarchal Democracy">
+<meta name="twitter:description" content="A dated, candid list of what does not work or is not built yet, why it matters and what is planned.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-faint: #8a857b;
+    --rule: #e2dcd2;
+    --accent: #7a2e2e;
+    --accent-soft: #f3e9e4;
+    --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.185rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    max-width: 72rem; margin: 0 auto;
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.85rem 1.5rem;
+  }
+  .nav-title {
+    font-family: 'Newsreader', serif; font-weight: 600;
+    font-size: 1.05rem; color: var(--ink); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .nav-links a {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  header.hero {
+    max-width: 56rem; margin: 0 auto;
+    padding: 6rem 1.5rem 4.5rem;
+    text-align: center;
+  }
+  .kicker {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.08; letter-spacing: -0.015em;
+    margin-bottom: 1.6rem;
+  }
+  .hero-sub {
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    font-style: italic; color: var(--ink-soft);
+    max-width: 38rem; margin: 0 auto 2.6rem; line-height: 1.5;
+  }
+  .hero-rule { width: 4rem; height: 2px; background: var(--accent); margin: 0 auto; }
+
+  main { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem 4rem; }
+  section { padding: 2.6rem 0 0.6rem; }
+  h2 {
+    font-weight: 600; font-size: 1.7rem; line-height: 1.2;
+    margin-bottom: 1.4rem; scroll-margin-top: 5rem;
+  }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+  .article-label {
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.6rem;
+  }
+  .divider { max-width: var(--measure); margin: 2.2rem auto 0; border: none; border-top: 1px solid var(--rule); }
+  .pull {
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.3rem; line-height: 1.5; font-style: italic;
+    color: var(--ink-soft);
+  }
+  .closing { text-align: center; padding: 4rem 1.5rem 5rem; max-width: 48rem; margin: 0 auto; }
+  .closing h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; margin-bottom: 1.4rem; }
+  .closing p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; }
+  .cta {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--paper); background: var(--accent);
+    padding: 0.95rem 2.2rem; border-radius: 2px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .cta:hover { background: #5e2222; }
+  footer { border-top: 1px solid var(--rule); padding: 2rem 1.5rem 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint); margin: 0.3rem 0; }
+  footer a { color: var(--ink-faint); }
+
+  /* ---------- Charts ---------- */
+  .chart-fig { margin: 2.2rem 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .chart-note {
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-style: italic;
+    color: var(--ink-faint); margin-top: 0.6rem;
+  }
+
+  /* ---------- launch pages ---------- */
+  main a { color: var(--accent); }
+  main ul, main ol { margin: 0 0 1.15rem 1.4rem; padding: 0; }
+  main li { margin-bottom: 0.55rem; }
+  .lede { font-size: 1.28rem; line-height: 1.6; color: var(--ink); }
+  h2 .qn { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.5rem; }
+  .ref { font-family: 'Inter', sans-serif; font-size: 0.78rem; color: var(--ink-faint); white-space: nowrap; }
+  .steps { list-style: none; margin: 0 0 1.4rem 0; padding: 0; counter-reset: step; }
+  .steps li { position: relative; padding-left: 3rem; margin-bottom: 1.35rem; counter-increment: step; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 0.15rem; width: 2rem; height: 2rem;
+    border: 1px solid var(--accent); border-radius: 50%; color: var(--accent); background: var(--paper);
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; }
+  .limit { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 0.95rem 1.3rem 0.4rem;
+    margin: 1.4rem 0 1.2rem; font-size: 1.04rem; }
+  .limit .lab { font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.4rem; }
+  .box { background: #fff; border: 1px solid var(--rule); border-radius: 3px; padding: 1.2rem 1.4rem 0.4rem; margin: 1.4rem 0; }
+  .box h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+  .lab { font-family: 'Inter', sans-serif; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent); margin-right: 0.35rem; }
+  .cta-row { display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 1.6rem 0 1.2rem; }
+  .cta-ghost { background: transparent; color: var(--accent); border: 1px solid var(--rule); }
+  .cta-ghost:hover { background: #fff; border-color: var(--accent); }
+  main .cta { color: var(--paper); }
+  main .cta-ghost { color: var(--accent); }
+  .toc { font-family: 'Inter', sans-serif; font-size: 0.9rem; margin: 0 0 1rem 1.2rem; }
+  .toc li { margin-bottom: 0.3rem; }
+  .item { padding: 2rem 0 0.2rem; border-top: 1px solid var(--rule); }
+  .item:first-of-type { border-top: none; }
+  .item h2 { font-size: 1.35rem; margin-bottom: 0.9rem; }
+  table.facts { width: 100%; border-collapse: collapse; margin: 1rem 0 1.4rem; font-size: 1rem; }
+  table.facts th, table.facts td { text-align: left; vertical-align: top; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--rule); }
+  table.facts th { font-family: 'Inter', sans-serif; font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 600; }
+  .stamp { font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--ink-faint); margin-bottom: 1.6rem; }
+  @media (max-width: 760px) { .nav-links { gap: 0.9rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">Known limits</div>
+  <h1>Known limits</h1>
+  <p class="hero-sub">A dated, candid list of what does not work or is not built yet, why it matters and what is planned.</p>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+<section id="intro">
+  <p class="stamp">Written 18 October 2026, from the project's own notes and the code as it stood that day.</p>
+  <p class="lede">This is what does not work yet, or is not built. It is meant to be read before you join, and it will be updated as things change. Where a limit comes from a clause, the clause is in brackets.</p>
+</section>
+
+<section id="voting" class="item">
+  <h2>Voting and delegating are not open yet: phone verification is not connected</h2>
+  <p><span class="lab">What it is.</span> On the Triarc a Member must have a verified phone number to vote or delegate. The verification is built, but the text-message service that sends the code has not been connected to the app, so no one can complete it. <span class="ref">(Triarc Membership Code 2.1)</span></p>
+  <p><span class="lab">Why it matters.</span> Until it is connected, accounts can be created and can read, comment, propose and log contributions, but no vote can be cast and no vote can be delegated. A quiet vote also fails for want of voters, since a vote needs at least ten participants to count.</p>
+  <p><span class="lab">What is planned.</span> Connecting the service, with a spending cap on text messages, is a condition for a wide launch. This page and Joining the Triarc will say so when it is done.</p>
+</section>
+
+<section id="beacon" class="item">
+  <h2>The panel randomness beacon is not verified in code</h2>
+  <p><span class="lab">What it is.</span> Dispute Panels are drawn from public randomness, a round of the drand "quicknet" beacon. The software publishes the method, seed, pool and result, and re-runs the shuffle on the case page. It does not verify the beacon's own cryptographic signature. The round can be checked only by a person comparing it with the beacon's public record. <span class="ref">(Dispute Procedure Code 3.1)</span></p>
+  <p><span class="lab">Why it matters.</span> Anyone able to feed the software a false beacon value could steer who sits on a panel, and the case page would show a draw that re-runs cleanly from that false value. No real panel has been drawn yet, so nothing has been steered, but the protection is weaker than the documents describe.</p>
+  <p><span class="lab">What is planned.</span> Signature verification is on the list of conditions for a wide launch. No date is promised.</p>
+</section>
+
+<section id="identity" class="item">
+  <h2>Identity is a password and a phone number, not zero-knowledge</h2>
+  <p><span class="lab">What it is.</span> The Charter stages identity in four steps and commits to reaching the last, a zero-knowledge design. The deployed platform is at Stage 1: conventional sign-in with a password, plus phone verification on the Triarc. The guarantee that verification keeps only a pass or fail result is enforced "by access control and policy, not yet by cryptography". <span class="ref">(Charter 1.5; Triarc Membership Code 2.1)</span></p>
+  <p><span class="lab">Why it matters.</span> The people who run the platform can see account email addresses and, for verified Members, phone numbers. What protects them is policy and access control. A breach or a bad actor with access would not be stopped by the mathematics.</p>
+  <p><span class="lab">What is planned.</span> Stages 2 to 4 are committed to in the Charter. Nothing is under way yet: the work needs an infrastructure scoping pass first.</p>
+</section>
+
+<section id="ledger" class="item">
+  <h2>The record is append-only by convention, and is not anchored outside the platform</h2>
+  <p><span class="lab">What it is.</span> Every governance record is meant to be public and permanent. At Stage 1 it is append-only by application convention: enforced by access control and audit, not yet by cryptography. Mistakes are corrected by new entries that reference the original. <span class="ref">(Charter 7.1; Rules of Procedure 5.2)</span></p>
+  <p><span class="lab">Why it matters.</span> Whoever holds administrative access to the database could in principle change or delete an entry, and nothing outside the platform would show it. The public record is only as trustworthy as the people operating it.</p>
+  <p><span class="lab">What is planned.</span> The Charter commits to cryptographic integrity proofs (Stage 2) and a fully public, chained ledger (Stage 3). Neither is under way; both need the same infrastructure scoping pass as identity.</p>
+</section>
+
+<section id="accounts" class="item">
+  <h2>One person, one account is only as strong as a phone number</h2>
+  <p><span class="lab">What it is.</span> To vote or delegate on the Triarc, an account must be tied to a verified phone number, and no number can serve two accounts. <span class="ref">(Triarc Membership Code 2.1)</span></p>
+  <p><span class="lab">Why it matters.</span> A person with several phone numbers can hold several accounts, and nothing detects it. At a few dozen Members, a few extra accounts can decide a vote. The thresholds that end the founder's powers could in principle be met by one operator with many accounts, as the Charter itself notes. <span class="ref">(Charter 2.6)</span></p>
+  <p><span class="lab">What is planned.</span> Stronger identity is the Stage 2 to 4 work above. Meanwhile there are per-network caps on sign-ups, a named Sybil violation that a panel can punish, and 72-hour moderator freezes of suspected duplicates. <span class="ref">(Code of Conduct 2.4, 4.3)</span></p>
+</section>
+
+<section id="notifications" class="item">
+  <h2>Notifications are stored but nothing is sent</h2>
+  <p><span class="lab">What it is.</span> Members can set notification preferences. Nothing is yet delivered to an email address or a phone. Push notifications were dropped on purpose, because they need client-side JavaScript and this app does not run any.</p>
+  <p><span class="lab">Why it matters.</span> Nobody is told when a vote opens or a delegation nears expiry, and, most seriously, a Member drawn for a Dispute Panel is not told, though they have 48 hours to decline. A Member whose delegation is ended by a concentration review gets a line on the public record and nothing else.</p>
+  <p><span class="lab">What is planned.</span> An email provider has to be chosen and connected. Nothing is scheduled.</p>
+</section>
+
+<section id="dividend" class="item">
+  <h2>The dividend is gated, and is not live</h2>
+  <p><span class="lab">What it is.</span> A gate in the software blocks both dividend tiers until a deployment has at least 30 verified Members and every Delegate Position it has defined is filled by a ratified Position decision. Nothing has been paid to anyone. <span class="ref">(Treasury Code 5.1)</span></p>
+  <p><span class="lab">Why it matters.</span> It is listed here so that nobody joins expecting a payment. No amount and no date is promised, and the amount is "never fixed or promised in advance" even once the gate has opened. Once open it never closes again, and the figure of 30 is a chosen number, not a derived one. <span class="ref">(Treasury Code 5.3, 5.1a)</span></p>
+  <p><span class="lab">What is planned.</span> It stays blocked until the gate holds. Whether a dividend would be taxable for the people who receive it is a question for counsel, not yet put or answered.</p>
+</section>
+
+<section id="moderation" class="item">
+  <h2>Moderators are founder-appointed, and the panel pool is small</h2>
+  <p><span class="lab">What it is.</span> In the first phase the founder may appoint interim moderators. A moderator can take emergency measures, such as removing doxxed content or freezing a suspected duplicate account, that last at most 72 hours and lapse unless a panel reviews them. A panel cannot be drawn until at least 30 volunteers are in the pool. The Triarc defines no "Moderation" sector, so after the first phase the role exists only if the community creates it. <span class="ref">(Charter 9.2; Code of Conduct 4.3; Dispute Procedure Code 2.1)</span></p>
+  <p><span class="lab">Why it matters.</span> Until the pool reaches 30, an interim measure can only lapse; it cannot be reviewed. Moderation depends meanwhile on one person's appointments, which is exactly the kind of power the founding period is meant to shed.</p>
+  <p><span class="lab">What is planned.</span> The first phase ends automatically when its criteria are met, after which moderators exist only by community vote. Nothing is scheduled beyond that.</p>
+</section>
+
+<section id="age" class="item">
+  <h2>The age rule is a self-declaration</h2>
+  <p><span class="lab">What it is.</span> Anyone aged 18 or older may join, by declaring their age. There is no age check: a person who ticks the box is taken at their word, and an account found to belong to someone younger is closed. The dividend has no separate age condition, so every Member is entitled. In places where the age of majority is above eighteen (nineteen in some Canadian provinces and territories, twenty-one in a few countries), a Member who has declared eighteen is entitled to a payment before reaching majority there. <span class="ref">(Charter 1.1; Treasury Code 9.1)</span></p>
+  <p><span class="lab">Why it matters.</span> A false declaration lets a younger person in, and a fixed eighteen may not be defensible everywhere it would be paid. Whether paying a Member who is eighteen but under the local age of majority is a problem has not been settled. Nothing has been paid to anyone. A closed account keeps its username and public record.</p>
+  <p><span class="lab">What is planned.</span> The founder intends to seek legal advice on whether a fixed eighteen is adequate where the age of majority is higher. That question is not yet answered, and the rule stands as written until it is.</p>
+</section>
+
+<section id="concentration" class="item">
+  <h2>The delegation concentration review has not run on real delegations</h2>
+  <p><span class="lab">What it is.</span> Charter 3.6 shortens renewal for a Member who holds a large share of a sector's delegation and opens an automatic confirmation vote at a larger share. The software implements it and the logic is tested against constructed cases. It needs at least ten supporters on one Member to trigger, and that has not happened. There is no dashboard line for concentrated holders, and ended delegators are not notified. <span class="ref">(Charter 3.6; Rules of Procedure 1.5b)</span></p>
+  <p><span class="lab">Why it matters.</span> The rule that is meant to stop permanent super-delegates has never met real behaviour. Its effect at real scale is unknown, and the numbers (10% and 20%) are chosen, not derived.</p>
+  <p><span class="lab">What is planned.</span> Observe it when it first triggers and publish what happened. The dashboard line and notification are unbuilt.</p>
+</section>
+
+<section id="entrenchment" class="item">
+  <h2>Entrenchment is checked only when a proposal names the clause</h2>
+  <p><span class="lab">What it is.</span> The Charter protects its core provisions behind a three-quarters majority and 40% participation. The software applies that when a proposal names the clause it amends from a picker. A proposal that never opens the picker and describes its change only in free text is not content-checked. <span class="ref">(Charter 8.2)</span></p>
+  <p><span class="lab">Why it matters.</span> A proposal to change a protected clause could be submitted as an ordinary one and decided at the lower threshold. Members reading the text could object, but the software would not stop it.</p>
+  <p><span class="lab">What is planned.</span> This is a known gap with no fix yet.</p>
+</section>
+
+<section id="capacity" class="item">
+  <h2>The platform runs on a small plan and may throttle sign-ups</h2>
+  <p><span class="lab">What it is.</span> The app runs on a small hosted plan with a small database. Sign-ups are capped per network address per hour and, as a safety valve, across the whole community per hour; failed log-ins are capped, and short bursts are limited. A shared network such as a school or a mobile carrier shares one cap. Text-message verification costs money per message.</p>
+  <p><span class="lab">Why it matters.</span> Heavy interest could make registration slow, turn people away for a while with a request to wait, or delay verification texts. It is a limit of the budget, not a decision about who may join.</p>
+  <p><span class="lab">What is planned.</span> A paid plan, higher database limits, a spending cap on text messages and tuning of the caps are conditions for a wide launch. A public status page on the app shows whether sign-ups are open or briefly paused, and the cap in force.</p>
+</section>
+
+<section id="offline" class="item">
+  <h2>Premises, postal and phone voting, and in-person service are written, not built</h2>
+  <p><span class="lab">What it is.</span> The Triarc intends to open physical premises and to support voting and delegation by post and by phone. In-person unpaid service can count as Stewardship when a recognised host confirms it. None of this is built: the software has no host list and no host confirmation. <span class="ref">(About The Triarc; Contribution Code 3.5)</span></p>
+  <p><span class="lab">Why it matters.</span> A system usable only by people who are online and have a phone reaches only part of any community, and research or a dividend built on that part is skewed.</p>
+  <p><span class="lab">What is planned.</span> The premises and the first shadow deployment are what funding is meant for, and neither is standing today.</p>
+</section>
+
+<section id="legal" class="item">
+  <h2>There is no legal entity, and no lawyer has reviewed the documents</h2>
+  <p><span class="lab">What it is.</span> The Triarc is not incorporated. The two-layer structure that would let it pay a dividend to participants while electing directors has not been through counsel, nor has the Membership Code. The software has no terms of use or privacy policy yet, and who the accountable operator for them is, is being settled. <span class="ref">(Triarc Membership Code 4.1; Federation Compact 8.4)</span></p>
+  <p><span class="lab">Why it matters.</span> Nobody can yet be held to anything by contract, and a structural flaw in the incorporation plan could force a redesign. Questions such as the tax treatment of the dividend and the permanence of the public record against privacy law are open.</p>
+  <p><span class="lab">What is planned.</span> Counsel is to be consulted first, then incorporation under the Canada Not-for-profit Corporations Act, timed to a real trigger rather than a date.</p>
+</section>
+
+<section id="security" class="item">
+  <h2>The code has had internal review only</h2>
+  <p><span class="lab">What it is.</span> The dependency checker reports known vulnerabilities in some of the packages the app is built with, most likely in development tooling. They have not been reviewed one by one. Reviews of the code so far have been run by the project itself.</p>
+  <p><span class="lab">Why it matters.</span> An internal review shares the blind spots of the people who wrote the code.</p>
+  <p><span class="lab">What is planned.</span> Reviewing the dependency reports is on the open list. An independent security review is not scheduled.</p>
+</section>
+
+
+<section id="smaller" class="item">
+  <h2>Smaller gaps</h2>
+  <ul>
+    <li>Co-Delegate joint authority is built for nominations, deadlocks and the spokesperson, but a Position's public-position statements, its treasury requests, and any payout of a compensation split are not built. <span class="ref">(Rules of Procedure 6.3)</span></li>
+    <li>Dividends already paid on a contribution later voided by a panel are not recovered automatically. The record says so. <span class="ref">(Code of Conduct 3.4)</span></li>
+  </ul>
+</section>
+
+<hr class="divider">
+
+<section id="more">
+  <p>The <a href="faq.html">Hard questions</a> page answers the sceptical questions in plain words, and <a href="joining-the-triarc.html">Joining the Triarc</a> says what you can do today.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Triarchal Democracy — a concept under development, open for challenge. Every founding document is a first draft.</p>
+  <p><a href="index.html">← Home</a> &nbsp;·&nbsp; <a href="charter.html">The Founding Charter</a> &nbsp;·&nbsp; <a href="about-the-triarc.html">About The Triarc</a></p>
+  <p><a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+</footer>
+
+</body>
+</html>

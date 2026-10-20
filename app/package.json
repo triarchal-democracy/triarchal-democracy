@@ -1,0 +1,25 @@
+{
+  "name": "triarchal-framework",
+  "private": true,
+  "version": "0.1.0",
+  "license": "AGPL-3.0-only",
+  "type": "module",
+  "scripts": {
+    "dev": "wrangler dev -c wrangler.patha.toml",
+    "test": "vitest run",
+    "db:generate": "drizzle-kit generate",
+    "db:migrate:local": "wrangler d1 migrations apply statera-patha --local -c wrangler.patha.toml",
+    "db:migrate:remote": "wrangler d1 migrations apply statera-patha --remote -c wrangler.patha.toml"
+  },
+  "dependencies": {
+    "hono": "^4.6.14"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261018.1",
+    "drizzle-kit": "^0.28.1",
+    "drizzle-orm": "^0.36.4",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8",
+    "wrangler": "^4.151.1"
+  }
+}

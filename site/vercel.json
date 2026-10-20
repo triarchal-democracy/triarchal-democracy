@@ -1,0 +1,31 @@
+{
+  "cleanUrls": true,
+  "redirects": [
+    {
+      "source": "/the-argument",
+      "destination": "/the-proposition",
+      "permanent": true
+    },
+    {
+      "source": "/the-argument.html",
+      "destination": "/the-proposition",
+      "permanent": true
+    },
+    {
+      "source": "/start-here",
+      "destination": "/joining-the-triarc",
+      "permanent": true
+    },
+    {
+      "source": "/start-here.html",
+      "destination": "/joining-the-triarc",
+      "permanent": true
+    },
+    {"source": "/ideas", "destination": "/", "permanent": false},
+    {"source": "/ideas.html", "destination": "/", "permanent": false},
+    {"source": "/idea-return", "destination": "/", "permanent": false},
+    {"source": "/idea-return.html", "destination": "/", "permanent": false},
+    {"source": "/idea-delegation", "destination": "/", "permanent": false},
+    {"source": "/idea-delegation.html", "destination": "/", "permanent": false}
+  ]
+}

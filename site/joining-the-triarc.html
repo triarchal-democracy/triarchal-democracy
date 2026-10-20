@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Joining the Triarc — Triarchal Democracy</title>
+<meta name="description" content="For people thinking of joining the Triarc: how a decision gets made, what you can do on day one, and what is and is not live yet.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/joining-the-triarc">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/joining-the-triarc">
+<meta property="og:title" content="Joining the Triarc — Triarchal Democracy">
+<meta property="og:description" content="For people thinking of joining the Triarc: how a decision gets made, what you can do on day one, and what is and is not live yet.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Joining the Triarc — Triarchal Democracy">
+<meta name="twitter:description" content="For people thinking of joining the Triarc: how a decision gets made, what you can do on day one, and what is and is not live yet.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-faint: #8a857b;
+    --rule: #e2dcd2;
+    --accent: #7a2e2e;
+    --accent-soft: #f3e9e4;
+    --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.185rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    max-width: 72rem; margin: 0 auto;
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.85rem 1.5rem;
+  }
+  .nav-title {
+    font-family: 'Newsreader', serif; font-weight: 600;
+    font-size: 1.05rem; color: var(--ink); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .nav-links a {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  header.hero {
+    max-width: 56rem; margin: 0 auto;
+    padding: 6rem 1.5rem 4.5rem;
+    text-align: center;
+  }
+  .kicker {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.08; letter-spacing: -0.015em;
+    margin-bottom: 1.6rem;
+  }
+  .hero-sub {
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    font-style: italic; color: var(--ink-soft);
+    max-width: 38rem; margin: 0 auto 2.6rem; line-height: 1.5;
+  }
+  .hero-rule { width: 4rem; height: 2px; background: var(--accent); margin: 0 auto; }
+
+  main { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem 4rem; }
+  section { padding: 2.6rem 0 0.6rem; }
+  h2 {
+    font-weight: 600; font-size: 1.7rem; line-height: 1.2;
+    margin-bottom: 1.4rem; scroll-margin-top: 5rem;
+  }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+  .article-label {
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.6rem;
+  }
+  .divider { max-width: var(--measure); margin: 2.2rem auto 0; border: none; border-top: 1px solid var(--rule); }
+  .pull {
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.3rem; line-height: 1.5; font-style: italic;
+    color: var(--ink-soft);
+  }
+  .closing { text-align: center; padding: 4rem 1.5rem 5rem; max-width: 48rem; margin: 0 auto; }
+  .closing h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; margin-bottom: 1.4rem; }
+  .closing p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; }
+  .cta {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--paper); background: var(--accent);
+    padding: 0.95rem 2.2rem; border-radius: 2px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .cta:hover { background: #5e2222; }
+  footer { border-top: 1px solid var(--rule); padding: 2rem 1.5rem 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint); margin: 0.3rem 0; }
+  footer a { color: var(--ink-faint); }
+
+  /* ---------- Charts ---------- */
+  .chart-fig { margin: 2.2rem 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .chart-note {
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-style: italic;
+    color: var(--ink-faint); margin-top: 0.6rem;
+  }
+
+  /* ---------- launch pages ---------- */
+  main a { color: var(--accent); }
+  main ul, main ol { margin: 0 0 1.15rem 1.4rem; padding: 0; }
+  main li { margin-bottom: 0.55rem; }
+  .lede { font-size: 1.28rem; line-height: 1.6; color: var(--ink); }
+  h2 .qn { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.5rem; }
+  .ref { font-family: 'Inter', sans-serif; font-size: 0.78rem; color: var(--ink-faint); white-space: nowrap; }
+  .steps { list-style: none; margin: 0 0 1.4rem 0; padding: 0; counter-reset: step; }
+  .steps li { position: relative; padding-left: 3rem; margin-bottom: 1.35rem; counter-increment: step; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 0.15rem; width: 2rem; height: 2rem;
+    border: 1px solid var(--accent); border-radius: 50%; color: var(--accent); background: var(--paper);
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; }
+  .limit { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 0.95rem 1.3rem 0.4rem;
+    margin: 1.4rem 0 1.2rem; font-size: 1.04rem; }
+  .limit .lab { font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.4rem; }
+  .box { background: #fff; border: 1px solid var(--rule); border-radius: 3px; padding: 1.2rem 1.4rem 0.4rem; margin: 1.4rem 0; }
+  .box h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+  .lab { font-family: 'Inter', sans-serif; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent); margin-right: 0.35rem; }
+  .cta-row { display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 1.6rem 0 1.2rem; }
+  .cta-ghost { background: transparent; color: var(--accent); border: 1px solid var(--rule); }
+  .cta-ghost:hover { background: #fff; border-color: var(--accent); }
+  main .cta { color: var(--paper); }
+  main .cta-ghost { color: var(--accent); }
+  .toc { font-family: 'Inter', sans-serif; font-size: 0.9rem; margin: 0 0 1rem 1.2rem; }
+  .toc li { margin-bottom: 0.3rem; }
+  .item { padding: 2rem 0 0.2rem; border-top: 1px solid var(--rule); }
+  .item:first-of-type { border-top: none; }
+  .item h2 { font-size: 1.35rem; margin-bottom: 0.9rem; }
+  table.facts { width: 100%; border-collapse: collapse; margin: 1rem 0 1.4rem; font-size: 1rem; }
+  table.facts th, table.facts td { text-align: left; vertical-align: top; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--rule); }
+  table.facts th { font-family: 'Inter', sans-serif; font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 600; }
+  .stamp { font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--ink-faint); margin-bottom: 1.6rem; }
+  @media (max-width: 760px) { .nav-links { gap: 0.9rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">About the Triarc</div>
+  <h1>Joining the Triarc</h1>
+  <p class="hero-sub">What this is, how a decision gets made, and what to do next.</p>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+<section id="what">
+  <span class="article-label">What this is</span>
+  <p class="lede">This page is for people thinking of joining the Triarc, the project that is testing the proposal. Triarchal Democracy is a proposed way for a community to decide things together: every Member gets one vote, and you may hand your vote to someone you trust and take it back whenever you like. The Triarc, a project that is not yet incorporated, is testing it by running its own affairs this way, in public, on open-source software called Triarchal Framework. The rules are first drafts written to be challenged, and nothing has been paid to anyone.</p>
+</section>
+
+<hr class="divider">
+
+<section id="decision">
+  <span class="article-label">How a decision gets made</span>
+  <h2>Two minutes, from proposal to record</h2>
+  <ol class="steps">
+    <li><strong>Someone proposes.</strong> Any Member can submit a proposal at any time. It has to say what it changes and why, what it costs if it touches the treasury, and how it could be reversed if it proves wrong. <span class="ref">(Rules of Procedure 1.1, 1.2)</span></li>
+    <li><strong>Everyone deliberates.</strong> Discussion is open, in writing and on the record, for a fixed window: 30 days for an ordinary proposal. Anyone can read it, Member or not. The proposer can accept amendments, and if yours is declined you can fork the proposal and run your version alongside. <span class="ref">(Rules of Procedure 1.3, 2.1 to 2.4)</span></li>
+    <li><strong>Members vote, one each.</strong> Voting is open for a fixed window too, seven days for an ordinary proposal. Every Member has exactly one vote on every binding decision, and it cannot be bought, sold, inherited or transferred. Votes are public; there are no secret ballots. An ordinary proposal passes by simple majority, provided at least ten Members, or 10% of Members if that is more, took part. <span class="ref">(Charter 1.2, 3.2, 3.5; Rules of Procedure 1.3, 3.1)</span></li>
+    <li><strong>Delegating is optional, and you can take it back.</strong> If you would rather not vote on everything, you can hand your vote to a Member you trust, for one sector of the community's work or for everything. The delegation is public, you can revoke it at any instant, and it lapses after a year unless you renew it (90 days for the biggest decisions). If you vote yourself, your own vote always wins over your delegation on that proposal. Nobody can gather delegated votes without limit: a Member who holds a large share of a sector's delegation faces shorter renewals and, at a higher share, an automatic confirmation vote. <span class="ref">(Charter 3.3, 3.6; Rules of Procedure 3.2)</span></li>
+    <li><strong>The public record keeps all of it.</strong> The outcome, every vote, every delegation used and the deliberation itself go on a permanent public record. Nothing is edited in place; a mistake is corrected by a new entry that points at the original. Today that is enforced by how the software is built and run, not yet by cryptography (see <a href="known-limits.html">Known limits</a>). <span class="ref">(Charter 3.1; Rules of Procedure 5.1, 5.2)</span></li>
+  </ol>
+  <p>Bigger questions take longer and need more. Amending the Charter takes 45 days of deliberation, a two-thirds majority and at least 20% of Members taking part, and a short list of core protections, one Member one vote among them, needs three quarters and 40%. <span class="ref">(Rules of Procedure 1.3; Charter 8.2)</span></p>
+</section>
+
+<hr class="divider">
+
+<section id="day-one">
+  <span class="article-label">What you can do on day one</span>
+  <h2>On your first day</h2>
+  <ul>
+    <li><strong>Read everything without an account.</strong> Proposals, the public record, the treasury ledger, the directory of Stewards and Delegates, the governance-health page, the Disputes page and the founding documents can all be read by anyone.</li>
+    <li><strong>Register and choose the sectors you want to follow.</strong> Following costs nothing and only shapes what you are shown. <span class="ref">(Contribution Code 2.4)</span></li>
+    <li><strong>Comment on a proposal, or submit one.</strong> Any Member may. <span class="ref">(Rules of Procedure 1.1)</span></li>
+    <li><strong>Log a contribution.</strong> Research, writing, code, design, translation, documentation, moderation, onboarding or facilitation, logged with a link or other evidence. It enters the record as pending, and you claim it for it to count. <span class="ref">(Contribution Code 1.4, 3.1)</span></li>
+    <li><strong>Verify a phone number, to vote and to delegate.</strong> On the Triarc, voting and delegating need an account tied to a verified phone number, and one number can be attached to only one account. The text-message service that sends the code is not connected yet, so nobody can complete this step today (see Known limits). Reading, commenting, following sectors and logging contributions do not wait for this. <span class="ref">(Triarc Membership Code 2.1, 2.2)</span></li>
+  </ul>
+</section>
+
+<hr class="divider">
+
+<section id="expect">
+  <span class="article-label">Honest expectations</span>
+  <h2>What is live, and what is not</h2>
+  <p><strong>Working now.</strong> Accounts with an age declaration; proposals with deliberation and voting windows; delegation that expires and can be revoked; the contribution ledger; the public record; a public treasury page; and a disputes system. The disputes system is built but has not yet been used: no real panel has been drawn.</p>
+  <p><strong>Not live yet.</strong></p>
+  <ul>
+    <li><strong>The dividend.</strong> A gate in the software blocks both tiers until a deployment has 30 verified Members and every Delegate Position it has defined is filled. Nothing has been paid to anyone, and no amount or date is promised. <span class="ref">(Treasury Code 5.1)</span></li>
+    <li><strong>Voting and delegating.</strong> Both need a verified phone number on the Triarc. Phone verification is built, but the text-message service that sends the code is not connected yet, so until it is nobody can vote or delegate. Reading, commenting, proposing and logging contributions work.</li>
+    <li><strong>Notifications.</strong> Preferences are stored, but nothing is sent to your email or phone yet.</li>
+    <li><strong>Physical premises, postal and phone voting, and in-person service.</strong> They are written down, not built.</li>
+    <li><strong>Incorporation, and cryptographic identity and records.</strong> The Triarc is not yet incorporated, and the identity and record guarantees are staged: today they rest on access control and policy.</li>
+  </ul>
+  <p>Early on, few people are here. A vote needs at least ten participants to count, so a quiet vote can fail for lack of voters; it can be resubmitted once after 14 days. <span class="ref">(Rules of Procedure 3.4)</span> Please do not join for the money: nothing has been paid, and none is promised. The full list of what does not work yet is on <a href="known-limits.html">Known limits</a>, and the sceptical questions are on <a href="faq.html">Hard questions</a>.</p>
+</section>
+
+<hr class="divider">
+
+<section id="join">
+  <span class="article-label">Join, or look around first</span>
+  <h2>One way in</h2>
+  <p>Joining takes a username, an email address and a password, plus a tick-box saying you are at least 18. You do not need to give your real name. Phone verification is only needed to vote or delegate, and is not available yet. You can leave at any time: your email address and phone number are removed from the account and your delegations end, while your username and Contribution Record stay in the public history (<a href="faq.html#leaving">what leaving does</a>).</p>
+  <div class="cta-row">
+    <a class="cta" href="https://triarchalframework.triarchal-democracy.workers.dev/register">Join the Triarc</a>
+    <a class="cta cta-ghost" href="https://triarchalframework.triarchal-democracy.workers.dev/tour">Look around first</a>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="documents">
+  <span class="article-label">The documents</span>
+  <h2>You do not have to read all eleven</h2>
+  <p>There are eleven founding documents: the Charter and ten codes. They are first drafts, offered as proposals, and the community's first acts are meant to be to ratify, amend or reject them. Most people need only these:</p>
+  <ul>
+    <li><a href="documents.html#rights">The Member Bill of Rights</a>: ten short rights that bind the Triarc itself.</li>
+    <li><a href="charter.html#membership">Charter Article I</a> and <a href="charter.html#governance">Article III</a>: who can join, one vote, and how proposals and delegation work.</li>
+    <li><a href="charter.html#founding">Charter Article IX</a>: the founder's temporary powers and how they end.</li>
+    <li><a href="documents.html#treasury">The Treasury Code</a>, Section 5: the dividend, and why it is gated.</li>
+  </ul>
+  <p>The rest is reference. <a href="charter.html">The Charter</a> and <a href="documents.html">the other ten documents</a> each have a page, and <a href="the-proposition.html">the proposition</a> makes the case for the whole structure.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Triarchal Democracy — a concept under development, open for challenge. Every founding document is a first draft.</p>
+  <p><a href="index.html">← Home</a> &nbsp;·&nbsp; <a href="charter.html">The Founding Charter</a> &nbsp;·&nbsp; <a href="about-the-triarc.html">About The Triarc</a></p>
+  <p><a href="about-the-triarc.html">About the Triarc</a> &nbsp;·&nbsp; <a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About The Triarc — The organization behind Triarchal Democracy</title>
+<meta name="description" content="The Triarc is a governance research organisation, not yet incorporated, that tests Triarchal Democracy by running its own governance on it.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/about-the-triarc">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/about-the-triarc">
+<meta property="og:title" content="About The Triarc — Triarchal Democracy">
+<meta property="og:description" content="The Triarc is a governance research organisation, not yet incorporated, that tests Triarchal Democracy by running its own governance on it.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About The Triarc — Triarchal Democracy">
+<meta name="twitter:description" content="The Triarc is a governance research organisation, not yet incorporated, that tests Triarchal Democracy by running its own governance on it.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-faint: #8a857b;
+    --rule: #e2dcd2;
+    --accent: #7a2e2e;
+    --accent-soft: #f3e9e4;
+    --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.185rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    max-width: 72rem; margin: 0 auto;
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.85rem 1.5rem;
+  }
+  .nav-title {
+    font-family: 'Newsreader', serif; font-weight: 600;
+    font-size: 1.05rem; color: var(--ink); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .nav-links a {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  header.hero {
+    max-width: 56rem; margin: 0 auto;
+    padding: 6rem 1.5rem 4.5rem;
+    text-align: center;
+  }
+  .kicker {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.08; letter-spacing: -0.015em;
+    margin-bottom: 1.6rem;
+  }
+  .hero-sub {
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    font-style: italic; color: var(--ink-soft);
+    max-width: 38rem; margin: 0 auto 2.6rem; line-height: 1.5;
+  }
+  .hero-rule { width: 4rem; height: 2px; background: var(--accent); margin: 0 auto; }
+
+  main { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem 4rem; }
+  section { padding: 2.6rem 0 0.6rem; }
+  h2 {
+    font-weight: 600; font-size: 1.7rem; line-height: 1.2;
+    margin-bottom: 1.4rem; scroll-margin-top: 5rem;
+  }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+  .article-label {
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.6rem;
+  }
+  .divider { max-width: var(--measure); margin: 2.2rem auto 0; border: none; border-top: 1px solid var(--rule); }
+  .pull {
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.3rem; line-height: 1.5; font-style: italic;
+    color: var(--ink-soft);
+  }
+  .closing { text-align: center; padding: 4rem 1.5rem 5rem; max-width: 48rem; margin: 0 auto; }
+  .closing h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; margin-bottom: 1.4rem; }
+  .closing p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; }
+  .cta {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--paper); background: var(--accent);
+    padding: 0.95rem 2.2rem; border-radius: 2px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .cta:hover { background: #5e2222; }
+  footer { border-top: 1px solid var(--rule); padding: 2rem 1.5rem 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint); margin: 0.3rem 0; }
+  footer a { color: var(--ink-faint); }
+
+  /* ---------- Charts ---------- */
+  .chart-fig { margin: 2.2rem 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .chart-note {
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-style: italic;
+    color: var(--ink-faint); margin-top: 0.6rem;
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">A governance research organisation — three jobs</div>
+  <h1>About The Triarc</h1>
+  <p class="hero-sub">The Triarc tests Triarchal Democracy by running its own governance on it, opens physical premises and postal channels so people who cannot use the system online still take part, and stands up shadow deployments that mirror the real decisions of real towns and cities.</p>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+<figure class="chart-fig">
+  <img src="assets/charts/07_triarchal_framework_triarc_structure.svg" alt="Organizational chart clarifying Triarchal Democracy, Triarchal Framework, and the Triarc.">
+</figure>
+
+<section id="what">
+  <span class="article-label">What it is</span>
+  <p>Most organisations proposing a governance model publish it and hope someone tries it. The Triarc runs on it.</p>
+  <p>Liquid democracy, a verified contribution ledger, a two-tier dividend — the Triarc governs itself with every mechanism the model proposes. Its participants elect its Delegates and settle its resource questions by the same vote any deployment runs. Its dividend arithmetic comes out of the same code. Its disputes go to the same randomly drawn panels.</p>
+  <p>That is the research method and the argument at once. A model that will one day ask a city for its trust runs on itself first, where failure is cheap and public.</p>
+  <p>Three jobs follow from it.</p>
+</section>
+
+<hr class="divider">
+
+<section id="research">
+  <span class="article-label">1. A research tool</span>
+  <p><strong>The Triarc's primary output is evidence.</strong></p>
+  <p>Every mechanism in the model is a testable claim. Delegation renews instead of calcifying into permanent super-delegates. A contribution ledger resists gaming. A dividend structure keeps outside money out of the payout pool under pressure. Each of those is a claim measurement can settle, and the Triarc measures them.</p>
+  <p>Its own governance is the first substrate: delegation-renewal completion rates against the 90-day and annual cycles, Dispute Panel outcomes, treasury and dividend arithmetic — published quarterly, on a fixed cadence, with what went wrong given the same space as what worked.</p>
+  <p>Publishing only successes produces marketing. Evidence is the only thing that will persuade a city, and evidence includes the failures.</p>
+</section>
+
+<hr class="divider">
+
+<section id="access">
+  <span class="article-label">2. A place you can walk into, or write to</span>
+  <p>A governance system usable only by the technically fluent reproduces the exclusion this model exists to remove. So the second job is physical.</p>
+  <p><strong>The Triarc intends to fund and staff real premises</strong> — somewhere a person walks in and is helped to register, cast a vote, log a contribution, or challenge one, without owning a smartphone or holding a data plan. Around those premises: partnerships with libraries, community centres, and the local institutions that already reach the people the internet does not.</p>
+  <p><strong>Nobody should have to travel to take part.</strong> The design is for ballots, delegation instructions and contribution records to go out and come back by post, verified the same way any online action is, and land in the same ledger, so that a member who cannot reach a counter takes part from a kitchen table.</p>
+  <p><strong>None of this is built yet.</strong> Phone and IVR delegation and voting, postal ballot handling, and voting windows timed so that a mailed vote counts on the same terms as a tapped one. These are first-class paths, not accommodations added afterwards.</p>
+  <p>A system that reaches only the connected produces research about the connected and a dividend for the connected. Neither is the thing being tested.</p>
+</section>
+
+<hr class="divider">
+
+<section id="shadow">
+  <span class="article-label">3. Shadow deployments of real places</span>
+  <p>The Government Adoption Compact defines these as <strong>Stage 1</strong>: residents of a jurisdiction opt in, and the platform mirrors that government's real decisions without binding force.</p>
+  <p>The Triarc runs them. A shadow deployment takes an actual town or city — its budget lines, its council agenda, its decisions as they arrive — and puts them through the model in parallel. Nothing binds, and nobody's permission is required. Residents opt in, deliberate, delegate, and decide.</p>
+  <p><strong>That produces the comparison nothing else can give.</strong> Every council will ask what this would have changed. A shadow deployment answers with a record: what a real population actually decided about real questions, set beside what was decided for them.</p>
+  <p>It also removes the model's easiest escape route. A community writing its own agenda can steer around the hard questions. A shadow deployment cannot — the agenda arrives from outside, on someone else's schedule, including the items nobody wants to touch.</p>
+  <p>This is where the research stops being about the Triarc and becomes about governance. It is also where accessibility becomes load-bearing: a shadow deployment reaching only the online half of a town is not mirroring that town.</p>
+</section>
+
+<hr class="divider">
+
+<section id="builds">
+  <span class="article-label">What it builds</span>
+  <p>All three jobs run on the software, so the Triarc develops Triarchal Framework and supports the people running it — training, accessibility outreach, and help standing up access points. A platform nobody can use well produces no usable research.</p>
+  <p>Framework is open source under the GNU Affero General Public License v3.0, and the exit that guarantees is the structural backing for every other promise here: any deployment can fork it and self-host it in full, so no deployment is ever a hostage to the Triarc's board. If the Triarc's own governance drifts, everyone else keeps working. The AGPL is the deliberate choice among open licences: a modified version offered to people over a network must publish its source, so a hosted fork of Framework cannot quietly become closed software. The exit stays open for the next deployment, not only this one.</p>
+</section>
+
+<hr class="divider">
+
+<section id="funding">
+  <span class="article-label">How it is funded</span>
+  <p>Blended, so that no single source determines what the software does or who may use it.</p>
+  <p><strong>Grants and donations are the intended base.</strong> No grant has been received and no support fee has been charged. They are meant to keep the platform free regardless of a community's resources: a small municipal deployment and a well-funded one start from the same software at the same cost, which is nothing.</p>
+  <p><strong>A support fee sits on top, available only to deployments holding real delegated budget authority</strong> under the Government Adoption Compact's Delegated-Authority Mechanism. A deployment managing meaningful public funds may buy a scaled level of support. The fee scales with what it manages and is disclosed on both sides — what the Triarc charges, and what the deployment pays.</p>
+  <p><strong>That fee never reaches a dividend.</strong> It is institutional money, bound by Treasury Code 1.4 like every other institutional contribution, for every deployment without exception: it funds operations. A support fee helps a deployment run. It never becomes part of what gets paid out. The dividend is the community's own money, or it is not the Foundation Dividend. To be exact about what 1.4 bars: it is institutional money, including the Triarc's own. Ordinary donations and grants do reach the pool through the standing allocation of Treasury Code 2.1, and a government may explicitly designate delegated budget into it under 5.6.</p>
+</section>
+
+<hr class="divider">
+
+<section id="accountability">
+  <span class="article-label">How it is accountable</span>
+  <p><strong>The board answers to the people who use the software.</strong> Participants elect the Delegates who hold the Triarc's three Positions. Those Delegates are the corporation's members. The members elect and remove the directors. One step, and every part of it public.</p>
+  <p>Participants are deliberately <em>not</em> members of the corporation. That separation lets the dividend be paid to them without colliding with the rules on what a nonprofit may distribute to its own members, and it leaves their governance rights untouched. Under the pattern, a Delegate takes no dividend while serving and is compensated for the role instead. Federation Compact Article VIII sets it out in full, as a <strong>recommended</strong> pattern: 8.3 keeps it deliberately out of the Founding Charter, and the Triarc's own Treasury Code does not yet carry the exclusion. The structure is drafted and goes to counsel before the articles are filed; whether the separation does the work claimed for it is one of the questions counsel is being asked, not something settled here.</p>
+  <p>The internal structure follows the work rather than the six organisational sectors of Contribution Code 2.3: three sectors — Nonprofit Operations, Data Collection &amp; Research, Software Stewardship — with one Delegate Position each. The Triarc Operations Code carries the reasoning, and the distinction that these are Contribution Code Positions rather than corporate offices.</p>
+  <p><strong>On the word "DAO."</strong> Authority here runs through a community vote rather than an appointed board, and people reach for the term. It describes how power flows, not what the technology is. The Triarc will incorporate federally under the Canada Not-for-profit Corporations Act, with three named directors at filing. No tokens, no smart contracts, no on-chain voting, and a treasury that never touches cryptocurrency (Treasury Code 6.4: conventional fiat custody through regulated institutions, no exceptions). The framing gets one thing right — no board is appointed from outside the community. It gets one thing wrong by omission: during the founding period the founder sets initial parameters and holds a suspensive veto over charter amendments and large treasury movements (Charter 9.2, 9.3). That authority ends on measured criteria rather than on a date, the founder has no role in declaring it met, and the community can end it at any time by two-thirds vote under the ejection clause (Charter 9.5).</p>
+</section>
+
+<hr class="divider">
+
+<section id="status">
+  <span class="article-label">Where this stands</span>
+  <p>Two things are built and running: the platform — real accounts, real delegation, a real contribution ledger — and the AGPL-3.0 licence that makes the exit real. The Triarc's own governance is <strong>not</strong> yet running on top of them: no Delegate Position has been filled, no Dispute Panel has been drawn, and no dividend has been paid. Both tiers stay gated until thirty verified Members and every defined Position filled (Treasury Code 5.1). Three things are ahead, in order.</p>
+  <p><strong>Incorporation.</strong> The two-layer structure goes to Canadian nonprofit counsel, and the articles follow.</p>
+  <p><strong>The first premises, and the first shadow deployment.</strong> Neither is standing today. Both are what the funding is for, and both are what this organisation should be judged on.</p>
+  <p>Nothing above is described as finished that is not. Everything else here is what the Triarc is built to do, and what it expects to be measured against.</p>
+</section>
+
+</main>
+
+<div class="closing">
+  <span class="article-label">Where does it fail?</span>
+  <h2>This is a starting position too.</h2>
+  <p>The Triarc is newer than the model it carries, and less tested. The same standard applies: stress-test it, and tell us where it fails.</p>
+  <a class="cta" href="work-with-us.html#reach">Challenge it in public</a>
+  <p style="margin-top:1.2rem;font-size:0.95rem;">Thinking of joining the Triarc itself? <a href="joining-the-triarc.html">Joining the Triarc</a> says what you can do today and what is not live yet.</p>
+</div>
+
+<footer>
+  <p>The Triarc — the nonprofit that stewards Triarchal Framework, the software it and every other deployment runs on.</p>
+  <p><a href="index.html">← Home</a> &nbsp;·&nbsp; <a href="charter.html">The Founding Charter</a></p>
+  <p><a href="joining-the-triarc.html">Joining the Triarc</a> &nbsp;·&nbsp; <a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+</footer>
+
+</body>
+</html>

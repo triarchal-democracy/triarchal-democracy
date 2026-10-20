@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="633.6pt" height="504pt" viewBox="0 0 633.6 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T16:43:53.799169</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 633.6 504 
+L 633.6 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 250.272 331.488 
+C 284.7187 331.488 317.75919 317.802181 342.116686 293.444686 
+C 366.474181 269.08719 380.16 236.0467 380.16 201.6 
+C 380.16 167.1533 366.474181 134.11281 342.116686 109.755314 
+C 317.75919 85.397819 284.7187 71.712 250.272 71.712 
+C 215.8253 71.712 182.78481 85.397819 158.427314 109.755314 
+C 134.069819 134.11281 120.384 167.1533 120.384 201.6 
+C 120.384 236.0467 134.069819 269.08719 158.427314 293.444686 
+C 182.78481 317.802181 215.8253 331.488 250.272 331.488 
+z
+" clip-path="url(#p13dd316574)" style="fill: #3f5a52; opacity: 0.24"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 383.328 331.488 
+C 417.7747 331.488 450.81519 317.802181 475.172686 293.444686 
+C 499.530181 269.08719 513.216 236.0467 513.216 201.6 
+C 513.216 167.1533 499.530181 134.11281 475.172686 109.755314 
+C 450.81519 85.397819 417.7747 71.712 383.328 71.712 
+C 348.8813 71.712 315.84081 85.397819 291.483314 109.755314 
+C 267.125819 134.11281 253.44 167.1533 253.44 201.6 
+C 253.44 236.0467 267.125819 269.08719 291.483314 293.444686 
+C 315.84081 317.802181 348.8813 331.488 383.328 331.488 
+z
+" clip-path="url(#p13dd316574)" style="fill: #7a2e2e; opacity: 0.24"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.8 339.984 
+C 336.123759 339.984 354.658668 332.306589 368.322629 318.642629 
+C 381.986589 304.978668 389.664 286.443759 389.664 267.12 
+C 389.664 247.796241 381.986589 229.261332 368.322629 215.597371 
+C 354.658668 201.933411 336.123759 194.256 316.8 194.256 
+C 297.476241 194.256 278.941332 201.933411 265.277371 215.597371 
+C 251.613411 229.261332 243.936 247.796241 243.936 267.12 
+C 243.936 286.443759 251.613411 304.978668 265.277371 318.642629 
+C 278.941332 332.306589 297.476241 339.984 316.8 339.984 
+z
+" clip-path="url(#p13dd316574)" style="fill: #a97b3f; opacity: 0.4; stroke: #4a463f; stroke-width: 1.1; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #3f5a52" x="110.88" y="133.56" transform="rotate(-0 110.88 133.56)">Concentration</text>
+   </g>
+   <g id="text_2">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(110.88 160.111875)">earned influence,</text>
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(110.88 171.655969)">follows every rule</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="522.72" y="133.56" transform="rotate(-0 522.72 133.56)">Corruption</text>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(475.698375 160.062)">rules broken</text>
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(462.9225 171.3999)">to obtain power</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(164.872781 377.386)">Concentration alone is not a violation. The system does not punish it —</text>
+    <text style="font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(192.730094 390.297625)">it measures whether concentration is sliding into capture.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 10.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="316.8" y="256.032" transform="rotate(-0 316.8 256.032)">Capture</text>
+   </g>
+   <g id="text_7">
+    <text style="font-style: italic; font-size: 8.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(285.182594 282.383)">removal becomes</text>
+    <text style="font-style: italic; font-size: 8.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(295.320484 293.1414)">impractical</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="316.8" y="22.86" transform="rotate(-0 316.8 22.86)">Three different things, one is dangerous</text>
+  </g>
+  <g id="text_9">
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(34.848 451.823125)">A highly competent, trusted member becoming influential is concentration, not a problem by itself. Capture is the narrower, genuinely</text>
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(34.848 462.854406)">dangerous zone — reachable from unchecked concentration or from corruption alike.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p13dd316574">
+   <rect x="0" y="0" width="633.6" height="504"/>
+  </clipPath>
+ </defs>
+</svg>

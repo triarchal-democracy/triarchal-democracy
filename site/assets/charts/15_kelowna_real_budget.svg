@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="705.6pt" height="504pt" viewBox="0 0 705.6 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T16:42:29.588506</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 705.6 504 
+L 705.6 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 651.0924 239.904 
+L 651.0924 276.192 
+" clip-path="url(#pb92899126d)" style="fill: none; stroke: #d9d2c7; stroke-width: 0.9; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 33.1632 46.62 
+L 672.4368 46.62 
+Q 680.904 46.62 680.904 40.572 
+L 680.904 14.868 
+Q 680.904 8.82 672.4368 8.82 
+L 33.1632 8.82 
+Q 24.696 8.82 24.696 14.868 
+L 24.696 40.572 
+Q 24.696 46.62 33.1632 46.62 
+z
+" clip-path="url(#pb92899126d)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 38.808 120.96 
+L 180.1044 120.96 
+L 180.1044 84.672 
+L 38.808 84.672 
+z
+" clip-path="url(#pb92899126d)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 180.1044 120.96 
+L 666.792 120.96 
+L 666.792 84.672 
+L 180.1044 84.672 
+z
+" clip-path="url(#pb92899126d)" style="fill: #e2dcd2"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 38.808 236.88 
+L 365.35968 236.88 
+L 365.35968 200.592 
+L 38.808 200.592 
+z
+" clip-path="url(#pb92899126d)" style="fill: #7a2e2e; stroke: #faf7f2; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 365.35968 236.88 
+L 503.51616 236.88 
+L 503.51616 200.592 
+L 365.35968 200.592 
+z
+" clip-path="url(#pb92899126d)" style="fill: #c98f8f; stroke: #faf7f2; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 503.51616 236.88 
+L 635.3928 236.88 
+L 635.3928 200.592 
+L 503.51616 200.592 
+z
+" clip-path="url(#pb92899126d)" style="fill: #e2dcd2; stroke: #faf7f2; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 635.3928 236.88 
+L 666.792 236.88 
+L 666.792 200.592 
+L 635.3928 200.592 
+z
+" clip-path="url(#pb92899126d)" style="fill: #f3e9e4; stroke: #faf7f2; stroke-width: 1.2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 33.1632 384.3 
+L 672.4368 384.3 
+Q 680.904 384.3 680.904 378.252 
+L 680.904 337.428 
+Q 680.904 331.38 672.4368 331.38 
+L 33.1632 331.38 
+Q 24.696 331.38 24.696 337.428 
+L 24.696 378.252 
+Q 24.696 384.3 33.1632 384.3 
+z
+" clip-path="url(#pb92899126d)" style="fill: #f3e9e4; stroke: #7a2e2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 13.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="352.8" y="31.513711" transform="rotate(-0 352.8 31.513711)">City of Kelowna, 2025 Budget — $908M total, about 150,000 residents</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #8a857b" x="38.808" y="70.989" transform="rotate(-0 38.808 70.989)">THE WHOLE BUDGET</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="109.4562" y="105.116" transform="rotate(-0 109.4562 105.116)">22.5%</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="423.4482" y="105.116" transform="rotate(-0 423.4482 105.116)">77.5%</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(56.635341 138.843)">Tax-supported operating</text>
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(91.6812 151.473937)">$204.3M</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(274.316794 139.544719)">User fees, utilities, developer contributions, grants, reserves — $703.7M</text>
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(236.105466 152.585156)">Rate-funded services and committed capital, spoken for before any council debate begins</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 8.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #8a857b" x="38.808" y="186.909" transform="rotate(-0 38.808 186.909)">INSIDE THE TAX-SUPPORTED PORTION</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="202.08384" y="221.086" transform="rotate(-0 202.08384 221.086)">52%  ·  $106.2M</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(175.502903 254.808)">Public safety</text>
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(165.481965 267.506438)">police, bylaw, fire</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="434.43792" y="221.086" transform="rotate(-0 434.43792 221.086)">22%  ·  $44.9M</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="434.43792" y="254.763" transform="rotate(-0 434.43792 254.763)">Transportation</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="569.45448" y="221.086" transform="rotate(-0 569.45448 221.086)">21%  ·  $42.9M</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(524.678777 254.763)">Healthy communities</text>
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(513.245964 267.393937)">parks, rec, arts and culture</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="651.0924" y="191.241" transform="rotate(-0 651.0924 191.241)">5%</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="651.0924" y="287.720719" transform="rotate(-0 651.0924 287.720719)">Planning and other — $10.2M</text>
+   </g>
+   <g id="text_16">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #8a857b" x="38.808" y="309.396937" transform="rotate(-0 38.808 309.396937)">Shares are of the tax-supported $204.3M, not of the $908M total.</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 10.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(180.478406 353.249257)">No social or income assistance line appears anywhere in this budget.</text>
+    <text style="font-size: 10.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(132.903562 367.830743)">Not underfunded — absent, because in Canada the function is provincial, not municipal.</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(103.355859 406.008)">Which is what makes it a worked example rather than an assertion: the gap is visible in the city's own published figures,</text>
+    <text style="font-size: 9px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(164.428594 419.318438)">and it is the gap a Delegated-Authority Mechanism projection has to be measured against.</text>
+   </g>
+  </g>
+  <g id="text_19">
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(31.752 450.158937)">Real, published figures: the total budget, the tax-supported operating total, and the four-way split of tax-supported spending. Source: City of Kelowna,</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(31.752 460.946519)">“Council approved 2025 Final Budget,” 28 April 2025 news release, kelowna.ca. One illustrative city's real numbers, offered as a worked example of what</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(31.752 471.687503)">a Delegated-Authority Mechanism projection could ground itself in — not a claim about what every municipal deployment will find, and not a statement</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(31.752 482.360384)">that this city is a deployment target.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pb92899126d">
+   <rect x="0" y="0" width="705.6" height="504"/>
+  </clipPath>
+ </defs>
+</svg>

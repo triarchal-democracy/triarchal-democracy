@@ -1,0 +1,1 @@
+ALTER TABLE `sectors` ADD `city_profile_id` text;

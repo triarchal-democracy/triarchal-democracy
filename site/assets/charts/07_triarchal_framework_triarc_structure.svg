@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="676.8pt" height="504pt" viewBox="0 0 676.8 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T13:39:58.911700</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 676.8 504 
+L 676.8 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 338.4 104.314588 
+Q 338.4 117.43611 338.4 129.439599 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 340.4 125.439599 
+L 338.4 129.439599 
+L 336.4 125.439599 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 338.4 267.636766 
+Q 338.4 233.092483 338.4 199.666233 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 336.4 203.666233 
+L 338.4 199.666233 
+L 340.4 203.666233 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 136.7136 100.8 
+L 540.0864 100.8 
+Q 548.208 100.8 548.208 94.752 
+L 548.208 61.488 
+Q 548.208 55.44 540.0864 55.44 
+L 136.7136 55.44 
+Q 128.592 55.44 128.592 61.488 
+L 128.592 94.752 
+Q 128.592 100.8 136.7136 100.8 
+z
+" clip-path="url(#p0cd234d370)" style="fill: #faf7f2; stroke: #1c1a17; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 136.7136 195.3 
+L 540.0864 195.3 
+Q 548.208 195.3 548.208 189.252 
+L 548.208 148.428 
+Q 548.208 142.38 540.0864 142.38 
+L 136.7136 142.38 
+Q 128.592 142.38 128.592 148.428 
+L 128.592 189.252 
+Q 128.592 195.3 136.7136 195.3 
+z
+" clip-path="url(#p0cd234d370)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 157.0176 333.9 
+L 519.7824 333.9 
+Q 527.904 333.9 527.904 327.852 
+L 527.904 281.988 
+Q 527.904 275.94 519.7824 275.94 
+L 157.0176 275.94 
+Q 148.896 275.94 148.896 281.988 
+L 148.896 327.852 
+Q 148.896 333.9 157.0176 333.9 
+z
+" clip-path="url(#p0cd234d370)" style="fill: #f3e9e4; stroke: #7a2e2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 75.8016 405.72 
+L 600.9984 405.72 
+Q 609.12 405.72 609.12 399.672 
+L 609.12 371.448 
+Q 609.12 365.4 600.9984 365.4 
+L 75.8016 365.4 
+Q 67.68 365.4 67.68 371.448 
+L 67.68 399.672 
+Q 67.68 405.72 75.8016 405.72 
+z
+" clip-path="url(#p0cd234d370)" style="fill: #faf7f2; stroke: #d9d2c7; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 75.8016 452.34 
+L 600.9984 452.34 
+Q 609.12 452.34 609.12 446.292 
+L 609.12 420.588 
+Q 609.12 414.54 600.9984 414.54 
+L 75.8016 414.54 
+Q 67.68 414.54 67.68 420.588 
+L 67.68 446.292 
+Q 67.68 452.34 75.8016 452.34 
+z
+" clip-path="url(#p0cd234d370)" style="fill: #faf7f2; stroke: #d9d2c7; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(221.655 74.02092)">Triarchal Democracy — the governance model itself:</text>
+    <text style="font-size: 9.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(276.57375 86.91408)">an idea, not an organisation</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(222.241406 164.614312)">Triarchal Framework — the open-source software</text>
+    <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(207.305469 177.956312)">that provides a platform to network governance publicly</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(218.899563 294.602207)">The Triarc — the nonprofit that develops and stewards</text>
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(232.539109 307.143687)">Triarchal Framework, and governs itself through</text>
+    <text style="font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(285.201141 319.83498)">its own deployment of it</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(173.087188 381.74927)">Federation Compact — governs relationships between independent deployments</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(206.353938 393.63048)">of Triarchal Framework; dormant until ratified by more than one</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(214.649313 429.65127)">The Triarc stewards Triarchal Framework and governs itself;</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(180.0275 441.53248)">it does not govern any other deployment that may someday run the software.</text>
+   </g>
+   <g id="text_6">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #8a857b" x="443.304" y="119.722984" transform="rotate(-0 443.304 119.722984)">made concrete by</text>
+   </g>
+   <g id="text_7">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(402.095125 230.1503)">develops, stewards</text>
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(416.739609 238.7417)">&amp; runs on</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #1c1a17" x="37.224" y="26.698" transform="rotate(-0 37.224 26.698)">Three names, three distinct things</text>
+  </g>
+  <g id="text_9">
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(37.224 470.318938)">The model is the idea. Triarchal Framework is the software. The Triarc is the nonprofit that develops and stewards it — and,</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(37.224 481.051828)">like any deployment, governs itself by running its own instance of it.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p0cd234d370">
+   <rect x="0" y="0" width="676.8" height="504"/>
+  </clipPath>
+ </defs>
+</svg>

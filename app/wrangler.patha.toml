@@ -1,0 +1,81 @@
+# The Triarc ??? Triarchal Framework's own governance deployment
+# (Prompt24_PathA_PathB_Split.md; that prompt predates both the
+# "Path A"/"Path B" deployment-naming retirement and the "Statera" ???
+# "Triarchal Framework" org/software rename ??? see CLAUDE.md's Naming
+# section and Prompt30's rename pass. This file's own name
+# (wrangler.patha.toml) and the D1 database name (statera-patha) below are
+# both live Cloudflare resource identifiers left as-is on purpose ??? the
+# founder was explicitly asked and chose not to rename either; don't
+# silently reopen that decision). The code is in src/index.tsx, deployed
+# with `wrangler deploy -c wrangler.patha.toml`.
+name = "triarchalframework"
+main = "src/index.tsx"
+compatibility_date = "2024-11-01"
+compatibility_flags = ["nodejs_compat"]
+
+[vars]
+# Gates the /admin/advance debug clock route used for local testing. Must
+# never be "true" in a production deploy.
+ADMIN_DEBUG = "false"
+# Non-secret ??? used only to build an absolute link inside notification
+# emails (see app/src/lib/notify.ts). RESEND_API_KEY (the actual credential)
+# is set separately as a `wrangler secret put RESEND_API_KEY -c wrangler.patha.toml`
+# once the founder wants the Triarc sending real email.
+PUBLIC_BASE_URL = "https://triarchalframework.triarchal-democracy.workers.dev"
+# Prompt35, Triarc_Operations_Code.md (Proposal Ten) ??? seeds TRIARC_SECTORS
+# (Nonprofit Operations / Data Collection & Research / Software Stewardship)
+# instead of the generic six-sector CORE_SECTORS (a deployment that leaves
+# this var unset keeps CORE_SECTORS).
+TRIARC_OPERATING_SECTORS = "true"
+# Prompt24_PathA_PathB_Split.md Part C.2 ??? "/" is Triarchal Framework's
+# institutional landing page here, not the dashboard. Leaving this unset
+# keeps the original "/" = dashboard behavior.
+INSTITUTIONAL_LANDING = "true"
+# Prompt25_PathA_MembershipEnforcement.md ??? Triarc Membership Code 2.1's
+# phone-verification floor on voting/delegating. Leaving this unset is
+# treated by every enforcement point in the app as a
+# complete no-op (never inferred from data shape ??? see community.ts/
+# index.tsx's own comments on this var). TWILIO_ACCOUNT_SID,
+# TWILIO_AUTH_TOKEN, and TWILIO_VERIFY_SERVICE_SID are secrets, not vars ???
+# set them with:
+#   wrangler secret put TWILIO_ACCOUNT_SID -c wrangler.patha.toml
+#   wrangler secret put TWILIO_AUTH_TOKEN -c wrangler.patha.toml
+#   wrangler secret put TWILIO_VERIFY_SERVICE_SID -c wrangler.patha.toml
+# Until all three are set, app/src/lib/twilioVerify.ts fails every
+# verification attempt gracefully ("temporarily unavailable") rather than
+# crashing ??? see that file's header and the build report for the full
+# Twilio setup steps.
+REQUIRE_PHONE_VERIFICATION = "true"
+# Community-wide registration throttle (app/src/lib/rateLimit.ts, shown publicly at /status): the
+# most successful sign-ups per rolling hour before POST /register pauses new sign-ups for a few
+# minutes. A pacing valve so moderation can welcome people properly during a spike or a bot wave,
+# never a closure: it lifts by itself as registrations age out, and Charter 1.1 (anyone aged
+# eighteen or older may become a Member) is untouched. Unset or "0" means no throttle.
+REGISTRATION_HOURLY_CAP = "200"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "statera-patha"
+database_id = "8a903b30-2963-4f71-bd44-5256d6175e78"
+migrations_dir = "migrations"
+
+# Burst limiters (lib/rateLimit.ts). Per IP, per location, approximate by design, and they fail
+# open if the binding is missing. Hourly and per-account caps live in D1 instead.
+[[ratelimits]]
+name = "REGISTER_LIMITER"
+namespace_id = "2001"
+simple = { limit = 15, period = 60 }
+
+[[ratelimits]]
+name = "LOGIN_LIMITER"
+namespace_id = "2002"
+simple = { limit = 30, period = 60 }
+
+[[ratelimits]]
+name = "PHONE_LIMITER"
+namespace_id = "2003"
+simple = { limit = 6, period = 60 }
+
+# Daily notification scan.
+[triggers]
+crons = ["0 13 * * *"]

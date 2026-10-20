@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="748.8pt" height="590.4pt" viewBox="0 0 748.8 590.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T16:43:52.866913</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 590.4 
+L 748.8 590.4 
+L 748.8 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 231.7536 86.1984 
+L 434.6784 86.1984 
+Q 443.664 86.1984 443.664 79.1136 
+L 443.664 56.6784 
+Q 443.664 49.5936 434.6784 49.5936 
+L 231.7536 49.5936 
+Q 222.768 49.5936 222.768 56.6784 
+L 222.768 79.1136 
+Q 222.768 86.1984 231.7536 86.1984 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 478.8576 86.1984 
+L 681.7824 86.1984 
+Q 690.768 86.1984 690.768 79.1136 
+L 690.768 56.6784 
+Q 690.768 49.5936 681.7824 49.5936 
+L 478.8576 49.5936 
+Q 469.872 49.5936 469.872 56.6784 
+L 469.872 79.1136 
+Q 469.872 86.1984 478.8576 86.1984 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #4a463f"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 231.7536 183.024 
+L 434.6784 183.024 
+Q 443.664 183.024 443.664 175.9392 
+L 443.664 128.1168 
+Q 443.664 121.032 434.6784 121.032 
+L 231.7536 121.032 
+Q 222.768 121.032 222.768 128.1168 
+L 222.768 175.9392 
+Q 222.768 183.024 231.7536 183.024 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 478.8576 183.024 
+L 681.7824 183.024 
+Q 690.768 183.024 690.768 175.9392 
+L 690.768 128.1168 
+Q 690.768 121.032 681.7824 121.032 
+L 478.8576 121.032 
+Q 469.872 121.032 469.872 128.1168 
+L 469.872 175.9392 
+Q 469.872 183.024 478.8576 183.024 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 231.7536 252.1008 
+L 434.6784 252.1008 
+Q 443.664 252.1008 443.664 245.016 
+L 443.664 197.1936 
+Q 443.664 190.1088 434.6784 190.1088 
+L 231.7536 190.1088 
+Q 222.768 190.1088 222.768 197.1936 
+L 222.768 245.016 
+Q 222.768 252.1008 231.7536 252.1008 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 478.8576 252.1008 
+L 681.7824 252.1008 
+Q 690.768 252.1008 690.768 245.016 
+L 690.768 197.1936 
+Q 690.768 190.1088 681.7824 190.1088 
+L 478.8576 190.1088 
+Q 469.872 190.1088 469.872 197.1936 
+L 469.872 245.016 
+Q 469.872 252.1008 478.8576 252.1008 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 231.7536 321.1776 
+L 434.6784 321.1776 
+Q 443.664 321.1776 443.664 314.0928 
+L 443.664 266.2704 
+Q 443.664 259.1856 434.6784 259.1856 
+L 231.7536 259.1856 
+Q 222.768 259.1856 222.768 266.2704 
+L 222.768 314.0928 
+Q 222.768 321.1776 231.7536 321.1776 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 478.8576 321.1776 
+L 681.7824 321.1776 
+Q 690.768 321.1776 690.768 314.0928 
+L 690.768 266.2704 
+Q 690.768 259.1856 681.7824 259.1856 
+L 478.8576 259.1856 
+Q 469.872 259.1856 469.872 266.2704 
+L 469.872 314.0928 
+Q 469.872 321.1776 478.8576 321.1776 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 231.7536 390.2544 
+L 434.6784 390.2544 
+Q 443.664 390.2544 443.664 383.1696 
+L 443.664 335.3472 
+Q 443.664 328.2624 434.6784 328.2624 
+L 231.7536 328.2624 
+Q 222.768 328.2624 222.768 335.3472 
+L 222.768 383.1696 
+Q 222.768 390.2544 231.7536 390.2544 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 478.8576 390.2544 
+L 681.7824 390.2544 
+Q 690.768 390.2544 690.768 383.1696 
+L 690.768 335.3472 
+Q 690.768 328.2624 681.7824 328.2624 
+L 478.8576 328.2624 
+Q 469.872 328.2624 469.872 335.3472 
+L 469.872 383.1696 
+Q 469.872 390.2544 478.8576 390.2544 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 231.7536 459.3312 
+L 434.6784 459.3312 
+Q 443.664 459.3312 443.664 452.2464 
+L 443.664 404.424 
+Q 443.664 397.3392 434.6784 397.3392 
+L 231.7536 397.3392 
+Q 222.768 397.3392 222.768 404.424 
+L 222.768 452.2464 
+Q 222.768 459.3312 231.7536 459.3312 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 478.8576 459.3312 
+L 681.7824 459.3312 
+Q 690.768 459.3312 690.768 452.2464 
+L 690.768 404.424 
+Q 690.768 397.3392 681.7824 397.3392 
+L 478.8576 397.3392 
+Q 469.872 397.3392 469.872 404.424 
+L 469.872 452.2464 
+Q 469.872 459.3312 478.8576 459.3312 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 231.7536 516.0096 
+L 434.6784 516.0096 
+Q 443.664 516.0096 443.664 508.9248 
+L 443.664 473.5008 
+Q 443.664 466.416 434.6784 466.416 
+L 231.7536 466.416 
+Q 222.768 466.416 222.768 473.5008 
+L 222.768 508.9248 
+Q 222.768 516.0096 231.7536 516.0096 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 478.8576 516.0096 
+L 681.7824 516.0096 
+Q 690.768 516.0096 690.768 508.9248 
+L 690.768 473.5008 
+Q 690.768 466.416 681.7824 466.416 
+L 478.8576 466.416 
+Q 469.872 466.416 469.872 473.5008 
+L 469.872 508.9248 
+Q 469.872 516.0096 478.8576 516.0096 
+z
+" clip-path="url(#pc33d1c805f)" style="fill: #eceae5"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 10.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(275.282031 63.51237)">The Triarc — the online</text>
+    <text style="font-size: 10.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(304.833672 77.57963)">experiment</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 10.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(520.101234 63.427901)">A real deployment — the</text>
+    <text style="font-size: 10.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(552.914031 77.664099)">application</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="160.992" y="154.478" transform="rotate(-0 160.992 154.478)">Purpose</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(259.362687 136.53879)">Prove the mechanism itself works —</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(260.096937 148.21727)">delegation, the ledger, disputes, the</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(268.286438 160.036)">dividend arithmetic — in public,</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(303.467875 171.77696)">cheaply, safely</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(502.60225 136.57003)">Prove the mechanism helps govern an</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(505.044938 148.38876)">actual place, where people live, work</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(519.59725 160.06724)">and pay taxes. That is the real</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(568.286 171.88597)">thesis</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="160.992" y="223.5548" transform="rotate(-0 160.992 223.5548)">Membership</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(271.360937 211.524955)">Verified members online, self-</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(262.846937 223.265915)">selected, and few of them to begin</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(324.116938 235.084645)">with</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(519.153125 211.524955)">Verified residents of an actual</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(516.098563 223.203435)">municipality — typically tens or</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(513.066 235.084645)">hundreds of thousands of people</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="160.992" y="292.553506" transform="rotate(-0 160.992 292.553506)">Funding</text>
+   </g>
+   <g id="text_10">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(257.608187 286.40211)">Voluntary donations and grants only,</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(271.546562 298.22084)">and modest sums at this stage</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(501.128938 280.461505)">A real tax-supported municipal budget</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(510.07125 292.342715)">— orders of magnitude larger than</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(512.305625 304.161445)">anything the Triarc will ever hold</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="160.992" y="361.630306" transform="rotate(-0 160.992 361.630306)">Dividend today</text>
+   </g>
+   <g id="text_13">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(267.260688 343.53522)">None. Both tiers stay gated until</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(263.556438 355.41643)">thirty verified Members and every</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(265.268312 367.29764)">Delegate Position filled (Treasury</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(314.969063 379.24133)">Code 5.1)</text>
+   </g>
+   <g id="text_14">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(515.076937 349.66167)">Meaningful only once delegated</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(506.283125 361.4804)">authority and treasury scale are real</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(521.571063 373.29913)">— and still modest even then</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="160.992" y="430.7852" transform="rotate(-0 160.992 430.7852)">Failure mode</text>
+   </g>
+   <g id="text_16">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(259.9395 424.594595)">A mechanism breaks or gets gamed.</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(262.877187 436.475805)">Cheap, safe, expected, correctable</text>
+   </g>
+   <g id="text_17">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(508.262438 412.829105)">A mechanism fails after real budget</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(514.37775 424.647835)">authority has been handed over.</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(502.78375 436.466565)">Expensive and consequential — which</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(520.028313 448.145045)">is why the handover is staged</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #7a2e2e" transform="translate(98.742094 487.049025)">What success</text>
+    <text style="font-size: 9.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #7a2e2e" transform="translate(118.489094 500.276575)">looks like</text>
+   </g>
+   <g id="text_19">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(264.892938 487.57356)">The mechanics hold under real, if</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(308.633062 499.25204)">modest, use</text>
+   </g>
+   <g id="text_20">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(512.261625 481.59407)">A community's residents get real,</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(508.050688 493.4128)">measurable value. This is the actual</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(542.898 505.09128)">claim being tested</text>
+   </g>
+  </g>
+  <g id="text_21">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="374.4" y="25.4" transform="rotate(-0 374.4 25.4)">Two different things share one model — do not confuse their scale</text>
+  </g>
+  <g id="text_22">
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.696 540.095125)">The Triarc exists to prove the model works, not to demonstrate it at real-world financial scale. A governance model that will one day ask a</text>
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.696 551.126406)">community for its trust should first be willing to run on itself, in public, where every failure is visible and the cost of one falls on its own</text>
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.696 562.087744)">credibility rather than on a public budget or a resident's income. A small dividend at Triarc scale, once the gate is met at all, is not the</text>
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.696 573.119025)">model failing — it is the experiment behaving exactly as designed.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pc33d1c805f">
+   <rect x="0" y="0" width="748.8" height="590.4"/>
+  </clipPath>
+ </defs>
+</svg>

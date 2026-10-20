@@ -1,0 +1,1 @@
+ALTER TABLE `delegate_recognitions` ADD `confirmation_proposal_id` integer;

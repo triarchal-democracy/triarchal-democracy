@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Triarchal Democracy — a proposed structure for modernizing governance</title>
+<meta name="description" content="A proposed way for a community to decide things together: one Member, one vote, optional delegation and a public record. Under development and open for challenge.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/">
+<meta property="og:title" content="Triarchal Democracy">
+<meta property="og:description" content="A proposed way for a community to decide things together: one Member, one vote, optional delegation and a public record. Under development and open for challenge.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Triarchal Democracy">
+<meta name="twitter:description" content="A proposed way for a community to decide things together: one Member, one vote, optional delegation and a public record. Under development and open for challenge.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2; --ink: #1c1a17; --ink-soft: #4a463f; --ink-faint: #8a857b;
+    --rule: #e2dcd2; --accent: #7a2e2e; --accent-soft: #f3e9e4; --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body { background: var(--paper); color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif; font-size: 1.185rem; line-height: 1.72;
+    -webkit-font-smoothing: antialiased; }
+
+  nav { position: sticky; top: 0; z-index: 50; background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px); border-bottom: 1px solid var(--rule); }
+  .nav-inner { max-width: 72rem; margin: 0 auto; display: flex; align-items: baseline;
+    justify-content: space-between; padding: 0.85rem 1.5rem; }
+  .nav-title { font-weight: 600; font-size: 1.05rem; color: var(--ink); text-decoration: none; }
+  .nav-links { display: flex; gap: 1.6rem; }
+  .nav-links a { font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase; color: var(--ink-faint);
+    text-decoration: none; transition: color 0.15s; }
+  .nav-links a:hover { color: var(--accent); }
+  @media (max-width: 760px) { .nav-links { display: none; } }
+
+  .wrap { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem; }
+  .wide { max-width: 64rem; margin: 0 auto; padding: 0 1.5rem; }
+
+  /* hero */
+  .hero { padding: 5.5rem 0 3.5rem; text-align: center; }
+  .hero .wrap { max-width: 52rem; }
+  .hero h1 { font-size: clamp(2.3rem, 6vw, 3.7rem); line-height: 1.1; font-weight: 600;
+    letter-spacing: -0.015em; margin-bottom: 1.4rem; }
+  .hero .lede { font-size: 1.28rem; color: var(--ink-soft); max-width: 34rem;
+    margin: 0 auto 2.3rem; }
+  .cta-row { display: flex; gap: 0.8rem; justify-content: center; flex-wrap: wrap; }
+  .cta { font-family: 'Inter', sans-serif; font-size: 0.83rem; font-weight: 600;
+    letter-spacing: 0.05em; text-transform: uppercase; text-decoration: none;
+    padding: 0.85rem 1.7rem; border-radius: 2px; transition: all 0.15s; display: inline-block; }
+  .cta-primary { background: var(--accent); color: #fff; }
+  .cta-primary:hover { background: #5f2323; }
+  .cta-ghost { color: var(--accent); border: 1px solid var(--rule); }
+  .cta-ghost:hover { border-color: var(--accent); }
+
+  /* story band */
+  .band { background: #fff; border-top: 1px solid var(--rule); border-bottom: 1px solid var(--rule);
+    padding: 4rem 0; margin: 3.5rem 0; }
+  .band p { margin-bottom: 1.15rem; }
+  .kicker { font-family: 'Inter', sans-serif; font-size: 0.73rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 1rem; }
+  .pull { font-size: 1.45rem; line-height: 1.45; color: var(--ink); font-weight: 500;
+    border-left: 2px solid var(--accent); padding-left: 1.3rem; margin: 2rem 0; }
+
+  section { padding: 1rem 0 2.6rem; }
+  h2 { font-size: 1.95rem; line-height: 1.22; font-weight: 600; margin-bottom: 1.1rem;
+    letter-spacing: -0.01em; }
+  h3 { font-size: 1.12rem; font-weight: 600; margin-bottom: 0.45rem; }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+
+  .grid { display: grid; gap: 1.6rem; margin: 2rem 0 1rem; }
+  @media (min-width: 760px) { .grid-3 { grid-template-columns: repeat(3, 1fr); } }
+  .card { background: #fff; border: 1px solid var(--rule); border-radius: 3px;
+    padding: 1.5rem 1.4rem; }
+  .card .num { font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600;
+    letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.7rem; }
+  .card p { font-size: 1.02rem; line-height: 1.6; color: var(--ink-soft); margin: 0; }
+
+
+  .chart-fig { margin: 2.2rem 0 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px; background: #fff;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .closing { text-align: center; padding: 4.5rem 0 5.5rem; border-top: 1px solid var(--rule);
+    margin-top: 3rem; }
+  .closing h2 { margin-bottom: 0.9rem; }
+  .closing p { color: var(--ink-soft); max-width: 32rem; margin: 0 auto 2rem; }
+
+  footer { border-top: 1px solid var(--rule); padding: 2.2rem 0 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint);
+    margin-bottom: 0.5rem; }
+  footer a { color: var(--ink-faint); }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="wrap">
+    <h1>A proposed structure for modernizing governance</h1>
+    <p class="lede">Governance, contribution, and civic return. Today they are three separate systems, and each of them fails for reasons the other two would address.</p>
+    <div class="cta-row">
+      <a class="cta cta-primary" href="the-proposition.html">Read the proposition</a>
+      <a class="cta cta-ghost" href="the-arithmetic.html">See the arithmetic</a>
+    </div>
+  </div>
+</header>
+
+<div class="band">
+  <div class="wrap">
+    <span class="kicker">The pattern</span>
+    <p>It repeats in almost every country. A programme one administration introduces, the next can dismantle — regardless of whether it was working. The people who depended on it have no standing to object until the next election, by which time the thing is gone and the evidence with it.</p>
+    <p>Policy becomes an inheritance dispute between governments rather than a decision a community made and can revisit.</p>
+    <p class="pull">Accountability arrives once every few years, applies to an entire record rather than to any single decision, and cannot be adjusted in the interval.</p>
+    <p>That gap — between a decision and the people who live with it — is what this project exists to close.</p>
+  </div>
+</div>
+
+<div class="wide">
+  <section>
+    <h2 style="max-width:var(--measure);margin-left:auto;margin-right:auto;">Three things are broken, and they're connected</h2>
+    <div class="grid grid-3">
+      <div class="card">
+        <span class="num">One</span>
+        <h3>Governance</h3>
+        <p>Asks your opinion every few years, then proceeds without you. One blunt instrument, once, aimed at an entire record.</p>
+      </div>
+      <div class="card">
+        <span class="num">Two</span>
+        <h3>Contribution</h3>
+        <p>Returns nothing measurable, and is treated as an obligation rather than something a person might reasonably choose. So the expertise already sitting in the community — clinicians, tradespeople, engineers, teachers — never reaches the decisions that need it.</p>
+      </div>
+      <div class="card">
+        <span class="num">Three</span>
+        <h3>Return</h3>
+        <p>For people who are employed and contributing, there is almost no return. What exists is aimed at low earners and pays according to need, so it pulls back as your situation improves, and each step forward costs some of the support you had. The structure discourages improving your situation and rewards staying put.</p>
+      </div>
+    </div>
+    <p style="max-width:var(--measure);margin:1.6rem auto 0;">Each one is treated as its own field, with its own budget and its own professionals. They share a single cause.</p>
+  </section>
+</div>
+
+<div class="wrap">
+  <section>
+    <h2>What we're building</h2>
+    <h3>The idea</h3>
+    <p>Our re-imagined concept of governance is designed and built to run alongside the current government you already have, not to replace it. Its purpose is to let every resident have a real say and add real value, instead of waiting for the next election. Residents can vote directly on the matters they care about most, or delegate decisions to people they trust on the matters they don't. We offer a mechanism that allows all residents to contribute what they know on any given topic. That contribution goes on a public record, and the effort is rewarded from a community fund. It rewards engagement, holds those in power accountable, and gives communal expertise and resources a way to flow back into the community that holds them. A community that functions well has more to share, and that gives people more reason to engage with the system.</p>
+    <h3 style="margin-top:1.9rem;">How it works</h3>
+    <ol style="margin:0 0 1.2rem 1.4rem;padding:0;">
+      <li style="margin-bottom:0.9rem;"><strong>One vote, yours to use or delegate.</strong> The community votes on the same real decisions your council faces and publishes where it lands. You have one vote on every proposal. Vote yourself on what you care about. On the rest, delegate it to a Member you trust, for one sector, such as transportation, or for everything. Voting yourself always overrides your delegation on that proposal. You can see where your vote sits at any moment, and a delegation lasts a year unless you renew it.</li>
+      <li style="margin-bottom:0.9rem;"><strong>Leaders stay accountable.</strong> Every vote is public and permanent, and so is each delegate's record of work. You can take your vote back at any instant, not at the next election. A Delegate holds a named post for a sector only while Members keep supporting it. If support slips, a confirmation vote opens automatically.</li>
+      <li style="margin-bottom:0.9rem;"><strong>Anyone can take part, and it fits your life.</strong> You don't need a title or free evenings. Review a proposal, join a deliberation, build something, or check someone else's work. Log it with evidence. The platform verifies votes and completed proposals itself, and for other work two Active Members confirm it. Everything you contribute is documented and accumulates as Contribution Marks for that month. Marks are earned through contribution and engagement, and are never awarded for how you vote or whom you delegate to.</li>
+      <li style="margin-bottom:0.9rem;"><strong>Anyone can add expertise.</strong> Everyone knows something that the current system rarely asks about. Tag your knowledge and skillset with a sector, such as Housing or Transportation. A sustained record in that sector, plus votes delegated to you by other Members, makes you a Civic Steward. Members choose from a public directory that shows each person's work and who currently supports them. The community gets better-informed decisions, and published evidence it can put in front of leading delegates and government.</li>
+      <li style="margin-bottom:0.9rem;"><strong>Where the reward comes from, and how it is shared.</strong> The community keeps a public treasury, fed by revenue the community raises, and a community-set share of it goes to Members as a dividend. A local government that adopts the model may also choose to redirect an existing subsidy it controls, or vacant staffing positions, into it. Nobody who receives that subsidy today loses it, and no filled job is cut. The dividend has two parts:
+        <ul style="margin:0.7rem 0 0 1.2rem;padding:0;">
+          <li style="margin-bottom:0.6rem;"><strong>The universal floor.</strong> By default, half of each month's new money is split equally among every verified Member. It does not depend on contribution. It goes to every verified Member as the baseline for belonging to the community.</li>
+          <li><strong>Contribution payments.</strong> The other half is split in proportion to each Member's claimed Contribution Marks that month. It scales with the level of contribution, so the reward follows effort and not just free time.</li>
+        </ul>
+      </li>
+    </ol>
+    <h3 style="margin-top:1.9rem;">How the pieces feed each other</h3>
+    <p>Accountability tells you whom to trust. Trust lets you spare your attention. Attention goes into contribution, and the record of that contribution decides who is trusted and what is paid. Until a government chooses to hand the community more decisions, one stage at a time, nothing in anyone's life changes except that they finally have a say in how their community is managed.</p>
+    <figure class="chart-fig">
+      <img src="assets/charts/10_venn_three_pillars.svg" alt="Venn diagram: governance, contribution and return overlapping at a shared centre labelled the closed loop.">
+    </figure>
+  </section>
+
+  <section>
+    <h2>Why it has to be one structure</h2>
+    <p>Each pillar is doing work the other two depend on. A return that does not rest on a governance the recipients themselves hold is a payment someone else can set the terms of. A governance with nothing at stake for the people inside it collects participation it never repays. A record of contribution that buys nothing is a scoreboard.</p>
+    <p>None of the three is new on its own. Liquid democracy has been deployed. Contribution ledgers exist in several forms. Unconditional payments have a century of literature behind them. The claim here is narrower and structural: they have not been built as one system, and each fails in isolation for reasons the other two would address.</p>
+  </section>
+
+</div>
+
+<div class="closing">
+  <div class="wrap">
+    <h2>That is the shape of it</h2>
+    <p>The proposition sets it out properly: why each pillar fails on its own, what the structure costs
+    as well as what it buys, and the places it could still be wrong. The arithmetic sits beside it,
+    derived from published budgets line by line rather than asserted.</p>
+    <div class="cta-row">
+      <a class="cta cta-primary" href="the-proposition.html">Read the proposition</a>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <div class="wide">
+    <p>Triarchal Democracy — a concept under development, open for challenge.</p>
+    <p><a href="the-proposition.html">The proposition</a> &nbsp;·&nbsp; <a href="the-arithmetic.html">The arithmetic</a> &nbsp;·&nbsp; <a href="charter.html">The charter</a> &nbsp;·&nbsp; <a href="documents.html">The documents</a> &nbsp;·&nbsp; <a href="about-the-triarc.html">About The Triarc</a></p>
+    <p><a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+  </div>
+</footer>
+
+</body>
+</html>

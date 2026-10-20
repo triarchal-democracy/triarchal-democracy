@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="388.8pt" viewBox="0 0 547.2 388.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T18:35:03.542933</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 388.8 
+L 547.2 388.8 
+L 547.2 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 366.624 162.324 
+C 366.624 139.112673 357.393496 116.828273 340.980612 100.415388 
+C 324.567727 84.002504 302.283324 74.772 279.071996 74.772 
+L 279.071998 109.7928 
+C 292.998795 109.7928 306.369436 115.331102 316.217167 125.178833 
+C 326.064898 135.026564 331.6032 148.397204 331.6032 162.324 
+z
+" style="fill: #7a2e2e; stroke: #faf7f2; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 279.072001 74.772 
+C 261.757924 74.772 244.826865 79.90798 230.430735 89.527164 
+C 216.034604 99.146347 204.810313 112.823174 198.184502 128.819298 
+C 191.55869 144.81542 189.824476 162.423154 193.202285 179.404547 
+C 196.580093 196.385939 204.920486 211.98971 217.163388 224.232612 
+C 229.40629 236.475514 245.010061 244.815902 261.991452 248.19371 
+C 278.972843 251.571524 296.58058 249.83731 312.576702 243.211498 
+C 328.572826 236.585687 342.249653 225.361396 351.868836 210.965265 
+C 361.48802 196.569135 366.624 179.638077 366.624 162.324 
+L 331.6032 162.324 
+C 331.6032 172.712446 328.521612 182.871081 322.750102 191.508759 
+C 316.978592 200.146437 308.772496 206.881012 299.174821 210.856499 
+C 289.577148 214.831986 279.012506 215.872514 268.823671 213.845826 
+C 258.634836 211.819141 249.272574 206.814908 241.926833 199.469167 
+C 234.581092 192.123426 229.576856 182.761164 227.550171 172.572328 
+C 225.523486 162.383493 226.564014 151.818852 230.539501 142.221179 
+C 234.514988 132.623504 241.249563 124.417408 249.887241 118.645898 
+C 258.524919 112.874388 268.683554 109.7928 279.072001 109.7928 
+z
+" style="fill: #f3e9e4; stroke: #faf7f2; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="matplotlib.axis_1"/>
+   <g id="matplotlib.axis_2"/>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 21px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="279.072" y="167.574" transform="rotate(-0 279.072 167.574)">25%</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="279.072" y="183.639502" transform="rotate(-0 279.072 183.639502)">of all delegated votes</text>
+   </g>
+  </g>
+  <g id="text_3">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="273.6" y="24.628" transform="rotate(-0 273.6 24.628)">Unmanaged delegation concentrates fast</text>
+  </g>
+  <g id="text_4">
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(30.096 322.502938)">Germany's Pirate Party, LiquidFeedback platform, 2010–2013: of 14,964 delegations recorded, 38 individuals received over 100</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(30.096 333.243922)">each — at least a quarter of all delegated votes, concentrated among a tiny fraction of participants, with no renewal requirement</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(30.096 344.031503)">to reset it. Source: Kling et al., “Voting Behaviour and Power in Online Democracy” (arXiv:1503.07723), 2015.</text>
+  </g>
+  <g id="legend_1">
+   <g id="patch_4">
+    <path d="M 143.625375 281.29575 
+L 155.065375 281.29575 
+L 155.065375 275.13575 
+L 143.625375 275.13575 
+z
+" style="fill: #7a2e2e; stroke: #7a2e2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #4a463f" x="162.105375" y="281.29575" transform="rotate(-0 162.105375 281.29575)">38 individuals (top delegates)</text>
+   </g>
+   <g id="patch_5">
+    <path d="M 298.51225 281.29575 
+L 309.95225 281.29575 
+L 309.95225 275.13575 
+L 298.51225 275.13575 
+z
+" style="fill: #f3e9e4; stroke: #f3e9e4; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #4a463f" x="316.99225" y="281.29575" transform="rotate(-0 316.99225 281.29575)">All other participants</text>
+   </g>
+  </g>
+ </g>
+</svg>

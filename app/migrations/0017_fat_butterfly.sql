@@ -1,0 +1,1 @@
+ALTER TABLE `proposals` ADD `target_clause_ids` text;

@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="705.6pt" height="532.8pt" viewBox="0 0 705.6 532.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T13:23:48.499850</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 532.8 
+L 705.6 532.8 
+L 705.6 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 38.808 266.4 
+L 539.784 266.4 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #1c1a17; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 116.424 266.4 
+L 116.424 183.816 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 271.656 266.4 
+L 271.656 183.816 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 426.888 266.4 
+L 426.888 183.816 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_5">
+    <path d="M 194.04 266.4 
+L 194.04 343.656 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_6">
+    <path d="M 349.272 266.4 
+L 349.272 343.656 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_7">
+    <path d="M 504.504 266.4 
+L 504.504 343.656 
+" clip-path="url(#pe8a53d0a30)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 553.5432 311.688 
+L 681.2568 311.688 
+Q 689.724 311.688 689.724 305.2944 
+L 689.724 227.5056 
+Q 689.724 221.112 681.2568 221.112 
+L 553.5432 221.112 
+Q 545.076 221.112 545.076 227.5056 
+L 545.076 305.2944 
+Q 545.076 311.688 553.5432 311.688 
+z
+" clip-path="url(#pe8a53d0a30)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(593.194656 256.311395)">Illegitimate</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(587.034969 268.66734)">concentration</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(577.743687 280.94198)">of power (capture)</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="116.424" y="73.697" transform="rotate(-0 116.424 73.697)">Delegation concentration</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(73.604109 94.068)">Social proof reinforces</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(85.90282 105.000975)">super-delegates</text>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(69.593531 141.5265)">Mitigation: public directory</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(74.9115 151.777359)">+ the delegation renewal</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(108.099 162.020016)">cycle</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="271.656" y="73.697" transform="rotate(-0 271.656 73.697)">Contribution cartels</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(222.97943 94.0275)">Coordinated, real-looking</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(229.942266 105.148294)">work inflates standing</text>
+   </g>
+   <g id="text_7">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(233.093695 141.398766)">Mitigation: reciprocity</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(224.042719 151.649625)">damping; detection remains</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(247.911469 161.892281)">open research</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="426.888" y="73.697" transform="rotate(-0 426.888 73.697)">Agenda-setting capture</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(376.988836 94.0275)">Controls what's discussed,</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(384.416156 104.960475)">not how votes are cast</text>
+   </g>
+   <g id="text_10">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(383.821594 141.5265)">Mitigation: the minority-</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(406.866516 151.777359)">report right</text>
+   </g>
+   <g id="text_11">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(153.48668 359.9745)">Mitigation: relationship</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(160.366172 370.217156)">disclosure, no quota</text>
+   </g>
+   <g id="text_12">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(153.166641 403.0515)">Appointment pipeline</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(162.174727 414.0432)">reproduces itself</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="194.04" y="449.321" transform="rotate(-0 194.04 449.321)">Nominee networks</text>
+   </g>
+   <g id="text_14">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(318.945633 359.9745)">Mitigation: public</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(311.773758 370.217156)">randomness + appeals</text>
+   </g>
+   <g id="text_15">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(310.93432 403.092)">Volunteer pool itself</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(321.764906 414.024975)">skews political</text>
+   </g>
+   <g id="text_16">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="349.272" y="449.321" transform="rotate(-0 349.272 449.321)">Dispute panel capture</text>
+   </g>
+   <g id="text_17">
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(463.64775 359.9745)">Mitigation: pluralism in</text>
+    <text style="font-style: italic; font-size: 7.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(474.683883 370.217156)">handover criteria</text>
+   </g>
+   <g id="text_18">
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(464.299523 403.0515)">Early culture outlasts</text>
+    <text style="font-size: 8.1px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(473.66768 414.172294)">formal authority</text>
+   </g>
+   <g id="text_19">
+    <text style="font-weight: 700; font-size: 9.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="504.504" y="449.321" transform="rotate(-0 504.504 449.321)">Founder path-dependency</text>
+   </g>
+  </g>
+  <g id="text_20">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #1c1a17" x="38.808" y="27.2421" transform="rotate(-0 38.808 27.2421)">Pathways to capture, and where each is answered</text>
+  </g>
+  <g id="text_21">
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 489.2939)">The central risk is not corruption but legitimate, competence-driven concentration becoming irreversible. Each pathway lists</text>
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 499.822553)">the mitigation the documents actually adopt; contribution-cartel detection remains open, not solved. No mitigation here relies on</text>
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 510.418389)">prompting or urgency mechanics: the platform is forbidden from manufacturing attention.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe8a53d0a30">
+   <rect x="0" y="0" width="705.6" height="532.8"/>
+  </clipPath>
+ </defs>
+</svg>

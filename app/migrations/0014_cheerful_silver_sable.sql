@@ -1,0 +1,1 @@
+ALTER TABLE `communities` ADD `dividend_activated_at` integer;

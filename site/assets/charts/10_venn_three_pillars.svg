@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="633.6pt" height="504pt" viewBox="0 0 633.6 504" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T16:43:53.767380</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 504 
+L 633.6 504 
+L 633.6 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 250.272 285.984 
+C 277.997393 285.984 304.590958 274.968585 324.195771 255.363771 
+C 343.800585 235.758958 354.816 209.165393 354.816 181.44 
+C 354.816 153.714607 343.800585 127.121042 324.195771 107.516229 
+C 304.590958 87.911415 277.997393 76.896 250.272 76.896 
+C 222.546607 76.896 195.953042 87.911415 176.348229 107.516229 
+C 156.743415 127.121042 145.728 153.714607 145.728 181.44 
+C 145.728 209.165393 156.743415 235.758958 176.348229 255.363771 
+C 195.953042 274.968585 222.546607 285.984 250.272 285.984 
+z
+" clip-path="url(#p45bc1649c5)" style="fill: #7a2e2e; opacity: 0.26"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 383.328 285.984 
+C 411.053393 285.984 437.646958 274.968585 457.251771 255.363771 
+C 476.856585 235.758958 487.872 209.165393 487.872 181.44 
+C 487.872 153.714607 476.856585 127.121042 457.251771 107.516229 
+C 437.646958 87.911415 411.053393 76.896 383.328 76.896 
+C 355.602607 76.896 329.009042 87.911415 309.404229 107.516229 
+C 289.799415 127.121042 278.784 153.714607 278.784 181.44 
+C 278.784 209.165393 289.799415 235.758958 309.404229 255.363771 
+C 329.009042 274.968585 355.602607 285.984 383.328 285.984 
+z
+" clip-path="url(#p45bc1649c5)" style="fill: #3f5a52; opacity: 0.26"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 316.8 379.224 
+C 344.525393 379.224 371.118958 368.208585 390.723771 348.603771 
+C 410.328585 328.998958 421.344 302.405393 421.344 274.68 
+C 421.344 246.954607 410.328585 220.361042 390.723771 200.756229 
+C 371.118958 181.151415 344.525393 170.136 316.8 170.136 
+C 289.074607 170.136 262.481042 181.151415 242.876229 200.756229 
+C 223.271415 220.361042 212.256 246.954607 212.256 274.68 
+C 212.256 302.405393 223.271415 328.998958 242.876229 348.603771 
+C 262.481042 368.208585 289.074607 379.224 316.8 379.224 
+z
+" clip-path="url(#p45bc1649c5)" style="fill: #a97b3f; opacity: 0.26"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="129.888" y="120.96" transform="rotate(-0 129.888 120.96)">Governance</text>
+   </g>
+   <g id="text_2">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(98.522531 136.374)">delegation earns</text>
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(100.055531 147.528675)">visible standing</text>
+   </g>
+   <g id="text_3">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #3f5a52" x="503.712" y="120.96" transform="rotate(-0 503.712 120.96)">Contribution</text>
+   </g>
+   <g id="text_4">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(479.856 136.374)">contribution</text>
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(475.500469 147.3948)">earns dividend</text>
+   </g>
+   <g id="text_5">
+    <text style="font-weight: 700; font-size: 11.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #a97b3f" x="316.8" y="395.64" transform="rotate(-0 316.8 395.64)">Return</text>
+   </g>
+   <g id="text_6">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(291.302063 411.054)">return makes</text>
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(275.123531 422.0748)">participation rational</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="316.8" y="212.688" transform="rotate(-0 316.8 212.688)">The closed loop</text>
+   </g>
+   <g id="text_8">
+    <text style="font-style: italic; font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="316.8" y="230.328" transform="rotate(-0 316.8 230.328)">each pillar feeds the others</text>
+   </g>
+  </g>
+  <g id="text_9">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="316.8" y="22.7925" transform="rotate(-0 316.8 22.7925)">Three pillars, one structure</text>
+  </g>
+  <g id="text_10">
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(34.848 459.338)">Remove any one pillar and the other two collapse — governance without return has no reason to sustain participation; contribution without</text>
+   <text style="font-style: italic; font-size: 7.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(34.848 470.369281)">governance has nothing to feed; and contribution with no return is a scoreboard.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p45bc1649c5">
+   <rect x="0" y="0" width="633.6" height="504"/>
+  </clipPath>
+ </defs>
+</svg>

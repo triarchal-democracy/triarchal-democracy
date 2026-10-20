@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hard questions — Triarchal Democracy</title>
+<meta name="description" content="Plain answers to the sceptical questions: takeover, fake accounts, the dividend, the age rule, leaving, money and accountability, with the limits stated.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/faq">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/faq">
+<meta property="og:title" content="Hard questions — Triarchal Democracy">
+<meta property="og:description" content="Plain answers to the sceptical questions: takeover, fake accounts, the dividend, the age rule, leaving, money and accountability, with the limits stated.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hard questions — Triarchal Democracy">
+<meta name="twitter:description" content="Plain answers to the sceptical questions: takeover, fake accounts, the dividend, the age rule, leaving, money and accountability, with the limits stated.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-faint: #8a857b;
+    --rule: #e2dcd2;
+    --accent: #7a2e2e;
+    --accent-soft: #f3e9e4;
+    --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.185rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    max-width: 72rem; margin: 0 auto;
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.85rem 1.5rem;
+  }
+  .nav-title {
+    font-family: 'Newsreader', serif; font-weight: 600;
+    font-size: 1.05rem; color: var(--ink); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .nav-links a {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  header.hero {
+    max-width: 56rem; margin: 0 auto;
+    padding: 6rem 1.5rem 4.5rem;
+    text-align: center;
+  }
+  .kicker {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.08; letter-spacing: -0.015em;
+    margin-bottom: 1.6rem;
+  }
+  .hero-sub {
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    font-style: italic; color: var(--ink-soft);
+    max-width: 38rem; margin: 0 auto 2.6rem; line-height: 1.5;
+  }
+  .hero-rule { width: 4rem; height: 2px; background: var(--accent); margin: 0 auto; }
+
+  main { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem 4rem; }
+  section { padding: 2.6rem 0 0.6rem; }
+  h2 {
+    font-weight: 600; font-size: 1.7rem; line-height: 1.2;
+    margin-bottom: 1.4rem; scroll-margin-top: 5rem;
+  }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+  .article-label {
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.6rem;
+  }
+  .divider { max-width: var(--measure); margin: 2.2rem auto 0; border: none; border-top: 1px solid var(--rule); }
+  .pull {
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.3rem; line-height: 1.5; font-style: italic;
+    color: var(--ink-soft);
+  }
+  .closing { text-align: center; padding: 4rem 1.5rem 5rem; max-width: 48rem; margin: 0 auto; }
+  .closing h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; margin-bottom: 1.4rem; }
+  .closing p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; }
+  .cta {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--paper); background: var(--accent);
+    padding: 0.95rem 2.2rem; border-radius: 2px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .cta:hover { background: #5e2222; }
+  footer { border-top: 1px solid var(--rule); padding: 2rem 1.5rem 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint); margin: 0.3rem 0; }
+  footer a { color: var(--ink-faint); }
+
+  /* ---------- Charts ---------- */
+  .chart-fig { margin: 2.2rem 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .chart-note {
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-style: italic;
+    color: var(--ink-faint); margin-top: 0.6rem;
+  }
+
+  /* ---------- launch pages ---------- */
+  main a { color: var(--accent); }
+  main ul, main ol { margin: 0 0 1.15rem 1.4rem; padding: 0; }
+  main li { margin-bottom: 0.55rem; }
+  .lede { font-size: 1.28rem; line-height: 1.6; color: var(--ink); }
+  h2 .qn { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.5rem; }
+  .ref { font-family: 'Inter', sans-serif; font-size: 0.78rem; color: var(--ink-faint); white-space: nowrap; }
+  .steps { list-style: none; margin: 0 0 1.4rem 0; padding: 0; counter-reset: step; }
+  .steps li { position: relative; padding-left: 3rem; margin-bottom: 1.35rem; counter-increment: step; }
+  .steps li::before { content: counter(step); position: absolute; left: 0; top: 0.15rem; width: 2rem; height: 2rem;
+    border: 1px solid var(--accent); border-radius: 50%; color: var(--accent); background: var(--paper);
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-weight: 600;
+    display: flex; align-items: center; justify-content: center; }
+  .limit { background: var(--accent-soft); border-left: 3px solid var(--accent); padding: 0.95rem 1.3rem 0.4rem;
+    margin: 1.4rem 0 1.2rem; font-size: 1.04rem; }
+  .limit .lab { font-family: 'Inter', sans-serif; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.16em;
+    text-transform: uppercase; color: var(--accent); display: block; margin-bottom: 0.4rem; }
+  .box { background: #fff; border: 1px solid var(--rule); border-radius: 3px; padding: 1.2rem 1.4rem 0.4rem; margin: 1.4rem 0; }
+  .box h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 0.5rem; }
+  .lab { font-family: 'Inter', sans-serif; font-size: 0.74rem; font-weight: 600; letter-spacing: 0.1em;
+    text-transform: uppercase; color: var(--accent); margin-right: 0.35rem; }
+  .cta-row { display: flex; gap: 0.8rem; flex-wrap: wrap; margin: 1.6rem 0 1.2rem; }
+  .cta-ghost { background: transparent; color: var(--accent); border: 1px solid var(--rule); }
+  .cta-ghost:hover { background: #fff; border-color: var(--accent); }
+  main .cta { color: var(--paper); }
+  main .cta-ghost { color: var(--accent); }
+  .toc { font-family: 'Inter', sans-serif; font-size: 0.9rem; margin: 0 0 1rem 1.2rem; }
+  .toc li { margin-bottom: 0.3rem; }
+  .item { padding: 2rem 0 0.2rem; border-top: 1px solid var(--rule); }
+  .item:first-of-type { border-top: none; }
+  .item h2 { font-size: 1.35rem; margin-bottom: 0.9rem; }
+  table.facts { width: 100%; border-collapse: collapse; margin: 1rem 0 1.4rem; font-size: 1rem; }
+  table.facts th, table.facts td { text-align: left; vertical-align: top; padding: 0.55rem 0.7rem; border-bottom: 1px solid var(--rule); }
+  table.facts th { font-family: 'Inter', sans-serif; font-size: 0.74rem; letter-spacing: 0.1em; text-transform: uppercase;
+    color: var(--ink-faint); font-weight: 600; }
+  .stamp { font-family: 'Inter', sans-serif; font-size: 0.82rem; color: var(--ink-faint); margin-bottom: 1.6rem; }
+  @media (max-width: 760px) { .nav-links { gap: 0.9rem; } }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">Hard questions</div>
+  <h1>Hard questions</h1>
+  <p class="hero-sub">Plain answers to the obvious sceptical questions, with the limits stated.</p>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+<section id="how-to-read">
+  <span class="article-label">How to read this page</span>
+  <p class="lede">These are the questions a sensible sceptic should ask. Each answer is tied to the founding documents or to what the software does today, and each says where the honest answer is "not yet" or "we do not know". The numbers in brackets are clause numbers in the documents.</p>
+  <ol class="toc">
+    <li><a href="#trust">Why should I trust a constitution written by a stranger?</a></li>
+    <li><a href="#takeover">Who stops a takeover?</a></li>
+    <li><a href="#fake-accounts">What stops fake accounts?</a></li>
+    <li><a href="#dividend">Who pays the dividend, and when?</a></li>
+    <li><a href="#children">What happens if someone under eighteen joins?</a></li>
+    <li><a href="#leaving">How does a Member leave, and what is wiped?</a></li>
+    <li><a href="#money">What does it cost, and who pays?</a></li>
+    <li><a href="#accountable">Who is accountable for this?</a></li>
+    <li><a href="#failure">What happens if it fails?</a></li>
+    <li><a href="#disputes">How do disputes work, and what is the panel?</a></li>
+    <li><a href="#government">Is this trying to replace my government?</a></li>
+  </ol>
+</section>
+
+<hr class="divider">
+
+<section id="trust">
+  <h2><span class="qn">Question 1</span>Why should I trust a constitution written by a stranger?</h2>
+
+  <p>You shouldn't, and the design does not ask you to. Nobody outside the project has read the founding documents yet. They are proposals, not ratified law, and the community's first acts are meant to be to ratify, amend or reject them. So the useful question is not whether to trust the author but whether the rules can be checked without trusting anyone.</p>
+  <p>Three things make that possible. Every rule is public, and the Charter says which of its numbers are derived from something measurable and which are simply chosen <span class="ref">(Charter 2.4a)</span>. Each document ends by asking where it fails. And the software is open source under the AGPL-3.0, so anyone can read what it does or run a copy of their own.</p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>Reading code takes a skill most people do not have, and the documents have not been reviewed by a lawyer; the Triarc Membership Code says so about itself <span class="ref">(Triarc Membership Code 4.1)</span>. A public rule you cannot easily audit protects less than it sounds. Treat this as an experiment to be examined, not an institution to be relied on.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="takeover">
+  <h2><span class="qn">Question 2</span>Who stops a takeover?</h2>
+
+  <p>Three things, each with a limit.</p>
+  <p><strong>The core rules are entrenched.</strong> One Member one vote, a fully public record, and the ban on buying, inheriting or transferring votes can be changed only by a three-quarters majority with at least 40% of Members taking part, and the clause that lists these protections protects itself. No mechanism may create a second vote for anyone. <span class="ref">(Charter 1.2, 8.2, 8.3)</span></p>
+  <p><strong>The founder's powers are temporary, public, and end on evidence.</strong> In the first phase the founder can set starting parameters, appoint interim moderators and fix defects without a proposal; every such action is recorded publicly and can be reversed by ordinary proposal in later phases. In the second phase the founder keeps only a suspensive veto over charter amendments and large treasury movements: it needs public written reasons, delays a measure by at most 30 days, and a two-thirds majority overrides it. Each phase ends automatically when criteria computed from the public record are met, and the founder has no part in declaring them met or in delaying the next step. At any time the community can end founding authority by a two-thirds vote, which the founder cannot veto and does not vote on. <span class="ref">(Charter 9.1, 9.2, 9.3, 9.5)</span></p>
+  <p><strong>Delegation cannot pile up without limit.</strong> By default, a Member with at least ten supporters in a sector and a tenth or more of that sector's active delegation is a "concentrated holder": every delegation to them has to be renewed on the short 90-day cycle. At a fifth or more, a confirmation vote opens automatically; if they fail it, every delegation to them in that sector ends and new ones are barred for 90 days. No vote is ever capped or discounted: a delegation counts in full or has lapsed. <span class="ref">(Charter 3.6)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>The founder does hold real powers today, and the documents say so. The criteria that end them measure activity, not independence: the Charter notes that one operator running many accounts could in principle produce all of them <span class="ref">(Charter 2.6)</span>. The concentration rule is built into the software but no real delegations have triggered it yet, so it is untested in use. And the software enforces entrenchment when a proposal names the clause it amends; a proposal that describes a change only in free text is not checked against the list of protected clauses.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="fake-accounts">
+  <h2><span class="qn">Question 3</span>What stops fake accounts?</h2>
+
+  <p>Registration asks for a username, an email address and a password. To vote or delegate on the Triarc, an account must also be tied to a verified phone number, and no phone number can be attached to more than one account. <span class="ref">(Triarc Membership Code 2.1)</span> The text-message service that sends the verification code is not connected yet, so today nobody can complete that step and nobody can yet vote or delegate. Running several accounts is a named violation, a "Sybil violation", that a Dispute Panel can answer with revocation, and a moderator can freeze a suspected duplicate account for up to 72 hours while a panel reviews it. <span class="ref">(Code of Conduct 2.4, 3.5, 4.3)</span> The software also caps how many sign-ups it accepts from one network address in an hour, and how many failed log-ins it tolerates.</p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>A phone number is not a person. Someone with several numbers can verify several accounts, and nothing in the software can tell. The Charter allows stronger checks, such as government identification used only to confirm that a person is real and unique, and commits to a zero-knowledge design in the end, but none of that is built. Today the guarantee rests on "access control and policy, not yet by cryptography" <span class="ref">(Charter 1.5)</span>. Phone verification also depends on a text-message provider staying available and funded.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="dividend">
+  <h2><span class="qn">Question 4</span>Who pays the dividend, and when?</h2>
+
+  <p>Nobody is being paid, and nobody is promised anything. The dividend exists as a design, and the software contains a gate that blocks both tiers: nothing is distributed until the deployment has at least 30 verified Members and every Delegate Position it has defined has been filled by a ratified Position decision. <span class="ref">(Treasury Code 5.1)</span> On the Triarc that means all three of its Positions. <span class="ref">(Triarc Operations Code 3.1)</span> Nothing has been paid to anyone.</p>
+  <p>If the gate ever opens, the money would come from the community's own treasury: donations, grants and any revenue the community votes to pursue. By default 40% of net inflows go to the dividend pool. Institutional money, including the Triarc's own, funds operations and never the dividend pool. By default, half of the pool's new money is split equally among verified Members (the Foundation Dividend), and the rest is shared by claimed Contribution Marks, with each Member capped at five times an equal share (the Civic Dividend). The amount is recalculated every cycle and, in the Treasury Code's words, "never fixed or promised in advance". <span class="ref">(Treasury Code 1.1, 1.4, 2.1, 4.1, 5.3, 5.4, 9.1; Charter 5.3)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>There is no date and no amount. Whether the gate is reached depends on people joining and on money arriving, and a small treasury means a small dividend. Once the gate opens it never closes again, even if membership later falls; thirty is a chosen number, and the Treasury Code says that nothing in the evidence fixes it there <span class="ref">(Treasury Code 5.1, 5.1a)</span>. Whether a dividend would be taxable for the people who receive it has not been settled and is a question for counsel. Please do not join for the money.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="children">
+  <h2><span class="qn">Question 5</span>What happens if someone under eighteen joins?</h2>
+
+  <p>The minimum age to join is eighteen. A person registering must tick a box declaring that they are at least 18. <span class="ref">(Charter 1.1)</span> That is a declaration, not a check: the software does not verify anyone's age.</p>
+  <p>What the software holds about a Member is a username, an email address, a password (stored as a salted hash, not in readable form) and, once verified, a phone number. A username does not have to be a real name. <span class="ref">(Charter 7.2)</span></p>
+  <p>If it becomes known that a Member is under eighteen, a moderator or the founder can close the account. The email address and phone number are removed, the account can no longer be used, and the person may join again at eighteen. The username and the public Contribution Record stay on the record, because the record is permanent. <span class="ref">(Charter 1.1, 2.1)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>The age rule is a self-declaration and nothing checks it. An account is closed only when it becomes known to be under eighteen, and whatever sits under a closed account's username stays public. Every verified Member is entitled to the dividend, so in places where the age of majority is above eighteen (nineteen in some Canadian provinces and territories, twenty-one in a few countries) a Member who has declared eighteen is entitled to a payment before reaching majority there. The founder intends to seek legal advice on whether a fixed eighteen is adequate, and the question is not yet answered. Nothing has been paid to anyone.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="leaving">
+  <h2><span class="qn">Question 6</span>How does a Member leave, and what is wiped?</h2>
+
+  <p>A Member may leave at any time, from a Leave link on their profile; you confirm by ticking a box and typing your username. The page spells out what follows. Your standing lapses, and every delegation you hold or have granted is revoked. Your email address and phone number are removed from the account and you can no longer sign in; your sector follows and notification settings are deleted too. Your username and your Contribution Record stay in the public history. Leaving is final for that account: to return, you join again as a new Member, starting from nothing. Nothing already distributed is taken back. <span class="ref">(Charter 1.3; Member Bill of Rights VII)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>The public record is permanent by design, so the username and what you did under it cannot be removed afterwards. Choose a username that does not identify you, and keep personal information out of what you post. How a permanent public record sits with privacy laws that give a right to erasure has not been reviewed by a lawyer.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="money">
+  <h2><span class="qn">Question 7</span>What does it cost, and who pays?</h2>
+
+  <p><strong>You.</strong> Nothing in the documents asks a Member to pay, and the registration form asks for no payment details. Donations to the treasury are voluntary, and a donation of any size buys no vote, standing or influence. <span class="ref">(Treasury Code 1.3)</span></p>
+  <p><strong>The project.</strong> Triarchal Framework is free software, the website is static, the app runs on small hosted infrastructure, and text-message verification costs money per message. Grants and donations are meant to be the base of funding; no grant has been received and no support fee has been charged. A support fee is planned only for deployments that hold real delegated public budget authority, and it would fund operations, never the dividend. <span class="ref">(About The Triarc; Treasury Code 1.4)</span></p>
+  <p>Every inflow and outflow of the Triarc's own treasury is meant to appear on a public ledger as it happens, and the Treasury page in the app shows it. <span class="ref">(Charter 5.1)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>Treat the ledger, not this page, as the authority on money. This page does not publish what the project spends on hosting or who is covering those costs today; the public treasury ledger is where that should appear.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="accountable">
+  <h2><span class="qn">Question 8</span>Who is accountable for this?</h2>
+
+  <p>The project deliberately shows no personal profile. The reasoning is that the rules should stand or fall on the public record rather than on who wrote them. That choice has a cost: you cannot look anyone up, and you are right to ask who answers if something goes wrong.</p>
+  <p>What the documents do say is this. A founder exists, with the temporary, public and limited powers described under takeover above. <span class="ref">(Charter Article IX)</span> The Triarc is not yet incorporated. The plan is to incorporate federally under the Canada Not-for-profit Corporations Act with three named directors at filing. Members would elect the Delegates who hold the Triarc's three Positions; those Delegates would be the corporation's members, and they would elect and remove the directors. <span class="ref">(About The Triarc)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>There is no legal entity yet, and this page neither names one nor claims one. The structure goes to Canadian nonprofit counsel before any filing, and whether it does the work claimed for it is one of the questions counsel is being asked, not something settled. The software has no terms of use or privacy policy yet; who the accountable operator is for those documents is being settled, and until then nothing here should be read as a contract, or as a privacy commitment beyond what the Charter and the Bill of Rights say.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="failure">
+  <h2><span class="qn">Question 9</span>What happens if it fails?</h2>
+
+  <p>Failure is expected, and the project says so. The Charter admits it will be wrong in places, and the Triarc exists to run the model on itself in public and to publish what breaks. <span class="ref">(Charter, closing; About The Triarc)</span></p>
+  <p>If the project stopped, the software is open source under the AGPL-3.0, so any deployment can fork it and run it in full, and no deployment depends on the Triarc's board. <span class="ref">(About The Triarc)</span> Any treasury money would be held in ordinary currency through regulated institutions, never in cryptocurrency, and no Member ever needs a wallet. <span class="ref">(Treasury Code 6.4)</span> A backup of the database is taken before every database change, and the hosting provider keeps seven days of point-in-time history.</p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>The one public deployment runs on a single hosted database. If it were lost beyond those backups, its public record would be lost with it, and the app offers no download of the record that anyone could keep a copy of. A project this small could also simply stop being maintained.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="disputes">
+  <h2><span class="qn">Question 10</span>How do disputes work, and what is the panel?</h2>
+
+  <p>Contested contributions, alleged gaming of the record and conduct complaints go to a Dispute Panel: eleven Members drawn at random from a pool of volunteers, excluding the people involved and anyone who has recently delegated to or from them. <span class="ref">(Charter 6.1; Dispute Procedure Code 2.2)</span> The draw uses public randomness: a round of a public randomness beacon, fixed before its value is known, with the method, seed, pool and result published so anyone can re-run the draw. <span class="ref">(Dispute Procedure Code 3.1)</span></p>
+  <p>The accused has 7 days to respond on the record. The panel decides within 14 days, by majority, on the balance of evidence, with doubt resolved toward the accused. Sanctions start at the mildest adequate step. Only a panel can revoke a membership, a revocation is held for 14 days so the community can overturn it, and a panel decision can be overturned only by a two-thirds community vote. Everything is public, except evidence that would expose a Member's outside identity, which the panel sees privately. <span class="ref">(Dispute Procedure Code 1.1, 4.2 to 4.5, 6.1, 6.2)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>The system is built but has not been used: no real panel has been drawn. A panel cannot be drawn until at least 30 volunteers are in the pool, so early disputes queue and the shortage is published. Until the community installs moderators of its own, moderators are appointed by the founder. The software re-runs the draw but does not check the beacon's cryptographic signature; anyone can compare the round with the beacon's public record. The software does not yet notify drawn panelists, who have 48 hours to decline.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="government">
+  <h2><span class="qn">Question 11</span>Is this trying to replace my government?</h2>
+
+  <p>No. The model is designed to run alongside the government you already have. The Government Adoption Compact says the Triarc has no taxing power at any stage and seeks none, and that nothing in it lets anyone compel payment. <span class="ref">(Government Adoption Compact 1.1)</span> Its staged path starts with an opt-in network that needs nobody's permission, which describes the Triarc today. Any later stage, such as mirroring a government's decisions without binding force, or a government delegating authority over part of a budget, would need residents to opt in or the government itself to choose it. <span class="ref">(Government Adoption Compact 2.1)</span></p>
+  <div class="limit">
+    <span class="lab">The honest limit</span>
+    <p>No government has recognised or adopted anything. <a href="the-arithmetic.html">The arithmetic</a> models what a full adoption might support; it is a model of something that has not happened.</p>
+  </div>
+</section>
+
+<hr class="divider">
+
+<section id="more">
+  <span class="article-label">Not here?</span>
+  <p>The <a href="known-limits.html">Known limits</a> page lists what does not work yet. The documents themselves are on the <a href="charter.html">Charter</a> and <a href="documents.html">Documents</a> pages. To see the thing before deciding anything, <a href="https://triarchalframework.triarchal-democracy.workers.dev/tour">look around first</a>.</p>
+</section>
+
+</main>
+
+<footer>
+  <p>Triarchal Democracy — a concept under development, open for challenge. Every founding document is a first draft.</p>
+  <p><a href="index.html">← Home</a> &nbsp;·&nbsp; <a href="charter.html">The Founding Charter</a> &nbsp;·&nbsp; <a href="about-the-triarc.html">About The Triarc</a></p>
+  <p><a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+</footer>
+
+</body>
+</html>

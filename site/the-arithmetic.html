@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The arithmetic — Triarchal Democracy</title>
+<meta name="description" content="A costing model built from published budgets, with every calculation shown. A model, not a forecast.">
+<!-- share:begin (built by site-src/seo.py; do not edit by hand) -->
+<link rel="canonical" href="https://triarchal-democracy.vercel.app/the-arithmetic">
+<meta property="og:site_name" content="Triarchal Democracy">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://triarchal-democracy.vercel.app/the-arithmetic">
+<meta property="og:title" content="The arithmetic — Triarchal Democracy">
+<meta property="og:description" content="A costing model built from published budgets, with every calculation shown. A model, not a forecast.">
+<meta property="og:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<meta property="og:locale" content="en_CA">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The arithmetic — Triarchal Democracy">
+<meta name="twitter:description" content="A costing model built from published budgets, with every calculation shown. A model, not a forecast.">
+<meta name="twitter:image" content="https://triarchal-democracy.vercel.app/assets/share-card.png">
+<meta name="twitter:image:alt" content="Triarchal Democracy: one member, one vote, and a public record of every decision.">
+<!-- share:end -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Lora:ital,wght@0,400;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #faf7f2;
+    --ink: #1c1a17;
+    --ink-soft: #4a463f;
+    --ink-faint: #8a857b;
+    --rule: #e2dcd2;
+    --accent: #7a2e2e;
+    --accent-soft: #f3e9e4;
+    --measure: 42rem;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Newsreader', Georgia, serif;
+    font-size: 1.185rem;
+    line-height: 1.72;
+    -webkit-font-smoothing: antialiased;
+  }
+  nav {
+    position: sticky; top: 0; z-index: 50;
+    background: rgba(250,247,242,0.92);
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--rule);
+  }
+  .nav-inner {
+    max-width: 72rem; margin: 0 auto;
+    display: flex; align-items: baseline; justify-content: space-between;
+    padding: 0.85rem 1.5rem;
+  }
+  .nav-title {
+    font-family: 'Newsreader', serif; font-weight: 600;
+    font-size: 1.05rem; color: var(--ink); text-decoration: none;
+  }
+  .nav-links { display: flex; gap: 1.4rem; flex-wrap: wrap; }
+  .nav-links a {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 500;
+    letter-spacing: 0.06em; text-transform: uppercase;
+    color: var(--ink-faint); text-decoration: none;
+    transition: color 0.15s;
+  }
+  .nav-links a:hover { color: var(--accent); }
+
+  header.hero {
+    max-width: 56rem; margin: 0 auto;
+    padding: 6rem 1.5rem 4.5rem;
+    text-align: center;
+  }
+  .kicker {
+    font-family: 'Inter', sans-serif; font-size: 0.78rem; font-weight: 600;
+    letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 2rem;
+  }
+  h1 {
+    font-weight: 500; font-size: clamp(2.4rem, 6vw, 4rem);
+    line-height: 1.08; letter-spacing: -0.015em;
+    margin-bottom: 1.6rem;
+  }
+  .hero-sub {
+    font-size: clamp(1.15rem, 2vw, 1.35rem);
+    font-style: italic; color: var(--ink-soft);
+    max-width: 38rem; margin: 0 auto 2.6rem; line-height: 1.5;
+  }
+  .hero-rule { width: 4rem; height: 2px; background: var(--accent); margin: 0 auto; }
+
+  main { max-width: var(--measure); margin: 0 auto; padding: 0 1.5rem 4rem; }
+  section { padding: 2.6rem 0 0.6rem; }
+  h2 {
+    font-weight: 600; font-size: 1.7rem; line-height: 1.2;
+    margin-bottom: 1.4rem; scroll-margin-top: 5rem;
+  }
+  p { margin-bottom: 1.15rem; }
+  p strong { font-weight: 600; }
+  .article-label {
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.16em; text-transform: uppercase; color: var(--accent);
+    display: block; margin-bottom: 0.6rem;
+  }
+  .divider { max-width: var(--measure); margin: 2.2rem auto 0; border: none; border-top: 1px solid var(--rule); }
+  .pull {
+    border-left: 3px solid var(--accent);
+    padding: 0.4rem 0 0.4rem 1.5rem;
+    margin: 2rem 0;
+    font-size: 1.3rem; line-height: 1.5; font-style: italic;
+    color: var(--ink-soft);
+  }
+  .closing { text-align: center; padding: 4rem 1.5rem 5rem; max-width: 48rem; margin: 0 auto; }
+  .closing h2 { font-size: clamp(2rem, 4.5vw, 3rem); font-weight: 500; margin-bottom: 1.4rem; }
+  .closing p { color: var(--ink-soft); max-width: 34rem; margin: 0 auto 2.4rem; }
+  .cta {
+    display: inline-block;
+    font-family: 'Inter', sans-serif; font-size: 0.92rem; font-weight: 600;
+    color: var(--paper); background: var(--accent);
+    padding: 0.95rem 2.2rem; border-radius: 2px; text-decoration: none;
+    transition: background 0.15s;
+  }
+  .cta:hover { background: #5e2222; }
+  footer { border-top: 1px solid var(--rule); padding: 2rem 1.5rem 3rem; text-align: center; }
+  footer p { font-family: 'Inter', sans-serif; font-size: 0.8rem; color: var(--ink-faint); margin: 0.3rem 0; }
+  footer a { color: var(--ink-faint); }
+
+  /* ---------- Charts ---------- */
+  .chart-fig { margin: 2.2rem 0; text-align: center; }
+  .chart-fig img {
+    max-width: 100%; height: auto; display: block; margin: 0 auto;
+    border: 1px solid var(--rule); border-radius: 2px;
+  }
+  .chart-fig {
+    width: min(56rem, 94vw); margin-left: 50%; margin-right: 0;
+    transform: translateX(-50%);
+  }
+  .chart-note {
+    font-family: 'Inter', sans-serif; font-size: 0.82rem; font-style: italic;
+    color: var(--ink-faint); margin-top: 0.6rem;
+  }
+  table { width: 100%; border-collapse: collapse; margin: 0 0 1.4rem; font-size: 1.02rem; }
+  th, td { text-align: left; padding: 0.7rem 0.8rem; border-bottom: 1px solid var(--rule); vertical-align: top; }
+  th { font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-faint); }
+  .table-wrap { overflow-x: auto; margin: 1.6rem 0; }
+
+  /* ---------- Asides and lists ---------- */
+  .doc-intro { font-style: italic; color: var(--ink-soft); font-size: 1.22rem; line-height: 1.55; margin-bottom: 1.8rem; }
+  .worked-example {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    padding: 1.3rem 1.5rem 0.3rem;
+    margin: 1.8rem 0;
+    border-radius: 0 2px 2px 0;
+  }
+  .we-label {
+    display: block;
+    font-family: 'Inter', sans-serif; font-size: 0.75rem; font-weight: 600;
+    letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent);
+    margin-bottom: 0.8rem; line-height: 1.4;
+  }
+  .worked-example p { font-size: 1.08rem; }
+  .charter-list { margin: 0 0 1.4rem 1.4rem; }
+  .charter-list li { margin-bottom: 0.7rem; padding-left: 0.3rem; }
+  h3 { font-weight: 600; font-size: 1.28rem; line-height: 1.3; margin: 2.2rem 0 0.9rem; }
+  @media (max-width: 760px) {
+    table { display: block; width: 100%; overflow-x: auto; }
+  }
+</style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-inner">
+    <a class="nav-title" href="index.html">Triarchal Democracy</a>
+    <div class="nav-links">
+      <a href="the-proposition.html">The proposition</a>
+      <a href="the-arithmetic.html">The arithmetic</a>
+      <a href="charter.html">The charter</a>
+      <a href="documents.html">The documents</a>
+      <a href="faq.html">Hard questions</a>
+      <a href="about-the-triarc.html">About</a>
+      <a href="work-with-us.html" style="color:var(--accent);font-weight:600">Work with us</a>
+    </div>
+  </div>
+</nav>
+
+<header class="hero">
+  <div class="kicker">What it costs, and what the dividend actually reaches</div>
+  <h1>The arithmetic</h1>
+  <p class="hero-sub">Every figure below is drawn from a published budget or an independent costing, except the substitutable-payroll band and the municipal step, which are assumptions and are labelled as such where they appear, and every calculation is shown.</p>
+  <div class="hero-rule"></div>
+</header>
+
+<main>
+
+<section class="doc" id="cost">
+  <h2>Implementation and cost</h2>
+  <p class="doc-intro">What a deployment costs to run, what it controls, and what the dividend amounts to at each stage of adoption — from an online network to full discretionary authority at municipal and federal level.</p>
+  <h3>What this document is</h3>
+  <p>This is a costing model built on published budget figures. Every input is cited and every calculation is shown, so that a reader can check the arithmetic rather than accept the conclusion.</p>
+  <p>It is a model, not a forecast. It assumes adoption that has not happened, at a pace no government has agreed to, under a legal transfer of authority that has not been drafted. Its purpose is to answer a specific question honestly: <strong>if Triarchal Democracy were fully adopted, what would the dividend actually be, and what would running it cost?</strong></p>
+  <p>The short answer is that a fully adopted deployment supports somewhere between <strong>$17.42 and $23.61 per resident per month</strong> &mdash; <strong>$21.24 to $28.79 for each entitled adult</strong>, since membership, and with it
+  entitlement, begins at eighteen. The spread is the substitutable-payroll band, derived below: $23.61 assumes 10% of federal
+  payroll is substitutable, $17.42 uses the 5.95% that the only published occupational comparison supports. Almost all of
+  either figure arrives slowly, and only if each government chooses to release each vacated line, which the rules say may never be
+  presented as more than an upper bound.</p>
+  <h3>What this model does not count</h3>
+  <p><strong>This model does not count redirected government transfers.</strong> No pension, no children's benefit, no income
+  assistance &mdash; and not the administrative saving that would only exist if a deployment took over eligibility
+  determination.</p>
+  <p>None of those programmes is part of this plan. The founding documents keep every programme resting on a
+  disability, need or means determination outside the adoption mechanism by default &mdash; disability support, income
+  assistance, pensions and child benefits are not touched, and nothing on this page assumes they will be. Members could
+  vote to bring one into scope by ordinary proposal, most plausibly once the dividend had grown enough to make the trade
+  worth weighing, though the rules set no size test. Everyone already receiving the programme would keep it, from the
+  government, on the programme's own terms, and only the highest threshold in the founding documents could ever reduce what they receive. The cost
+  would fall on people who come to need it later: redirection works by closing a programme to new applicants, so someone
+  who would have qualified afterwards receives the dividend instead. That is a decision for a community to make in the
+  open, with that cost in view, not one a projection should make for it. What the adoption rules permit by default is
+  the redirection of an ordinary subsidy a government controls, with every existing recipient protected indefinitely.
+  This model therefore counts none of it &mdash; the figures below are what the rules produce without touching any
+  assistance programme.</p>
+  <p>What this model counts instead is money a government has delegated <em>authority</em> over &mdash; its own discretionary budget and its own
+  vacant posts &mdash; rather than money it pays to a person. That is a much smaller number. It is also the honest one, and the
+  rules matter more than the figure: if the system governs well, the treasury grows, and the dividend grows with it.</p>
+    <h3>Sources</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Input</th><th>Figure</th><th>Source</th></tr></thead>
+    <tbody>
+      <tr><td>Federal personnel expenditure, 2024-25</td><td>$76.3B over 448,000 FTE ($170,312 each)</td><td>Parliamentary Budget Officer, Personnel Expenditure Analysis, 2024-25</td></tr>
+      <tr><td>Federal public service headcount (all of it)</td><td>357,965 (2025); −2.7% year over year, then 345,282 (2026), a further −3.5%. The 2025 reduction was achieved primarily through natural attrition; the 2026 reduction was not — see below</td><td>Treasury Board Secretariat; CBC, June 2026</td></tr>
+      <tr><td>Kelowna tax-supported operating budget</td><td>$204.3M of a $908M total</td><td>City of Kelowna, Council-approved 2025 Final Budget</td></tr>
+      <tr><td>Populations used</td><td>Canada 41.6M; Kelowna ~150,000</td><td>TBS (implied); City of Kelowna</td></tr>
+      <tr><td>Population under 18</td><td>Aged 0&ndash;14: 15.0% of 41,651,653; with ages 15&ndash;17, roughly 18%</td><td>Statistics Canada, population estimates, 1 July 2025</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Execution costs in the next section are <strong>estimates, not published figures</strong>, and are marked as such. Everything else is arithmetic on the table above.</p>
+  <h3>What it costs to run</h3>
+  <p>Platform compute is not the cost. A deployment runs on serverless infrastructure where the marginal cost of an additional resident is negligible. The real costs are people, premises, identity verification, and audit.</p>
+  <p>Estimated annual operating cost for a municipality of 150,000 residents:</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Stage</th><th>Staff</th><th>Premises</th><th>Verification</th><th>Audit</th><th>Total</th><th>Per resident</th></tr></thead>
+    <tbody>
+      <tr><td><strong>Stage 1</strong> — shadow deployment</td><td>3 FTE</td><td>1 site</td><td>$0.05M</td><td>$45k</td><td><strong>$0.50M</strong></td><td>$3.33/yr</td></tr>
+      <tr><td><strong>Stage 3</strong> — bounded delegated authority</td><td>6 FTE</td><td>2 sites</td><td>$0.05M</td><td>$120k</td><td><strong>$0.98M</strong></td><td>$6.53/yr</td></tr>
+      <tr><td><strong>Stage 4</strong> — full discretionary authority</td><td>12 FTE</td><td>4 sites</td><td>$0.05M</td><td>$120k</td><td><strong>$1.79M</strong></td><td>$11.93/yr</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Assumptions: $95,000 fully loaded per FTE; $120,000 per staffed access point per year; $0.35 per resident for one-time identity verification, amortised annually, which is $0.05M a year at 150,000 residents; external audit rising with the scale of funds administered.</p>
+  <p>Set against what Stage 4 controls at municipal level — $15.0M in redirectable discretionary budget, derived below — an operating cost of $1.79M is <strong>11.9% of the funds administered</strong>. That is far worse than the ~1% typical of a mature universal programme, and the page should say so plainly rather than bury it. The reason is that the base is small, not that the model is expensive per resident — the same $1.79M is 1% of a $179M base. A deployment at municipal scale alone does not come close to that benchmark, and should publish the ratio every cycle rather than describing itself as low-cost.</p>
+  <h3>What each stage controls</h3>
+  <p><strong>Stage 0 — Network.</strong> No public money. The treasury is member contributions and grants. Nothing is distributed at this stage: both tiers stay gated until thirty verified Members and every defined Delegate Position filled, and the point of the stage is to demonstrate the mechanism rather than the amount.</p>
+  <p><strong>Stage 1 — Shadow deployment.</strong> Cost without revenue. The deployment mirrors a real government's decisions with no binding force, producing an evidentiary record. Cost: approximately $0.50M per year for a city of 150,000. Dividend contribution: nil.</p>
+  <p><strong>Stage 2 — Advisory recognition.</strong> A government formally receives the deployment's output. No authority transfers, so no budget does either.</p>
+  <p><strong>Stage 3 — Bounded delegated authority.</strong> One budget line, ratified by the elected body before it binds.</p>
+  <p><strong>Stage 4 — Full discretionary authority.</strong> The discretionary portion of a budget — what remains after debt service, pension obligations, statutory spending, and standing contracts.</p>
+  <h3>Municipal</h3>
+  <p>Kelowna's $908M total budget is not the relevant figure; $204.3M is, since the remainder is rate-funded utilities, committed capital, and grant-tied programmes. Within the tax-supported operating budget, Planning &amp; Other is $10.2M. Adding wage budgets released by attrition on vacant posts brings the modelled ceiling to $15.0M.</p>
+  <p>The $4.8M step is <strong>modelled, not published</strong>. It assumes a 4% annual attrition rate and a wage share within each budget category, neither of which the City publishes. It is the single largest assumption in the municipal component — 32% of it — and unlike the federal payroll component below it is credited at full value from year one rather than ramped. Treat the municipal figure as $10.2M published plus $4.8M assumed, not as $15.0M observed.</p>
+  <p><strong>$15.0M ÷ 150,000 residents = $100/resident/year = $8.33/month.</strong></p>
+  <p><strong>That is before the cost of running it.</strong> Stage 4 overhead is $1.79M a year, so $15.0M administered leaves $13.21M to distribute: <strong>$88/resident/year, or $7.34 a month</strong>. The figures on this page are gross, which is the convention in published budget documents, but it is worth stating plainly rather than leaving a reader to work it out.</p>
+  <p><strong>And someone has to fund that $1.79M.</strong> It cannot come out of the dividend pool without reducing the dividend, and the rules bar institutional money &mdash; including the Triarc's own &mdash; from reaching the pool at all. So either the adopting government funds operations on top of the delegated budget, making its real outlay $16.79M, or the deployment raises $1.79M a year in donations and grants for a city of 150,000. This model does not resolve which, and no deployment should assume the first.</p>
+  <p>Kelowna's own budget carries no social-services line at all — in Canada that function is provincial, not municipal. It is noted here because it is a useful fact about municipal budgets, not because this model has designs on the provincial one.</p>
+  <h3>Federal</h3>
+  <p>The federal contribution to this model is <strong>payroll only</strong>. No federal transfer to a person &mdash; elderly benefits, children's benefits, Employment Insurance &mdash; is counted, for the reason given at the top of this page.</p>
+  <p>The adoption rules permit redirection of staffing budgets for <strong>vacant roles and open budget lines only</strong>. A filled role enters scope only through the incumbent's own retirement or resignation, never as a direct consequence of adoption, and never through workforce adjustment, layoff, or the expiry of a term or casual contract. This model respects that rule, which means payroll is modelled on attrition alone.</p>
+  <p><strong>Entering scope is not the same as being released.</strong> 7.6 makes a vacated budget line <em>eligible</em> for redirection; each release is a decision the adopting government takes, and may decline to take, in the cycle it arises. A government that refills its vacancies releases nothing. The table below assumes uninterrupted full uptake for twenty-five years with no post ever refilled, which is an upper bound rather than a projection.</p>
+  <p><strong>And the usable rate is lower than the headline.</strong> Treasury Board's “natural attrition” includes term and casual contracts expiring, which 7.5 excludes by name. The share of the &minus;2.7% that was retirement or resignation is not published, so the rate applied below is an overstatement of what a deployment could actually claim, by an unknown amount.</p>
+  <p>The federal public service as a whole reduced by 2.7% between 2024 and 2025 — the core public administration by 1.0%, separate agencies by 8.2%. Treasury Board's own wording is that the savings were <em>expected</em> to be achieved primarily through natural attrition &ldquo;to the extent possible&rdquo; &mdash; a forward-looking commitment rather than a retrospective finding, and its &ldquo;natural attrition&rdquo; includes term and casual contracts expiring, which is not the incumbent's own retirement or resignation that the adoption rules require. Applying that rate to the $76.3B personnel base:</p>
+  <p><strong>Two caveats belong with that rate before the table, not after it.</strong> First, the rate and the base measure different populations, and the rate is itself a blend. −2.7% is the whole federal public service of 357,965 — not the core, which is 279,396 and fell by only 1.0%. Separate agencies fell 8.2%, and about 72% of the entire headcount drop came from them. The $76.3B over 448,000 FTE is a third population again, including the RCMP and the Canadian Armed Forces. Applying the one to the other assumes they shed staff at the same pace, which is not established and is unlikely while defence and policing are under expansion commitments. Second, a single year's rate is compounded here for twenty-five years, implying a roughly halved personnel envelope — an extrapolation, not a projection.</p>
+  <p><strong>And the rate has stopped being attrition.</strong> Headcount fell a further 3.5% to 345,282 in 2026, but Budget 2025 commits to cutting 28,000 more positions by 2029, only some of them through attrition and early retirement, with layoff notices issued from December 2025. The adoption rules permit redirection only where a role empties by the incumbent's own choice. A deployment cannot count a position cut by workforce adjustment as released payroll, so the headline reduction figures from 2026 onward overstate what this model is entitled to claim. The 2.7% used below is the last year for which the reduction was primarily voluntary.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Year</th><th>Cumulative payroll released</th><th>As % of payroll</th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>$2.1B</td><td>2.7%</td></tr>
+      <tr><td>5</td><td>$9.8B</td><td>12.8%</td></tr>
+      <tr><td>10</td><td>$18.3B</td><td>23.9%</td></tr>
+      <tr><td>15</td><td>$25.7B</td><td>33.7%</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p>Released payroll is not the same as redirectable payroll. Most federal personnel deliver functions that citizen participation does not replace: border services, tax administration, food inspection, corrections, defence, scientific research. What participation plausibly does replace is a narrow band: consultation and engagement, policy
+  analysis and advice, and the committee and deliberative apparatus around a decision. It explicitly does
+  <em>not</em> include eligibility determination or benefits administration. The model is barred from both:
+  a deployment may never levy, administer or determine eligibility, and the Triarc never builds an
+  eligibility test. Existing government finance staff keep executing payments, compliance and reporting regardless.</p>
+  <p><strong>There is a published anchor for the size of that band.</strong> Canada's EC group —
+  Economics and Social Science Services, the policy-analysis and socio-economic research classification
+  — numbered <strong>26,649</strong> at 31 March 2025. Measured against the same population this page's
+  money covers &mdash; the <strong>448,000 FTE</strong> the PBO's $76.3B pays for &mdash; that is
+  <strong>5.95%</strong>.</p>
+  <p><strong>So the band used here is above its own anchor, and that is the honest way to read it.</strong>
+  Ten per cent is roughly 44,800 FTE-equivalents: about 1.7 times the entire EC group. The figure is an
+  upper bound, not a conservative one, and the earlier wording calling it conservative was wrong.</p>
+  <p><strong>Three limits on the anchor, stated rather than buried.</strong> EC work is not wholly
+  substitutable by deliberation — economic forecasting and statistical method are not a community vote,
+  and deliberative bodies generally consume staff analysis rather than replace it. EC is also not the
+  policy-advice group outright: Treasury Board's definition covers economics, sociology and statistics and
+  <em>excludes</em> "the planning, development, delivery or management of policies, programs, services",
+  which sits in the PM and AS groups. So EC is over-inclusive in one direction (statisticians, archivists,
+  legislative editors) and under-inclusive in the other, and does not bound the band from either side.
+  Third, the adoption rules bring any vacated wage line into scope, not an EC-shaped subset, so nothing mechanically
+  keeps other vacated posts out of the pool. The anchor is the only like-for-like comparison available, and
+  it sits below the band rather than supporting it.</p>
+  <p><strong>What that does to the headline.</strong> At the anchor's 5.95% the federal component is
+  <strong>$9.09</strong> rather than $15.28, and the converged total is <strong>$17.42 per resident per
+  month</strong> &mdash; $21.24 per entitled adult, $255 a year. The $23.61 and $28.79 this page carries
+  are the 10% figures, and should be read as the top of a range whose bottom is $17.42. Both ends move
+  together if the band is ever measured rather than assumed.</p>
+  <p>Modelling that substitutable band at <strong>10%</strong> of payroll gives <strong>$1.83B released by year 10, or $3.66 per resident per month.</strong> At a more aggressive 25%, it is $4.57B, or $9.15 per month.</p>
+  <p><strong>The federal component is not costed.</strong> The operating-cost table above prices a municipality of 150,000 and nothing else. A federal-scale deployment would carry its own overhead, and at the same $11.93 per resident per year across 41.6 million residents that is roughly $496M against $7.63B released &mdash; about 6.5%, netting the federal component to about $14.29 rather than $15.28.</p>
+  <p>Payroll is a <em>slow</em> contributor rather than a small one. Even after fifteen years of attrition it supplies under $10 per resident per month &mdash; but at full attrition it is <strong>$15.28</strong>, the larger of this model's two components. The whole figure is modest because the model counts only delegated authority, not because this part of it is negligible.</p>
+  <p><strong>Anyone reading this as a plan to shrink the public service has it backwards.</strong> The adoption rules count a post only once the incumbent has left of their own accord. Nothing here is produced by cutting anyone, and a deployment that tried would be outside the rule it claims to follow.</p>
+  <p><strong>But there is a trade here and it should be named.</strong> At full attrition the whole band is
+  permanently unstaffed and not refilled, its work carried by citizen deliberation instead. That is a real
+  bet: that deliberation can do what those posts did, and that nothing is lost when they go. And the same
+  released money could have reduced the deficit or funded something else — directing it to a dividend is a
+  choice with a cost, not a free saving. Neither of those is a reason not to do it. They are the reasons it
+  is a decision rather than an optimisation.</p>
+  <h3>The dividend, by adoption stage</h3>
+  <p class="note">These are the <em>adoption</em> stages &mdash; how far a government has gone. They are not the platform-maturity stages, which the proposition page uses and which number separately. The deployed platform is at platform Stage 1 regardless of adoption stage.</p>
+<p>Two components, and only one of them moves. The municipal share is a delegated discretionary budget, available once the delegating government's own
+  elected body has ratified it and the agreement explicitly designates the funds. The federal share is payroll released by ordinary attrition at a 10% substitutable share,
+  which is why the line climbs slowly rather than arriving.</p>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Year</th><th>Municipal</th><th>Federal payroll</th><th><strong>Total/month</strong></th></tr></thead>
+    <tbody>
+      <tr><td>1</td><td>$8.33</td><td>$0.41</td><td><strong>$8.74</strong></td></tr>
+      <tr><td>3</td><td>$8.33</td><td>$1.20</td><td><strong>$9.53</strong></td></tr>
+      <tr><td>5</td><td>$8.33</td><td>$1.95</td><td><strong>$10.28</strong></td></tr>
+      <tr><td>10</td><td>$8.33</td><td>$3.66</td><td><strong>$11.99</strong></td></tr>
+      <tr><td>15</td><td>$8.33</td><td>$5.15</td><td><strong>$13.48</strong></td></tr>
+      <tr><td>20</td><td>$8.33</td><td>$6.44</td><td><strong>$14.77</strong></td></tr>
+      <tr><td>25</td><td>$8.33</td><td>$7.57</td><td><strong>$15.90</strong></td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p><strong>Converged ceiling: $23.61 per resident per month, or $283 per year &mdash; the size of the pool, measured across the
+  whole population. What an entitled Member receives is that pool shared among people aged eighteen or older only; see &ldquo;From the pool to what a
+  Member receives&rdquo; below.</strong></p>
+  <div class="worked-example">
+    <span class="we-label">Why the converged figure is higher than the last row of the table</span>
+    <p>Year 25 totals <strong>$15.90</strong>, not $23.61, and the whole gap is the payroll column. The table applies 2.7%
+    attrition compounded for twenty-five years, which has not yet emptied every substitutable post; convergence is the point
+    where it has. The substitutable band is 10% of the $76.3B personnel base &mdash; $7.63B a year, or <strong>$15.28</strong>
+    per resident per month at full attrition, against $7.57 at year 25.</p>
+    <p>$8.33 municipal + $15.28 federal payroll = <strong>$23.61</strong>. Both components are derived above, and there is
+    nothing else in the sum.</p>
+  </div>
+    <p>These two components apply to different populations and are additive only for a resident inside both tiers — a Canadian resident in a municipality that has adopted, under a federal government that has also adopted. A resident whose city has adopted and whose federal government has not receives the municipal component alone: <strong>$8.33 per resident per month, $10.16 per entitled adult</strong>, which is the mature-municipal ceiling at Stage 4 rather than what a first deployment controls — delegated authority starts at a bounded domain, so a Stage 3 deployment plans for a single budget line, not the whole discretionary envelope — and should actually plan for.</p>
+  <h3>From the pool to what a Member receives</h3>
+  <p>The converged figure divides the pool across the whole population. Membership, and with it entitlement, begins at eighteen, so the same pool is shared among people aged eighteen or older only. &ldquo;Adult&rdquo; on this page means a person aged 18 or older.</p>
+  <p>Statistics Canada put the population aged 0&ndash;14 at 15.0% of 41,651,653 on 1 July 2025; adding the 15&ndash;17 band brings the under-18 share to roughly <strong>18%</strong>. Sharing the pool among the remaining 82% gives a converged <strong>dividend pool of $28.79 per adult per month, or $345 per year</strong>. That is the pool as a whole; how it divides between the two tiers is a community decision; this page uses the default half, which Members can change by ordinary proposal.</p>
+  <div class="worked-example">
+    <span class="we-label">Why removing 18% of recipients raises the rest by 22%, not 18%</span>
+    <p>These are two different fractions and it is worth separating them. Take a pool of $100 shared by 100 people: $1 each. Remove 18 people and the same $100 is shared by 82: <strong>$1.22 each</strong>. The share removed is 18% of the population; the increase to everyone remaining is 18 &divide; 82 = <strong>22%</strong>. The pool never changes &mdash; only the number of ways it divides.</p>
+    <p>The multiplier is 1 &divide; (adult share). At an 18% under-18 share that is 1 &divide; 0.82 = 1.22. Move the assumption and the whole line moves with it: a 17% share gives $28.45 a month, 19% gives $29.15, 20% gives $29.51. The figures in this section use 18%, and the assumption is stated rather than buried because it drives every number that follows.</p>
+  </div>
+  <p class="chart-note">The per-resident figure measures the money available; the per-adult figure is the average the pool can pay each entitled adult. What any one Member receives depends on contribution (see How the pool divides). Both appear in this document and they are not interchangeable.</p>
+  <h3>What the converged figure means</h3>
+  <p><strong>$28.79 a month is the average the pool can pay per entitled adult, not an income and not a per-Member ceiling.</strong> The per-Member ceiling is five times an equal share, and at the default half-share split at least $14.40 of the average reaches every Member equally, and more when fewer than one Member in nine contributes, because what the ceiling holds back is paid out equally the next month; the rest divides by claimed Marks. It is far below every serious basic-income proposal and far below the poverty line in any Canadian jurisdiction. It is not a replacement for employment, for a pension, or for social assistance, and it does not claim to be. Anyone who needs those still needs those.</p>
+  <p><strong>It is also the honest number.</strong> It is what a community can distribute from budgets it has actually been given authority over, divided among every entitled adult, half of it equally and half by contribution, rather than paid only to those who qualify on need. No assumption makes the figure larger: pension and benefit programmes sit outside the mechanism unless a community votes to bring one in, and this page does not assume any community will. The figure is small because it counts only budgets a government has actually handed over. A model asserting both universality and a generous individual amount, funded from existing budgets, has either not done the division or has quietly spent someone else's entitlement.</p>
+  <p><strong>Two things could raise it</strong>, and neither should be assumed:</p>
+  <ol class="charter-list">
+    <li><strong>Growth in the value a community produces.</strong> The model's central claim is that better governance generates value currently going unrealised. That value is real and is not quantifiable in advance, so it appears nowhere in this model.</li>
+    <li><strong>Multi-government revenue pooling.</strong> Three already-costed levers exist — the OECD global minimum tax and proposed minimum taxes on billionaire and centimillionaire wealth — jointly estimated at <strong>USD $408.5–563.5B a year <em>worldwide</em></strong>. The top of that range is soft in a specific way: the OECD component runs $108.5B to $174B, where $108.5B is revenue actually realised in 2024 and $174B is the midpoint of an earlier projection that realised revenue came in well below. A floor drawn from observation and a ceiling drawn from a superseded forecast are not two ends of one measurement. <strong>This model does not convert that into a per-person amount.</strong> The revenue accrues to the jurisdictions where the profit or the taxpayer sits, so a coalition captures its own share and not the global total. A coalition of 100–190 million people is one to two per cent of the world's population and would capture single-digit percentages of these sums — an order of magnitude below what dividing the world total by a coalition's population implies. The correct figure is a coalition-share calculation this model has not done, and none of these measures is in force globally; each requires multilateral coordination this document does not assume will happen. The lever is real; its size here is unquantified.
+      <figure class="chart-fig">
+        <img src="assets/charts/22_global_tax_levers.svg" alt="Bar chart with ranges: three already-costed global tax levers and their combined estimated annual revenue, in billions of US dollars, worldwide.">
+      </figure></li>
+  </ol>
+  <p><strong>And what it is not:</strong> a reason to wind down anyone's benefits. Nothing here depends on a pension, a child benefit or an income-assistance programme being reduced.</p>
+  <p><strong>It does depend on municipal services changing.</strong> The $10.2M is Kelowna's Planning &amp; Other services line and the $4.8M is wage budget on posts attrition empties. Taking all of it as cash means that work stops being done. $8.33 is a ceiling reached only if a community votes to take the whole discretionary line as a dividend rather than as services, and that trade is the community's to make, not this page's to assume. The adoption rules also require discretionary allocation to carry an equity weighting, which a flat per-capita payment cannot carry — another reason a real deployment is unlikely to take all of it as cash.</p>
+  <h3>How the pool divides</h3>
+  <p>Every Member's return has two parts. The <strong>Foundation Dividend</strong> is the same for everyone: by default, half of each month's new money, divided equally, plus anything held back the month before. The <strong>Civic Dividend</strong> is the other half, divided according to the contribution each Member has recorded and claimed that month. The more a Member contributes, the larger their share, until their total from both parts reaches five times an equal share of the month's new money. Whatever that ceiling holds back is added to the next month's Foundation Dividend, so it reaches every Member rather than piling up. Neither part shrinks because a Member's income or circumstances improve.</p>
+  <p>What contribution earns depends on how many others contribute, and real participation is likely to be low: Paris&rsquo;s participatory budget, one of the largest anywhere, drew about 7% of residents at its 2016 peak (<a href="https://www.apur.org/en/our-works/participatory-budget-ballot-box">APUR</a>), voting once a year, while this asks for a claimed contribution every month. So the table starts there. Monthly amounts at full adoption, at both ends of the pool ($21.24 and $28.79 per adult), with every adult a Member:</p>
+  <table>
+    <thead><tr><th>How many contribute</th><th>A Member who does not contribute</th><th>A Member who contributes</th></tr></thead>
+    <tbody>
+      <tr><td>One in twenty (the realistic case)</td><td>$16.77 &ndash; $22.73</td><td><strong>$106.20 &ndash; $143.95</strong> (the ceiling)</td></tr>
+      <tr><td>One in five</td><td>$10.62 &ndash; $14.40</td><td>$63.72 &ndash; $86.37</td></tr>
+      <tr><td>Half</td><td>$10.62 &ndash; $14.40</td><td>$31.86 &ndash; $43.19</td></tr>
+      <tr><td>Everyone, equally</td><td>&mdash;</td><td>$21.24 &ndash; $28.79</td></tr>
+    </tbody>
+  </table>
+  <p>The ceiling is the most any one Member can receive: $1,274 to $1,727 a year, and only when few others contribute. It is the upper end of an upper bound &mdash; full federal and municipal adoption, the 10% payroll case, decades of attrition and every adult a Member. Where only a city has adopted, the pool is $10.16 per adult: a Member who does not contribute receives $5.08, rising to about $8.02 at one contributor in twenty and towards $10.16 as participation falls further, and the ceiling is $50.80 a month.</p>
+  <p><strong>What the table assumes.</strong> The one-in-twenty figures are where the months settle: in the first month a Member who does not contribute receives the plain half share, $10.62 to $14.40, and the share rises as held-back money starts flowing back. Contributors here are equally active; a real Member's share is their own claimed contribution divided by everyone's. The pool is the same size whoever contributes, so a contributor's larger share is money others did not claim, not new money. Every adult being a Member is an assumption with a direction: membership is opt-in and the delegated budget is fixed, so the fewer who join, the more each Member receives, paid from what non-members would otherwise have shared. None of these figures is reached early: nothing is paid until the community has thirty verified Members and every Delegate Position filled, and full adoption takes decades of attrition to arrive. Even the ceiling is not an income, and not a reason to leave a job or a benefit.</p>
+  <p><strong>Before tax, and before other programmes react.</strong> These are amounts paid, not amounts kept. Whether the dividend is taxable, and whether income-tested programmes such as the Guaranteed Income Supplement or provincial disability and income assistance count it as income, is not settled, and the answer may differ between the two parts. &ldquo;Neither part shrinks&rdquo; is a promise about what the community pays; what reaches a person depends on rules this model does not control.</p>
+  <p><strong>What contribution earns besides money.</strong> Contribution builds civic standing, measured over the past twelve months. Standing makes a Member eligible to serve as a Steward and shows others who is worth handing a vote to. A Steward who earns enough delegated support in a sector can be recognised as a Delegate. Delegates are paid for that work from the community's operating budget, at a rate the community sets in public, separately from the dividend; that pay is not modelled here. Contribution never buys a heavier vote: every binding decision is one person, one vote.</p>
+  <h3>Where this model could be wrong</h3>
+  <p><strong>Every year of payroll release assumes the government chooses to release it.</strong> A vacated post only becomes eligible for release; nothing is released until the government decides to let it go. Twenty-five years of uninterrupted full uptake with no post refilled is the most favourable path available, not the expected one.</p>
+  <p><strong>The 10% substitutable-payroll share is an assumption.</strong> No published analysis decomposes the federal payroll by susceptibility to participatory substitution. The figure is offered as an upper bound and should be replaced with real function-level analysis before any deployment relies on it.</p>
+  <p><strong>Execution costs are estimates.</strong> The staffing, premises and audit figures are not drawn from an operating deployment, because none exists at these stages. They will be wrong in both directions and should be replaced with measured costs as soon as a real deployment produces them.</p>
+  <p><strong>The attrition rate is measured on a different population than the base it is applied to, and is compounded for twenty-five years.</strong> −2.7% is the whole federal public service, where the core fell only 1.0% and separate agencies 8.2%; the $76.3B envelope is a different population again, including the RCMP and the Armed Forces. One year's rate extrapolated for a quarter-century implies a roughly halved personnel envelope. Both are assumptions, and from 2026 the headline reduction is no longer attrition alone.</p>
+  <p><strong>The Stage 4 base is narrower than the stage definition.</strong> Stage 4 is defined as the discretionary portion of a budget &mdash; what is left after debt service, pensions, statutory spending and standing contracts. The derivation then uses only the Planning &amp; Other slice, 5% of the tax-supported budget. Transportation (22%) and Healthy Communities (21%) are not obviously statutory and are not excluded by the stated rule. The narrower base makes the figure smaller, which is the safe direction, but it is a choice rather than a derivation.</p>
+  <p><strong>About 6% of the federal personnel base is not a redirectable wage budget.</strong> PBO's $76.3B includes roughly $2.4B of consolidated Crown corporations and $2.5B of accrual and other adjustments. The 10% band is applied to the whole envelope, which overstates it by roughly $0.49B, or about $0.98 a month.</p>
+  <p><strong>The municipal ceiling is $10.2M published plus $4.8M modelled.</strong> The modelled part assumes a 4% attrition rate and a wage share within budget categories, neither published by the City, and it is credited at full value from year one while the federal equivalent ramps over twenty-five years. That inconsistency is not resolved here.</p>
+  <p><strong>Almost all of this rests on two numbers.</strong> One city's discretionary budget and one year's federal attrition rate carry the entire figure. Neither is representative by construction: Kelowna is one mid-sized B.C. city, and the attrition rate is a single observation. A deployment elsewhere should rebuild both from its own published budgets rather than scaling these, and should expect a different answer.</p>
+  <p><strong>The political pathway is not costed at all.</strong> This model prices operation and distribution. It does not price the legislative change, legal review, or electoral consent that every stage after Stage 2 requires, and those are the binding constraints rather than the arithmetic.</p>
+  <figure class="chart-fig">
+    <img src="assets/charts/16_kelowna_projected.svg" alt="Bar chart: Kelowna discretionary redirection modelled at three stances, under $9 per resident per month.">
+  </figure>
+  <h3>The share can be changed</h3>
+  <p><strong>$28.79 a month is where the arithmetic lands on today's published budgets, counting only money a government has delegated authority over.</strong> It is not fixed.</p>
+  <p><strong>It rises with the pool on its own.</strong> Both tiers are recalculated every cycle from what the treasury can sustain. The treasury grows by taking in donations, grants and revenue the community votes to pursue, and by budget a government has explicitly designated into the pool. The rules are explicit that inflows are not a measure of what a community produces, and no clause pools revenue across governments.</p>
+  <p><strong>And the rules that set it can be amended.</strong> Any Member may propose changing the pool share, how the pool divides, or pursuing new revenue for it, through the same procedure every other decision uses: the share is a default any ordinary proposal can change. The formula itself is not &mdash; no proposal at any threshold may set the Foundation Dividend to an amount other than what the formula computes, and the formula is entrenched: changing it takes three quarters of the vote with 40% participation. Members may also argue publicly for measures a legislature could enact, which is not the exercise of any taxing power and never becomes one.</p>
+  <p><strong>What this document will not do is assume the outcome of a vote that has not been held.</strong> Every figure on this page is drawn from published budgets as they stand today. A proposal that changes the revenue base changes these numbers, and the arithmetic should be redone when it passes, not before.</p>
+</section>
+
+
+
+</main>
+
+<div class="closing">
+  <span class="article-label">Where does it fail?</span>
+  <h2>Check the arithmetic.</h2>
+  <p>These are models built on published figures, not forecasts. If a number is wrong, or an assumption does not hold, that is worth more to us than agreement.</p>
+  <a class="cta" href="work-with-us.html#reach">Challenge it in public</a>
+</div>
+
+<footer>
+  <p>The Triarc — the nonprofit that stewards Triarchal Framework, the software it and every other deployment runs on.</p>
+  <p><a href="index.html">← Home</a> &nbsp;·&nbsp; <a href="charter.html">The Founding Charter</a></p>
+  <p><a href="faq.html">Hard questions</a> &nbsp;·&nbsp; <a href="known-limits.html">Known limits</a> &nbsp;·&nbsp; <a href="run-your-own-group.html">Run your own group</a> &nbsp;·&nbsp; <a href="press.html">For press</a> &nbsp;·&nbsp; <a href="work-with-us.html">Work with us</a></p>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="691.2pt" height="460.8pt" viewBox="0 0 691.2 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T13:24:30.531725</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 691.2 460.8 
+L 691.2 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="line2d_1">
+    <path d="M 38.016 230.4 
+L 528.768 230.4 
+" clip-path="url(#pbd6d1422bc)" style="fill: none; stroke: #1c1a17; stroke-width: 2; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_2">
+    <path d="M 169.344 230.4 
+L 169.344 158.976 
+" clip-path="url(#pbd6d1422bc)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_3">
+    <path d="M 376.704 230.4 
+L 376.704 158.976 
+" clip-path="url(#pbd6d1422bc)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="line2d_4">
+    <path d="M 273.024 230.4 
+L 273.024 301.824 
+" clip-path="url(#pbd6d1422bc)" style="fill: none; stroke: #8a857b; stroke-linecap: square"/>
+   </g>
+   <g id="patch_2">
+    <path d="M 542.2464 264.96 
+L 667.3536 264.96 
+Q 675.648 264.96 675.648 259.4304 
+L 675.648 201.3696 
+Q 675.648 195.84 667.3536 195.84 
+L 542.2464 195.84 
+Q 533.952 195.84 533.952 201.3696 
+L 533.952 259.4304 
+Q 533.952 264.96 542.2464 264.96 
+z
+" clip-path="url(#pbd6d1422bc)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(560.428687 220.344055)">Civic disengagement</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(580.558 232.7)">and broken</text>
+    <text style="font-weight: 700; font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(574.426344 244.90932)">accountability</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="169.344" y="74.366" transform="rotate(-0 169.344 74.366)">Periodic</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(117.24825 96.198)">Accountability arrives only</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(120.898312 107.730675)">every few years, never in</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(101.101875 119.20245)">between — needs to be continuous</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="376.704" y="74.366" transform="rotate(-0 376.704 74.366)">Opaque</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(319.37925 96.24)">Reasoning disclosed after the</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(318.152719 107.772675)">fact, not during — needs to be</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(353.654531 119.24445)">transparent</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(206.184937 319.686)">No mechanism ties representative</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(197.482406 331.0239)">behaviour to real-time consequence —</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(209.431406 342.3618)">needs to be directly accountable</text>
+   </g>
+   <g id="text_7">
+    <text style="font-weight: 700; font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #7a2e2e" x="273.024" y="378.494" transform="rotate(-0 273.024 378.494)">Disconnected</text>
+   </g>
+  </g>
+  <g id="text_8">
+   <text style="font-weight: 700; font-size: 13.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #1c1a17" x="38.016" y="26.388" transform="rotate(-0 38.016 26.388)">Why current governance structurally fails</text>
+  </g>
+  <g id="text_9">
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.016 417.970844)">Three converging causes, not three separate problems — each is a design property of representative systems built for a</text>
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.016 428.556072)">world where continuous participation was logistically impossible. (The social-support system's own, separate problem — support</text>
+   <text style="font-style: italic; font-size: 7.3px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.016 439.1413)">tied to need, so getting ahead costs you support — is not something this model sets out to change. It starts alongside those programmes.)</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pbd6d1422bc">
+   <rect x="0" y="0" width="691.2" height="460.8"/>
+  </clipPath>
+ </defs>
+</svg>

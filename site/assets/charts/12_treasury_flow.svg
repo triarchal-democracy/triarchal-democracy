@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="705.6pt" height="518.4pt" viewBox="0 0 705.6 518.4" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T16:43:02.404011</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 518.4 
+L 705.6 518.4 
+L 705.6 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 282.24 75.092126 
+Q 282.24 85.813264 282.24 95.416368 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 284.24 91.416368 
+L 282.24 95.416368 
+L 280.24 91.416368 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 81.144 136.262471 
+Q 81.144 162.018045 81.144 186.655585 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 83.144 182.655585 
+L 81.144 186.655585 
+L 79.144 182.655585 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 561.021001 81.831801 
+Q 562.752057 142.268646 521.506452 184.723849 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 525.728215 183.248477 
+L 521.506452 184.723849 
+L 522.859212 180.461216 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 234.44728 138.948271 
+Q 193.092286 150.744097 168.239541 184.331944 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 172.226508 182.306089 
+L 168.239541 184.331944 
+L 169.011037 179.926857 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 283.460913 140.001168 
+Q 298.87257 160.339897 305.795879 183.703962 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 306.577014 179.300574 
+L 305.795879 183.703962 
+L 302.74185 180.437021 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 368.904979 125.564981 
+Q 441.323815 129.975747 491.062911 181.067376 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 489.70573 176.806149 
+L 491.062911 181.067376 
+L 486.83962 179.596385 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_8">
+    <path d="M 276.749412 236.25762 
+Q 230.500761 245.564942 193.785131 273.291197 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 198.182471 272.476701 
+L 193.785131 273.291197 
+L 195.771938 269.284628 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_9">
+    <path d="M 337.153327 236.068678 
+Q 397.515008 242.244153 448.090095 273.603278 
+" style="fill: none; stroke: #4a463f; stroke-linecap: round"/>
+    <path d="M 445.744503 269.795628 
+L 448.090095 273.603278 
+L 443.63662 273.195162 
+z
+" style="fill: #4a463f; stroke: #4a463f; stroke-linecap: round"/>
+   </g>
+   <g id="patch_10">
+    <path d="M 149.5872 72.576 
+L 414.8928 72.576 
+Q 423.36 72.576 423.36 66.3552 
+L 423.36 42.5088 
+Q 423.36 36.288 414.8928 36.288 
+L 149.5872 36.288 
+Q 141.12 36.288 141.12 42.5088 
+L 141.12 66.3552 
+Q 141.12 72.576 149.5872 72.576 
+z
+" clip-path="url(#p408aba3059)" style="fill: #faf7f2; stroke: #1c1a17; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_11">
+    <path d="M 456.5232 79.056 
+L 665.3808 79.056 
+Q 673.848 79.056 673.848 72.8352 
+L 673.848 36.0288 
+Q 673.848 29.808 665.3808 29.808 
+L 456.5232 29.808 
+Q 448.056 29.808 448.056 36.0288 
+L 448.056 72.8352 
+Q 448.056 79.056 456.5232 79.056 
+z
+" clip-path="url(#p408aba3059)" style="fill: #faf7f2; stroke: #7a2e2e; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_12">
+    <path d="M 207.7992 137.8944 
+L 356.6808 137.8944 
+Q 365.148 137.8944 365.148 131.6736 
+L 365.148 106.7904 
+Q 365.148 100.5696 356.6808 100.5696 
+L 207.7992 100.5696 
+Q 199.332 100.5696 199.332 106.7904 
+L 199.332 131.6736 
+Q 199.332 137.8944 207.7992 137.8944 
+z
+" clip-path="url(#p408aba3059)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_13">
+    <path d="M 24.3432 133.488 
+L 137.9448 133.488 
+Q 146.412 133.488 146.412 127.2672 
+L 146.412 90.4608 
+Q 146.412 84.24 137.9448 84.24 
+L 24.3432 84.24 
+Q 15.876 84.24 15.876 90.4608 
+L 15.876 127.2672 
+Q 15.876 133.488 24.3432 133.488 
+z
+" clip-path="url(#p408aba3059)" style="fill: #faf7f2; stroke: #8a857b; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_14">
+    <path d="M 109.0152 235.3536 
+L 222.6168 235.3536 
+Q 231.084 235.3536 231.084 229.1328 
+L 231.084 195.9552 
+Q 231.084 189.7344 222.6168 189.7344 
+L 109.0152 189.7344 
+Q 100.548 189.7344 100.548 195.9552 
+L 100.548 229.1328 
+Q 100.548 235.3536 109.0152 235.3536 
+z
+" clip-path="url(#p408aba3059)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_15">
+    <path d="M 250.1352 235.3536 
+L 363.7368 235.3536 
+Q 372.204 235.3536 372.204 229.1328 
+L 372.204 195.9552 
+Q 372.204 189.7344 363.7368 189.7344 
+L 250.1352 189.7344 
+Q 241.668 189.7344 241.668 195.9552 
+L 241.668 229.1328 
+Q 241.668 235.3536 250.1352 235.3536 
+z
+" clip-path="url(#p408aba3059)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_16">
+    <path d="M 451.2312 235.3536 
+L 564.8328 235.3536 
+Q 573.3 235.3536 573.3 229.1328 
+L 573.3 195.9552 
+Q 573.3 189.7344 564.8328 189.7344 
+L 451.2312 189.7344 
+Q 442.764 189.7344 442.764 195.9552 
+L 442.764 229.1328 
+Q 442.764 235.3536 451.2312 235.3536 
+z
+" clip-path="url(#p408aba3059)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_17">
+    <path d="M 61.3872 338.256 
+L 298.4688 338.256 
+Q 306.936 338.256 306.936 332.0352 
+L 306.936 284.8608 
+Q 306.936 278.64 298.4688 278.64 
+L 61.3872 278.64 
+Q 52.92 278.64 52.92 284.8608 
+L 52.92 332.0352 
+Q 52.92 338.256 61.3872 338.256 
+z
+" clip-path="url(#p408aba3059)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_18">
+    <path d="M 364.7952 338.256 
+L 601.8768 338.256 
+Q 610.344 338.256 610.344 332.0352 
+L 610.344 284.8608 
+Q 610.344 278.64 601.8768 278.64 
+L 364.7952 278.64 
+Q 356.328 278.64 356.328 284.8608 
+L 356.328 332.0352 
+Q 356.328 338.256 364.7952 338.256 
+z
+" clip-path="url(#p408aba3059)" style="fill: #f3e9e4"/>
+   </g>
+   <g id="patch_19">
+    <path d="M 41.6304 427.68 
+L 660.4416 427.68 
+Q 670.32 427.68 670.32 420.4224 
+L 670.32 364.9536 
+Q 670.32 357.696 660.4416 357.696 
+L 41.6304 357.696 
+Q 31.752 357.696 31.752 364.9536 
+L 31.752 420.4224 
+Q 31.752 427.68 41.6304 427.68 
+z
+" clip-path="url(#p408aba3059)" style="fill: #faf7f2; stroke-dasharray: 5.2,3.9; stroke-dashoffset: 0; stroke: #c98f8f; stroke-width: 1.3; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_20">
+    <path d="M 61.3872 421.2 
+L 640.6848 421.2 
+Q 649.152 421.2 649.152 414.9792 
+L 649.152 388.5408 
+Q 649.152 382.32 640.6848 382.32 
+L 61.3872 382.32 
+Q 52.92 382.32 52.92 388.5408 
+L 52.92 414.9792 
+Q 52.92 421.2 61.3872 421.2 
+z
+" clip-path="url(#p408aba3059)" style="fill: #faf7f2"/>
+   </g>
+   <g id="text_1">
+    <text style="font-size: 9.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="282.24" y="56.658688" transform="rotate(-0 282.24 56.658688)">Donations, grants, and community-voted revenue</text>
+   </g>
+   <g id="text_2">
+    <text style="font-size: 8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(471.680125 45.58715)">Delegated-Authority Mechanism public funds —</text>
+    <text style="font-size: 8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(500.6795 56.38825)">only if the government explicitly</text>
+    <text style="font-size: 8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(515.956375 67.18935)">designates them for this</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 13px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #ffffff" x="282.24" y="122.274812" transform="rotate(-0 282.24 122.274812)">Treasury</text>
+   </g>
+   <g id="text_4">
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(40.822766 105.238939)">Institutional money,</text>
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(39.202875 116.789061)">incl. the Triarc's own</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(142.914 208.90476)">Operations</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(156.870937 220.58324)">40%</text>
+   </g>
+   <g id="text_6">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(278.516813 202.86279)">Dividend pool</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(263.93975 214.60375)">(pooled, sources stay</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(263.362938 226.48496)">tagged on the ledger)</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(477.012687 208.803395)">Reserve — 20%</text>
+    <text style="font-size: 8.8px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(472.157562 220.544355)">(12-month target)</text>
+   </g>
+   <g id="text_8">
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(93.577281 298.979346)">Foundation Dividend — split equally among</text>
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(90.031797 310.529469)">every Member, plus anything the ceiling held</text>
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #ffffff" transform="translate(97.582328 322.079591)">back last month; recalculated every cycle</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(411.274719 299.085879)">Civic Dividend — divided by claimed</text>
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(398.341797 310.636001)">contribution; no Member's total from both</text>
+    <text style="font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(409.636016 322.110121)">tiers passes five times an equal share</text>
+   </g>
+   <g id="text_10">
+    <text style="font-style: italic; font-size: 8.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #c98f8f" x="351.036" y="370.656" transform="rotate(-0 351.036 370.656)">Not treasury money until it is released</text>
+   </g>
+   <g id="text_11">
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(144.963656 398.143485)">A redirected government programme keeps paying everyone already on it, through the government itself.</text>
+    <text style="font-size: 8.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #1c1a17" transform="translate(150.382969 409.48464)">Money enters the dividend pool only as those obligations end (Government Adoption Compact 7.2, 7.3).</text>
+   </g>
+   <g id="text_12">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(19.794622 160.0727)">restricted to</text>
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(22.370747 168.6641)">operations</text>
+   </g>
+   <g id="text_13">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #8a857b" x="451.584" y="134.000953" transform="rotate(-0 451.584 134.000953)">only if designated</text>
+   </g>
+   <g id="text_14">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(154.308969 248.429602)">taken first: half</text>
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(163.526016 258.036305)">by default</text>
+   </g>
+   <g id="text_15">
+    <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #8a857b" x="465.696" y="253.274" transform="rotate(-0 465.696 253.274)">the rest</text>
+   </g>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 14px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: start; fill: #1c1a17" x="38.808" y="22.5632" transform="rotate(-0 38.808 22.5632)">Where the money goes, and what it can never fund</text>
+  </g>
+  <g id="text_17">
+   <text style="font-style: italic; font-size: 7.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 448.71075)">The Foundation Dividend activates once a deployment has at least 30 verified Members and every Delegate Position it has defined is</text>
+   <text style="font-style: italic; font-size: 7.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 459.206775)">filled by ratified Position decision (Treasury Code 5.1); before that the formula computes zero and neither tier distributes. Institutional</text>
+   <text style="font-style: italic; font-size: 7.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 469.657463)">money, including the Triarc's own, funds operations only and never touches the dividend pool (Treasury Code 1.4). Nothing income-tested</text>
+   <text style="font-style: italic; font-size: 7.2px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(38.808 480.10815)">is ever paid out of the treasury: payments owed to people on a redirected programme stay with the government that owes them.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p408aba3059">
+   <rect x="0" y="0" width="705.6" height="518.4"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,1 @@
+CREATE INDEX `security_events_community_kind_time_idx` ON `security_events` (`community_id`,`kind`,`occurred_at`);

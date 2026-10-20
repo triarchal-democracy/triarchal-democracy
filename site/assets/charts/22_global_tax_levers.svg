@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="604.8pt" height="460.8pt" viewBox="0 0 604.8 460.8" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-04T18:35:03.641579</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.9, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 460.8 
+L 604.8 460.8 
+L 604.8 0 
+L 0 0 
+z
+" style="fill: #faf7f2"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 75.6 276.48 
+L 586.656 276.48 
+L 586.656 73.728 
+L 75.6 73.728 
+z
+" style="fill: #faf7f2"/>
+   </g>
+   <g id="matplotlib.axis_1">
+    <g id="xtick_1">
+     <g id="line2d_1">
+      <defs>
+       <path id="m57f6e212ed" d="M 0 0 
+L 0 3.5 
+" style="stroke: #4a463f; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m57f6e212ed" x="142.26769" y="276.48" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_1">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(112.752065 291.03)">OECD global</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(111.547377 302.799375)">minimum tax</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(117.94269 314.529375)">(15% floor)</text>
+     </g>
+    </g>
+    <g id="xtick_2">
+     <g id="line2d_2">
+      <g>
+       <use xlink:href="#m57f6e212ed" x="331.128" y="276.48" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_2">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(292.057688 291.03)">2% minimum tax</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(298.278781 302.64)">on billionaires</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(300.952219 315.185625)">(&gt;$1B wealth)</text>
+     </g>
+    </g>
+    <g id="xtick_3">
+     <g id="line2d_3">
+      <g>
+       <use xlink:href="#m57f6e212ed" x="519.98831" y="276.48" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_3">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(497.382842 291.03)">Extend to</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(481.108623 302.64)">centimillionaires</text>
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #4a463f" transform="translate(482.123467 315.185625)">(&gt;$100M wealth)</text>
+     </g>
+    </g>
+   </g>
+   <g id="matplotlib.axis_2">
+    <g id="ytick_1">
+     <g id="line2d_4">
+      <path d="M 75.6 276.48 
+L 586.656 276.48 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_5">
+      <defs>
+       <path id="m6b002dcdf3" d="M 0 0 
+L -3.5 0 
+" style="stroke: #4a463f; stroke-width: 0.8"/>
+      </defs>
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="276.48" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_4">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="280.255" transform="rotate(-0 68.6 280.255)">0</text>
+     </g>
+    </g>
+    <g id="ytick_2">
+     <g id="line2d_6">
+      <path d="M 75.6 242.688 
+L 586.656 242.688 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_7">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="242.688" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_5">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="246.463" transform="rotate(-0 68.6 246.463)">50</text>
+     </g>
+    </g>
+    <g id="ytick_3">
+     <g id="line2d_8">
+      <path d="M 75.6 208.896 
+L 586.656 208.896 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_9">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="208.896" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_6">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="212.671" transform="rotate(-0 68.6 212.671)">100</text>
+     </g>
+    </g>
+    <g id="ytick_4">
+     <g id="line2d_10">
+      <path d="M 75.6 175.104 
+L 586.656 175.104 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_11">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="175.104" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_7">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="178.879" transform="rotate(-0 68.6 178.879)">150</text>
+     </g>
+    </g>
+    <g id="ytick_5">
+     <g id="line2d_12">
+      <path d="M 75.6 141.312 
+L 586.656 141.312 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_13">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="141.312" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_8">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="145.087" transform="rotate(-0 68.6 145.087)">200</text>
+     </g>
+    </g>
+    <g id="ytick_6">
+     <g id="line2d_14">
+      <path d="M 75.6 107.52 
+L 586.656 107.52 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_15">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="107.52" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_9">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="111.295" transform="rotate(-0 68.6 111.295)">250</text>
+     </g>
+    </g>
+    <g id="ytick_7">
+     <g id="line2d_16">
+      <path d="M 75.6 73.728 
+L 586.656 73.728 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #d9d2c7; stroke-opacity: 0.85; stroke-width: 0.7; stroke-linecap: square"/>
+     </g>
+     <g id="line2d_17">
+      <g>
+       <use xlink:href="#m6b002dcdf3" x="75.6" y="73.728" style="fill: #4a463f; stroke: #4a463f; stroke-width: 0.8"/>
+      </g>
+     </g>
+     <g id="text_10">
+      <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #4a463f" x="68.6" y="77.503" transform="rotate(-0 68.6 77.503)">300</text>
+     </g>
+    </g>
+    <g id="text_11">
+     <text style="font-size: 10px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #4a463f" x="39.901563" y="175.104" transform="rotate(-90 39.901563 175.104)">Estimated annual global revenue ($B USD, worldwide)</text>
+    </g>
+   </g>
+   <g id="patch_3">
+    <path d="M 98.829818 276.48 
+L 185.705561 276.48 
+L 185.705561 181.18656 
+L 98.829818 181.18656 
+z
+" clip-path="url(#pe51a94c9cd)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 287.690129 276.48 
+L 374.565871 276.48 
+L 374.565871 124.416 
+L 287.690129 124.416 
+z
+" clip-path="url(#pe51a94c9cd)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 476.550439 276.48 
+L 563.426182 276.48 
+L 563.426182 195.3792 
+L 476.550439 195.3792 
+z
+" clip-path="url(#pe51a94c9cd)" style="fill: #7a2e2e"/>
+   </g>
+   <g id="LineCollection_1">
+    <path d="M 142.26769 203.15136 
+L 142.26769 158.88384 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #1c1a17; stroke-width: 1.2"/>
+    <path d="M 331.128 141.312 
+L 331.128 107.52 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #1c1a17; stroke-width: 1.2"/>
+    <path d="M 519.98831 208.896 
+L 519.98831 181.8624 
+" clip-path="url(#pe51a94c9cd)" style="fill: none; stroke: #1c1a17; stroke-width: 1.2"/>
+   </g>
+   <g id="line2d_18">
+    <defs>
+     <path id="m82f6af9619" d="M 5 0 
+L -5 -0 
+" style="stroke: #1c1a17; stroke-width: 1.2"/>
+    </defs>
+    <g clip-path="url(#pe51a94c9cd)">
+     <use xlink:href="#m82f6af9619" x="142.26769" y="203.15136" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+     <use xlink:href="#m82f6af9619" x="331.128" y="141.312" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+     <use xlink:href="#m82f6af9619" x="519.98831" y="208.896" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="line2d_19">
+    <g clip-path="url(#pe51a94c9cd)">
+     <use xlink:href="#m82f6af9619" x="142.26769" y="158.88384" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+     <use xlink:href="#m82f6af9619" x="331.128" y="107.52" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+     <use xlink:href="#m82f6af9619" x="519.98831" y="181.8624" style="fill: #1f77b4; stroke: #1c1a17; stroke-width: 1.2"/>
+    </g>
+   </g>
+   <g id="patch_6">
+    <path d="M 75.6 276.48 
+L 75.6 73.728 
+" style="fill: none; stroke: #d9d2c7; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="patch_7">
+    <path d="M 75.6 276.48 
+L 586.656 276.48 
+" style="fill: none; stroke: #8a857b; stroke-width: 0.8; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="text_12">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="142.26769" y="152.80128" transform="rotate(-0 142.26769 152.80128)">$108.5B–$174B/yr</text>
+   </g>
+   <g id="text_13">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="331.128" y="101.43744" transform="rotate(-0 331.128 101.43744)">$200B–$250B/yr</text>
+   </g>
+   <g id="text_14">
+    <text style="font-weight: 700; font-size: 8.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="519.98831" y="175.77984" transform="rotate(-0 519.98831 175.77984)">$100B–$140B/yr</text>
+   </g>
+  </g>
+  <g id="text_15">
+   <text style="font-weight: 700; font-size: 14.5px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: middle; fill: #1c1a17" x="302.4" y="27.0755" transform="rotate(-0 302.4 27.0755)">Three real, already-costed global tax levers</text>
+  </g>
+  <g id="text_16">
+   <text style="font-weight: 700; font-size: 9.6px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; text-anchor: end; fill: #7a2e2e" x="585.4464" y="71.424" transform="rotate(-0 585.4464 71.424)">Combined: $408B–$564B/yr worldwide</text>
+  </g>
+  <g id="text_17">
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 358.142938)">All figures are WORLDWIDE annual revenue in US dollars, accruing to the jurisdictions where the profit or the taxpayer sits.</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 369.71012)">A coalition collects its own share, not the total. OECD global minimum tax (Pillar Two, 15% corporate floor): $108.5B is the actual</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 381.269209)">2024 realised revenue (OECD, reported €79–109bn / $91–126bn) — well below the original $155–192B/yr projection, shown here as the</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 392.010194)">aggressive case; a real example of projected vs. realised tax revenue diverging. Billionaire and centimillionaire minimum-wealth</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 403.569283)">taxes: Gabriel Zucman / EU Tax Observatory report to the G20 (June 2024) — 2% of wealth from ~3,000 billionaires ($200–250B/yr),</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 415.136466)">plus an estimated $100–140B/yr extending the same standard to ~centimillionaires. None of these three measures is currently in</text>
+   <text style="font-style: italic; font-size: 7.4px; font-family: 'Lora', 'Newsreader', 'Georgia', 'DejaVu Serif', serif; fill: #8a857b" transform="translate(33.264 425.87745)">force globally; each requires multilateral coordination this document does not assume will happen.</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="pe51a94c9cd">
+   <rect x="75.6" y="73.728" width="511.056" height="202.752"/>
+  </clipPath>
+ </defs>
+</svg>

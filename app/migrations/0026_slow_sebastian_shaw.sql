@@ -1,0 +1,1 @@
+ALTER TABLE `members` ADD `thirteen_declared_at` integer;

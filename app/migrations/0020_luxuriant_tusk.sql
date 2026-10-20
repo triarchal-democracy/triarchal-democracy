@@ -1,0 +1,2 @@
+CREATE UNIQUE INDEX `delegations_one_live_per_sector` ON `delegations` (`member_id`,`sector_id`) WHERE "delegations"."revoked_at" is null and "delegations"."sector_id" is not null;--> statement-breakpoint
+CREATE UNIQUE INDEX `delegations_one_live_entire` ON `delegations` (`member_id`) WHERE "delegations"."revoked_at" is null and "delegations"."sector_id" is null;

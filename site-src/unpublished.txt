@@ -1,0 +1,17 @@
+# Markdown blocks that deliberately do NOT appear on the published pages.
+#
+# verify.py section 6 requires every non-clause block in docs/founding/*.md,
+# anchored to a clause that IS published, to appear on the page that publishes
+# that clause - or to be listed here with a reason. The point is that a block
+# can no longer go missing, or quietly drift, without someone deciding.
+#
+# Format: <markdown file> <TAB> <first ~40 chars of the block, normalised> <TAB> reason
+# Normalised means lowercased, punctuation to spaces, whitespace collapsed.
+# Run `python3 site-src/verify.py` to see any block that needs a decision.
+
+Founding_Charter.md	this charter will be wrong in places some	Closing section. The pages publish the operative text; each document's closing reflection is read in the markdown.
+Federation_Compact.md	the lattice is the endgame the model has	Closing section, as above.
+Triarc_Operations_Code.md	what it covers	Sector table header. documents.html renders this table as prose paragraphs, one per sector, because three rows of two columns reads worse as a table at page width.
+Triarc_Operations_Code.md	the triarc s primary output synthesis and	Sector table cell, rendered in the prose paragraph for Data Collection & Research.
+Triarc_Operations_Code.md	treasury and finance administration member	Sector table cell, rendered in the prose paragraph for Nonprofit Operations.
+Triarc_Operations_Code.md	platform development infrastructure and ho	Sector table cell, rendered in the prose paragraph for Software Stewardship.
