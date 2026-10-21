@@ -412,8 +412,8 @@ export async function endMembership(
 
 /**
  * Founding Charter 1.1 — the minimum age. When it becomes known that a Member is
- * under eighteen, a moderator (or the founder, who is a Member of the Triarc first)
- * closes the account: sessions end, email and phone are wiped, and the public
+ * under eighteen, the founder closes the account (moderators cannot: Code of Conduct
+ * 4.3 limits them to two interim measures, and this one cannot be undone): sessions end, email and phone are wiped, and the public
  * Contribution Record stays under the handle. The person may join again at eighteen.
  */
 export async function closeUnderageAccount(
@@ -423,8 +423,7 @@ export async function closeUnderageAccount(
   targetName: string,
   ts: number
 ): Promise<{ ok: true } | { ok: false; reason: "not-authorised" | "not-found" | "already-left" }> {
-  const authorised = community.founderId === actorId || (await isModerator(db, community, actorId, ts));
-  if (!authorised) return { ok: false, reason: "not-authorised" };
+  if (community.founderId !== actorId) return { ok: false, reason: "not-authorised" };
   const [target] = await db.select({ id: members.id }).from(members).where(and(eq(members.communityId, community.id), eq(members.name, targetName.trim())));
   if (!target) return { ok: false, reason: "not-found" };
   const res = await endMembership(db, community, target.id, ts, "underage");
@@ -1637,7 +1636,7 @@ export async function appointModerator(db: Db, community: Community, actorId: nu
   const [existing] = await db.select({ id: moderators.id }).from(moderators).where(and(eq(moderators.memberId, targetId), isNull(moderators.removedAt))).limit(1);
   if (existing) return { ok: false, reason: "already-moderator" };
   await db.insert(moderators).values({ communityId: community.id, memberId: targetId, appointedBy: actorId, appointedAt: ts });
-  await writeRecord(db, community.id, "record", `${target.name} was appointed an interim moderator by the founder (Charter 9.2, Code of Conduct 4.3). The power to appoint lapses with Phase I; moderation carries no authority over any proposal, vote or delegation.`, targetId, ts);
+  await writeRecord(db, community.id, "record", `${target.name} was appointed an interim moderator${targetId === actorId ? ", by the founder, as themselves" : " by the founder"} (Charter 9.2, Code of Conduct 4.3). The power to appoint lapses with Phase I; moderation carries no authority over any proposal, vote or delegation.`, targetId, ts);
   return { ok: true };
 }
 

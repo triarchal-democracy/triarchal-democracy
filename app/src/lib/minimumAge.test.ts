@@ -30,10 +30,10 @@ describe("minimum age (Charter 1.1)", () => {
     expect(MINIMUM_MEMBER_AGE).toBe(18);
   });
 
-  it("a moderator closes the account: personal data wiped, record stays, sessions end", async () => {
+  it("the founder closes the account: personal data wiped, record stays, sessions end", async () => {
     const s = await setup();
     await s.db.insert(sessions).values({ token: "tok", memberId: s.child, expiresAt: NOW + 1e6 });
-    const r = await closeUnderageAccount(s.db, s.community, s.mod, "u3", NOW);
+    const r = await closeUnderageAccount(s.db, s.community, s.founder, "u3", NOW);
     expect(r).toEqual({ ok: true });
     const [row] = await s.db.select().from(members).where(eq(members.id, s.child));
     expect(row.leftAt).toBe(NOW);
@@ -45,16 +45,27 @@ describe("minimum age (Charter 1.1)", () => {
     expect(log.some((x) => /u3's account was closed under the minimum-age rule/.test(x.text))).toBe(true);
   });
 
-  it("the founder may also close one; an ordinary Member may not", async () => {
+  it("only the founder may close one: neither a moderator nor an ordinary Member can", async () => {
     const s = await setup();
+    expect(await closeUnderageAccount(s.db, s.community, s.mod, "u3", NOW)).toEqual({ ok: false, reason: "not-authorised" });
     expect(await closeUnderageAccount(s.db, s.community, s.other, "u3", NOW)).toEqual({ ok: false, reason: "not-authorised" });
+    const [row] = await s.db.select().from(members).where(eq(members.id, s.child));
+    expect(row.leftAt).toBeNull();
     expect(await closeUnderageAccount(s.db, s.community, s.founder, "u3", NOW)).toEqual({ ok: true });
   });
 
   it("unknown username and already-closed accounts are refused", async () => {
     const s = await setup();
-    expect(await closeUnderageAccount(s.db, s.community, s.mod, "nobody", NOW)).toEqual({ ok: false, reason: "not-found" });
-    await closeUnderageAccount(s.db, s.community, s.mod, "u3", NOW);
-    expect(await closeUnderageAccount(s.db, s.community, s.mod, "u3", NOW)).toEqual({ ok: false, reason: "already-left" });
+    expect(await closeUnderageAccount(s.db, s.community, s.founder, "nobody", NOW)).toEqual({ ok: false, reason: "not-found" });
+    await closeUnderageAccount(s.db, s.community, s.founder, "u3", NOW);
+    expect(await closeUnderageAccount(s.db, s.community, s.founder, "u3", NOW)).toEqual({ ok: false, reason: "already-left" });
+  });
+
+  it("the founder may appoint themselves an interim moderator, and it is recorded publicly", async () => {
+    const s = await setup();
+    expect(await appointModerator(s.db, s.community, s.founder, s.founder, NOW)).toEqual({ ok: true });
+    const log = await s.db.select().from(record);
+    expect(log.some((x) => /u0 was appointed an interim moderator, by the founder, as themselves/.test(x.text))).toBe(true);
+    expect(await appointModerator(s.db, s.community, s.founder, s.founder, NOW)).toEqual({ ok: false, reason: "already-moderator" });
   });
 });

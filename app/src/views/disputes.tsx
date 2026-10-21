@@ -165,7 +165,7 @@ export const DisputesPage = (p: {
           You are a moderator. <a href="/disputes/interim/new?kind=freeze-account">Freeze an account →</a> To remove content, use the "moderator: remove" link beside it.
         </p>
       )}
-      {(p.isModerator || p.isFounder) && (
+      {p.isFounder && (
         <form method="post" action="/members/close-underage" class="formgrid" style="margin-top:.6rem">
           <label class="small sans" for="underage-name">
             Close an account under the minimum age (Charter 1.1). Use only when it has become known that the holder is under 18: the account is closed

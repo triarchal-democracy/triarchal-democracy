@@ -7,6 +7,7 @@ import { Layout } from "./layout";
 export const EVENT_KINDS = [
   "followed_sector_vote_closing_soon",
   "opportunity_matching_your_sectors",
+  "sector_discussion_activity",
   "nomination_challenge_filed",
   "delegation_expiring_soon",
 ] as const;
@@ -14,6 +15,7 @@ export const EVENT_KINDS = [
 const EVENT_LABEL: Record<(typeof EVENT_KINDS)[number], string> = {
   followed_sector_vote_closing_soon: "A vote closes soon in a sector you follow",
   opportunity_matching_your_sectors: "A new opportunity matches your sectors",
+  sector_discussion_activity: "A new discussion or reply appears in a sector you follow",
   nomination_challenge_filed: "A challenge was filed against a nomination you made",
   delegation_expiring_soon: "A delegation you hold is about to expire",
 };

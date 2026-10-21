@@ -574,7 +574,7 @@ for _n,_ph in (('faq.html','nobody is being paid'),('faq.html','never fixed or p
                ('work-with-us.html','notification email is not built'),
                ('work-with-us.html','written 19 october 2026'),
                ('work-with-us.html','nothing has been paid to anyone'),
-               ('work-with-us.html','say so when you introduce yourself'),
+               ('work-with-us.html','github.com/triarchal-democracy/triarchal-democracy'),
                ):
     if _ph not in _pt(_n).lower(): bad("site/%s: no longer says %r"%(_n,_ph))
 # figures still match their documents
@@ -668,8 +668,8 @@ for _pg,_pp,_df,_dp in _GUARD:
 # The work page carries rules of its own (19 Oct 2026, founder's brief).
 for _n in ('work-with-us.html',):
     _raw=io.open('site/'+_n,encoding='utf-8').read()
-    if re.search(r'github\.com|git@|\bgit clone\b',_raw,re.I):
-        bad("site/%s: links to or names a source repository; whether it is public is not settled, so say that code is shared on request"%_n)
+    if re.search(r'github\.com|git@|\bgit clone\b',_raw.replace('https://github.com/triarchal-democracy/triarchal-democracy','').replace('github.com/triarchal-democracy/triarchal-democracy',''),re.I):
+        bad("site/%s: names a source repository other than the project's own public one"%_n)
 for _gone in ('ideas.html','idea-return.html','idea-delegation.html'):
     if os.path.exists('site/'+_gone): bad("site/%s exists; the Ideas page and its essays were removed on purpose (20 Oct 2026)"%_gone)
 
@@ -707,8 +707,8 @@ for _f,_need,_why in (
     if _need not in _src(_f): bad("work-with-us.html relies on app/src/%s; %s"%(_f,_why))
 _ek=re.search(r'EVENT_KINDS = \[(.*?)\] as const',_src('views/notifications.tsx'),re.S)
 _kinds=sorted(re.findall(r'"([a-z_]+)"',_ek.group(1))) if _ek else []
-if _kinds!=sorted(['followed_sector_vote_closing_soon','opportunity_matching_your_sectors','nomination_challenge_filed','delegation_expiring_soon']):
-    bad("work-with-us.html says a reply to your post sends no alert; the notification event kinds are now %s"%_kinds)
+if _kinds!=sorted(['followed_sector_vote_closing_soon','opportunity_matching_your_sectors','sector_discussion_activity','nomination_challenge_filed','delegation_expiring_soon']):
+    bad("work-with-us.html describes the alerts a stranger gets (opportunity, and sector discussion if they follow it); the notification event kinds are now %s"%_kinds)
 _ts=re.search(r'TRIARC_SECTORS = \[(.*?)\] as const',_src('lib/params.ts'),re.S)
 _sec=re.findall(r'"([^"]+)"',_ts.group(1)) if _ts else []
 if _sec!=['Data Collection & Research','Nonprofit Operations','Software Stewardship']:

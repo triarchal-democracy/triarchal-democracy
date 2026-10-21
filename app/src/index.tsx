@@ -2411,7 +2411,7 @@ app.get("/disputes", async (c) => {
     });
   }
   const appointable = iAmFounder && phaseOne
-    ? nameRows.filter((r) => r.id !== member!.id && !moderatorList.some((x) => x.memberId === r.id))
+    ? nameRows.filter((r) => !moderatorList.some((x) => x.memberId === r.id))
     : [];
   return c.html(
     <DisputesPage
@@ -2548,7 +2548,7 @@ app.post("/members/close-underage", async (c) => {
   const result = await closeUnderageAccount(db, community, member.id, String(body.name ?? ""), clockNow(community));
   if (!result.ok) {
     const message = {
-      "not-authorised": "Only a moderator or the founder can close an account under the minimum age.",
+      "not-authorised": "Only the founder can close an account under the minimum age.",
       "not-found": "No Member with that username was found.",
       "already-left": "That account is already closed.",
     }[result.reason];
@@ -3088,6 +3088,16 @@ app.get("/sectors/:id", async (c) => {
   );
 });
 
+// Tell Members who follow a sector (and have opted in) that its discussion has new activity.
+// Never the author, one notification per Member.
+async function notifySectorFollowers(db: ReturnType<typeof makeDb>, env: Env["Bindings"], communityId: number, sectorId: number, exceptMemberId: number | null, text: string, link: string, ts: number) {
+  const rows = await db.select({ memberId: memberSectorFollows.memberId }).from(memberSectorFollows).where(eq(memberSectorFollows.sectorId, sectorId));
+  for (const fid of new Set(rows.map((r) => r.memberId))) {
+    if (fid === exceptMemberId) continue;
+    await notify(db, env, communityId, fid, "sector_discussion_activity", text, link, ts);
+  }
+}
+
 app.post("/sectors/:id/posts", async (c) => {
   const db = c.get("db");
   const community = c.get("community");
@@ -3108,6 +3118,7 @@ app.post("/sectors/:id/posts", async (c) => {
         .values({ communityId: community.id, sectorId, memberId: null, displayName: label, isAnonymous: 1, title, body: text, postedAt: ts })
         .returning();
       await writeRecord(db, community.id, "record", `${label} (anonymous) started a discussion in a sector.`, null, ts);
+      await notifySectorFollowers(db, c.env, community.id, sectorId, null, `${label} started a discussion in a sector you follow: "${title}".`, `/sectors/${sectorId}/posts/${row.id}`, ts);
       return c.redirect(`/sectors/${sectorId}/posts/${row.id}`);
     }
     const [row] = await db
@@ -3116,6 +3127,7 @@ app.post("/sectors/:id/posts", async (c) => {
       .returning();
     await touchMember(db, member.id, ts);
     await writeRecord(db, community.id, "record", `${member.name} started a discussion in a sector: "${title}".`, member.id, ts);
+    await notifySectorFollowers(db, c.env, community.id, sectorId, member.id, `${member.name} started a discussion in a sector you follow: "${title}".`, `/sectors/${sectorId}/posts/${row.id}`, ts);
     return c.redirect(`/sectors/${sectorId}/posts/${row.id}`);
   }
   return c.redirect(`/sectors/${sectorId}`);
@@ -3174,6 +3186,7 @@ app.post("/sectors/:id/posts/:postId/comments", async (c) => {
     await db.insert(sectorPostComments).values({ postId, memberId: member.id, displayName: null, isAnonymous: 0, body: text, postedAt: ts });
     await touchMember(db, member.id, ts);
     await writeRecord(db, community.id, "record", `${member.name} commented on a sector discussion.`, member.id, ts);
+    await notifySectorFollowers(db, c.env, community.id, sectorId, member.id, `${member.name} replied to a discussion in a sector you follow.`, `/sectors/${sectorId}/posts/${postId}`, ts);
   }
   return c.redirect(`/sectors/${sectorId}/posts/${postId}`);
 });
